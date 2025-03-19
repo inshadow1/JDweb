@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 步骤 2：直接同步 build 文件夹到服务器
+      # 步骤 2：安全同步 build 文件夹到服务器（保留 .user.ini）
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
@@ -22,6 +22,11 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+            # 使用 rsync 同步并排除 .user.ini
+            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+
+            # 设置目录权限（www 用户组是宝塔面板的默认用户组）
             sudo chown -R www:www /www/wwwroot/www.yelv.site/build
+
+            # 重启 Nginx 确保更新生效
             sudo systemctl restart nginx
