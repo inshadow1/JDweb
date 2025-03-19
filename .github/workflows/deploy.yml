@@ -74,6 +74,11 @@ jobs:
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      # 3. 添加 known_hosts
+      - name: Add known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p 22 117.72.123.237 >> ~/.ssh/known_hosts
 
       # 3. 传输 build 文件夹
       - name: Deploy build folder to server
