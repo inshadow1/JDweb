@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/build/ /www/wwwroot/www.yelv.site/
+            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" build/ /www/wwwroot/www.yelv.site/
             sudo chown -R www:www /www/wwwroot/www.yelv.site/build
             sudo systemctl restart nginx
 
