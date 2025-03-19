@@ -10,54 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code (with build directory)
+      # 步骤 1：检出代码（包含本地 build 文件夹）
+      - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          sparse-checkout: | # 修正后的稀疏检出模式
-            *     # 包含根目录所有文件
-            !*/   # 排除所有子目录
-            build/ # 特别包含 build 目录
 
-      - name: Validate directory structure
-        run: |
-          echo "=== 目录结构验证 ==="
-          echo "工作区路径: $GITHUB_WORKSPACE"
-          ls -la $GITHUB_WORKSPACE
-          echo "build 目录内容:"
-          ls -la $GITHUB_WORKSPACE/build
-
-      - name: Prepare Server Directory
+      # 步骤 2：同步 build 文件夹到服务器（排除 .user.ini 的删除）
+      - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            # 创建目标目录（如果不存在）
-            sudo mkdir -p /www/wwwroot/www.yelv.site/build
-            # 设置预权限（同步前）
+            # 使用 rsync 同步文件，排除删除 .user.ini
+            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+            # 确保文件权限正确（根据宝塔要求设置为 www:www）
             sudo chown -R www:www /www/wwwroot/www.yelv.site/build
-            # 解除 .user.ini 保护（如果存在）
-            sudo chattr -i /www/wwwroot/www.yelv.site/build/.user.ini || true
-
-      - name: Rsync Deployment
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            # 使用绝对路径同步
-            rsync -avz --progress --delete \
-              --exclude='.user.ini' \
-              -e "ssh -o StrictHostKeyChecking=no" \
-              "$GITHUB_WORKSPACE/build/" \
-              root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
-
-            # 恢复文件保护
-            sudo chattr +i /www/wwwroot/www.yelv.site/build/.user.ini || true
-            # 修正权限
-            sudo chown -R www:www /www/wwwroot/www.yelv.site/build
-            # 验证 Nginx 配置
-            sudo nginx -t && sudo systemctl reload nginx
+            # 重启 Nginx 使配置生效
+            sudo systemctl restart nginx
