@@ -3,7 +3,7 @@ name: Deploy to Baota
 on:
   push:
     branches:
-      - main  # 需修改：如果你的代码分支不是 main，改为实际分支（如 master）
+      - main # ⚠️ 需修改：如果你的代码分支不是 main，改为实际分支（如 master）
 
 jobs:
   build-and-deploy:
@@ -18,12 +18,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18  #  需修改：Node.js 版本需与项目匹配
+          node-version: 18 # ⚠️ 需修改：Node.js 版本需与项目匹配
           cache: pnpm
 
       # 步骤 3：安装 pnpm
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: |
+          npm install -g pnpm
+          echo "::add-path::$(npm bin -g)"  # 将全局 npm bin 目录添加到 PATH
 
       # 步骤 4：安装依赖并构建项目
       - name: Install dependencies and build
@@ -35,9 +37,9 @@ jobs:
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SERVER_IP }}  # 服务器 IP（已在 Secrets 中配置）
-          username: ${{ secrets.SERVER_USER }}  # 登录用户（如 root）
-          key: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH 私钥（已在 Secrets 中配置）
+          host: ${{ secrets.SERVER_IP }} # 服务器 IP（已在 Secrets 中配置）
+          username: ${{ secrets.SERVER_USER }} # 登录用户（如 root）
+          key: ${{ secrets.SSH_PRIVATE_KEY }} # SSH 私钥（已在 Secrets 中配置）
           script: |
             # 删除旧文件（保留宝塔自动生成的 .user.ini 等文件）
             cd /www/wwwroot/www.yelv.site/build && find . -maxdepth 1 ! -name '.user.ini' -exec rm -rf {} +
