@@ -3,7 +3,7 @@ name: Deploy to Baota
 on:
   push:
     branches:
-      - main  # ⚠️ 需修改：如果你的代码分支不是 main，改为实际分支（如 master）
+      - main  # 需修改：如果你的代码分支不是 main，改为实际分支（如 master）
 
 jobs:
   build-and-deploy:
@@ -14,23 +14,24 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 步骤 2：安装 Node.js 和 pnpm
+      # 步骤 2：安装 Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18  #  需修改：Node.js 版本需与项目匹配
           cache: pnpm
 
+      # 步骤 3：安装 pnpm
       - name: Install pnpm
         run: npm install -g pnpm
 
-      # 步骤 3：安装依赖并构建项目
+      # 步骤 4：安装依赖并构建项目
       - name: Install dependencies and build
         run: |
           pnpm install
-          npm run build  #  需修改：如果构建命令不是 pnpm build，改为实际命令（如 npm run build）
+          pnpm build  # ⚠️ 需修改：如果构建命令不是 pnpm build，改为实际命令（如 npm run build）
 
-      # 步骤 4：通过 SSH 同步 build 文件夹到宝塔目录
+      # 步骤 5：通过 SSH 同步 build 文件夹到宝塔目录
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
