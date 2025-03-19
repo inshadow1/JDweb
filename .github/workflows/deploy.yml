@@ -1,0 +1,52 @@
+name: Deploy to Baota
+
+on:
+  push:
+    branches:
+      - main  # ⚠️ 需修改：如果你的代码分支不是 main，改为实际分支（如 master）
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步骤 1：检出代码
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 步骤 2：安装 Node.js 和 pnpm
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  #  需修改：Node.js 版本需与项目匹配
+          cache: pnpm
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      # 步骤 3：安装依赖并构建项目
+      - name: Install dependencies and build
+        run: |
+          pnpm install
+          npm run build  #  需修改：如果构建命令不是 pnpm build，改为实际命令（如 npm run build）
+
+      # 步骤 4：通过 SSH 同步 build 文件夹到宝塔目录
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}  # 服务器 IP（已在 Secrets 中配置）
+          username: ${{ secrets.SERVER_USER }}  # 登录用户（如 root）
+          key: ${{ secrets.SSH_PRIVATE_KEY }}  # SSH 私钥（已在 Secrets 中配置）
+          script: |
+            # 删除旧文件（保留宝塔自动生成的 .user.ini 等文件）
+            cd /www/wwwroot/www.yelv.site/build && find . -maxdepth 1 ! -name '.user.ini' -exec rm -rf {} +
+
+            # 同步本地 build 文件夹内容到服务器
+            scp -r -o StrictHostKeyChecking=no ${{ github.workspace }}/build/* root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+
+            # 修复目录权限（根据宝塔面板用户组设置）
+            chown -R www:www /www/wwwroot/www.yelv.site/build
+            chmod -R 755 /www/wwwroot/www.yelv.site/build
+
+            # 重启 Nginx（可选）
+            systemctl restart nginx
