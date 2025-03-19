@@ -14,12 +14,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 步骤 2：安装 Node.js（显式指定合法版本）
+      # 步骤 2：安装 Node.js（使用官方推荐语法）
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.18.0 # 使用 18.18.0 版本
+          node-version: '18.18.0' # 使用字符串格式确保版本号解析正确
           cache: pnpm
+          check-latest: true # 强制检查最新可用版本
 
       # 步骤 3：验证 Node.js 和 npm
       - name: Check Node.js and npm
@@ -27,11 +28,9 @@ jobs:
           node -v
           npm -v
 
-      # 步骤 4：通过 Corepack 安装 pnpm
-      - name: Install pnpm via Corepack
-        run: |
-          corepack enable
-          corepack prepare pnpm@latest --activate
+      # 步骤 4：直接安装 pnpm（绕过 Corepack）
+      - name: Install pnpm
+        run: npm install -g pnpm
 
       # 步骤 5：验证 pnpm
       - name: Check pnpm
@@ -53,7 +52,7 @@ jobs:
           script: |
             cd /www/wwwroot/www.yelv.site/build
             find . -maxdepth 1 ! -name '.user.ini' -exec rm -rf {} +
-            scp -r -o StrictHostKeyChecking=no ${{ github.workspace }}/build/* root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+            rsync -avz --delete ${{ github.workspace }}/build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
             chown -R www:www /www/wwwroot/www.yelv.site/build
             chmod -R 755 /www/wwwroot/www.yelv.site/build
             systemctl restart nginx
