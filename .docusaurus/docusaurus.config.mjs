@@ -42,7 +42,7 @@ export default {
       {
         "docs": {
           "path": "./my-docs",
-          "sidebarPath": "C:\\Users\\Administrator\\Desktop\\京东云服务器\\博客项目参考\\yelvblog\\sidebars.ts",
+          "sidebarPath": "C:\\Users\\Administrator\\Desktop\\京东云服务器\\博客网站\\JDweb\\sidebars.ts",
           "editUrl": "https://github.com/"
         },
         "blog": {
@@ -50,7 +50,7 @@ export default {
           "editUrl": "https://github.com/"
         },
         "theme": {
-          "customCss": "C:\\Users\\Administrator\\Desktop\\京东云服务器\\博客项目参考\\yelvblog\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\Administrator\\Desktop\\京东云服务器\\博客网站\\JDweb\\src\\css\\custom.css"
         }
       }
     ]
