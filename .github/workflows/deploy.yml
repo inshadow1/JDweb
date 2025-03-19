@@ -21,16 +21,20 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-      # 步骤 3：
+          script: |
+            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" "$GITHUB_WORKSPACE/build/" /www/wwwroot/www.yelv.site/build/
+            sudo chown -R www:www /www/wwwroot/www.yelv.site/build
+            sudo systemctl restart nginx
+
+      # 步骤 3：调试工作目录并手动同步
       - name: Debug workspace
         run: |
           echo "Current workspace: $GITHUB_WORKSPACE"
           pwd
           ls -la
-          script: |
-            # 使用 rsync 同步文件，排除删除 .user.ini
-            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" "$GITHUB_WORKSPACE/build/" root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
-            # 确保文件权限正确（根据宝塔要求设置为 www:www）
-            sudo chown -R www:www /www/wwwroot/www.yelv.site/build
-            # 重启 Nginx 使配置生效
-            sudo systemctl restart nginx
+          # 使用 rsync 同步文件，排除删除 .user.ini
+          rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }}" "$GITHUB_WORKSPACE/build/" root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+          # 确保文件权限正确（根据宝塔要求设置为 www:www）
+          ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} root@${{ secrets.SERVER_IP }} "sudo chown -R www:www /www/wwwroot/www.yelv.site/build"
+          # 重启 Nginx 使配置生效
+          ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} root@${{ secrets.SERVER_IP }} "sudo systemctl restart nginx"
