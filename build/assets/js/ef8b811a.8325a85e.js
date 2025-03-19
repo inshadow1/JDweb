@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([["2134"],{6007:function(e){e.exports=JSON.parse('{"authors":[{"name":"yelv","title":"Coding For fun","url":"https://github.com/inshadow1","imageURL":"/img/128100849_4.png","key":"fall","page":null,"count":5}]}')}}]);
