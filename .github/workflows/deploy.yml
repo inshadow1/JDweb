@@ -79,3 +79,4 @@ jobs:
       - name: Deploy build folder to server
         run: |
           rsync -avz -e "ssh -p 22" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
+
