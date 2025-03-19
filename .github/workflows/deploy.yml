@@ -10,32 +10,56 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout code (with build directory)
         uses: actions/checkout@v3
+        with:
+          # 强制检出所有文件（包括被 git 忽略的文件）
+          fetch-depth: 0
+          # 显式包含 build 目录
+          sparse-checkout: |
+            /*
+            !/*/
+            /build/
 
-      - name: Validate build directory
+      - name: Validate directory structure
         run: |
-          echo "当前工作目录: $PWD"
-          ls -la
-          echo "检查 build 目录:"
-          ls -la build/
+          echo "=== 目录结构验证 ==="
+          echo "工作区路径: $GITHUB_WORKSPACE"
+          ls -la $GITHUB_WORKSPACE
+          echo "build 目录内容:"
+          ls -la $GITHUB_WORKSPACE/build
 
-      - name: Deploy to Server
+      - name: Prepare Server Directory
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            echo "===== 开始部署 ====="
-            echo "检查服务器目标目录:"
-            ls -la /www/wwwroot/www.yelv.site/build/
-
-            echo "执行同步操作:"
-            rsync -avz --progress --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
-
-            echo "验证同步结果:"
-            ls -la /www/wwwroot/www.yelv.site/build/
-
+            # 创建目标目录（如果不存在）
+            sudo mkdir -p /www/wwwroot/www.yelv.site/build
+            # 设置预权限（同步前）
             sudo chown -R www:www /www/wwwroot/www.yelv.site/build
-            sudo systemctl restart nginx
+            # 解除 .user.ini 保护（如果存在）
+            sudo chattr -i /www/wwwroot/www.yelv.site/build/.user.ini || true
+
+      - name: Rsync Deployment
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            # 使用绝对路径同步
+            rsync -avz --progress --delete \
+              --exclude='.user.ini' \
+              -e "ssh -o StrictHostKeyChecking=no" \
+              "$GITHUB_WORKSPACE/build/" \
+              root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+
+            # 恢复文件保护
+            sudo chattr +i /www/wwwroot/www.yelv.site/build/.user.ini || true
+            # 修正权限
+            sudo chown -R www:www /www/wwwroot/www.yelv.site/build
+            # 验证 Nginx 配置
+            sudo nginx -t && sudo systemctl reload nginx
