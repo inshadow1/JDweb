@@ -11,8 +11,8 @@ jobs:
 
     steps:
       # 步骤 1：检出代码
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           lfs: true
@@ -41,7 +41,7 @@ jobs:
           echo "Build directory contents:"
           ls -la build
 
-      # 步骤 6：使用scp传输文件到服务器
+      # 步骤 6：使用srsync传输文件到服务器
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
@@ -49,6 +49,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            scp -r /home/runner/work/JDweb/JDweb/build/* ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
+            rsync -avz --delete ./build ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
             sudo chown -R www:www /www/wwwroot/www.yelv.site
             sudo systemctl restart nginx
