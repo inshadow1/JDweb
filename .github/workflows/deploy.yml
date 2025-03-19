@@ -23,7 +23,15 @@ jobs:
         with:
           node-version: '18'
 
-      # 步骤 3：调试工作目录
+      # 步骤 3：安装依赖
+      - name: Install dependencies
+        run: npm install
+
+      # 步骤 4：构建项目
+      - name: Build project
+        run: npm run build
+
+      # 步骤 5：调试工作目录
       - name: Debug workspace
         run: |
           echo "Workspace contents:"
@@ -31,7 +39,7 @@ jobs:
           echo "Build directory contents:"
           ls -la $GITHUB_WORKSPACE/build
 
-      # 步骤 4：同步 build 文件夹到服务器
+      # 步骤 6：同步 build 文件夹到服务器
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
@@ -39,8 +47,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" ./build/ /www/wwwroot/www.yelv.site/
+            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" $GITHUB_WORKSPACE/build/ /www/wwwroot/www.yelv.site/
             sudo chown -R www:www /www/wwwroot/www.yelv.site
             sudo systemctl restart nginx
-
-  
