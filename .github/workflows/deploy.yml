@@ -14,7 +14,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 步骤 2：直接同步 build 文件夹到服务器
+      # 步骤 2：安装 rsync（确保同步工具可用）
+      - name: Install rsync
+        run: sudo apt-get install -y rsync
+
+      # 步骤 3：同步文件到服务器
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
@@ -22,16 +26,18 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            # 删除服务器旧文件（保留宝塔自动生成的 .user.ini）
-            cd /www/wwwroot/www.yelv.site/build
-            find . -maxdepth 1 ! -name '.user.ini' -exec rm -rf {} +
+            # 检查目标目录是否存在
+            mkdir -p /www/wwwroot/www.yelv.site/build
 
-            # 同步本地 build 文件夹内容到服务器
-            rsync -avz --delete ${{ github.workspace }}/build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+            # 同步文件（排除 .user.ini 避免覆盖宝塔配置）
+            rsync -avz --delete --exclude='.user.ini' ${{ github.workspace }}/build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
 
-            # 修复权限（宝塔默认用户组为 www）
-            chown -R www:www /www/wwwroot/www.yelv.site/build
-            chmod -R 755 /www/wwwroot/www.yelv.site/build
+            # 修复权限（使用 sudo 提升权限）
+            sudo chown -R www:www /www/wwwroot/www.yelv.site/build
+            sudo chmod -R 755 /www/wwwroot/www.yelv.site/build
 
-            # 重启 Nginx 生效（可选）
-            systemctl restart nginx
+            # 检查 Nginx 配置语法
+            sudo nginx -t
+
+            # 重启 Nginx（仅在配置检查通过后执行）
+            sudo systemctl restart nginx
