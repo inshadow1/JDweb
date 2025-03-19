@@ -14,30 +14,30 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 步骤 2：安装 Node.js（并启用 Corepack）
-      - name: Setup Node.js and Corepack
+      # 步骤 2：安装 Node.js 并启用 Corepack
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: pnpm
 
       # 步骤 3：通过 Corepack 安装 pnpm
-      - name: Install pnpm with Corepack
+      - name: Install pnpm via Corepack
         run: |
           corepack enable
           corepack prepare pnpm@latest --activate
 
       # 步骤 4：验证 pnpm 是否可用
-      - name: Check pnpm version
+      - name: Check pnpm
         run: pnpm -v
 
-      # 步骤 5：安装依赖并构建项目
-      - name: Install dependencies and build
+      # 步骤 5：安装依赖并构建
+      - name: Install and Build
         run: |
           pnpm install
           pnpm build
 
-      # 步骤 6：通过 SSH 同步到服务器
+      # 步骤 6：部署到服务器
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
@@ -45,7 +45,8 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /www/wwwroot/www.yelv.site/build && find . -maxdepth 1 ! -name '.user.ini' -exec rm -rf {} +
+            cd /www/wwwroot/www.yelv.site/build
+            find . -maxdepth 1 ! -name '.user.ini' -exec rm -rf {} +
             scp -r -o StrictHostKeyChecking=no ${{ github.workspace }}/build/* root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
             chown -R www:www /www/wwwroot/www.yelv.site/build
             chmod -R 755 /www/wwwroot/www.yelv.site/build
