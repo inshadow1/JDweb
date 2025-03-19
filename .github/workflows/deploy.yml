@@ -14,30 +14,36 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 步骤 2：安装 Node.js 并启用 Corepack
+      # 步骤 2：安装 Node.js（显式指定合法版本）
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 18.18.0 # 使用 18.18.0 版本
           cache: pnpm
 
-      # 步骤 3：通过 Corepack 安装 pnpm
+      # 步骤 3：验证 Node.js 和 npm
+      - name: Check Node.js and npm
+        run: |
+          node -v
+          npm -v
+
+      # 步骤 4：通过 Corepack 安装 pnpm
       - name: Install pnpm via Corepack
         run: |
           corepack enable
           corepack prepare pnpm@latest --activate
 
-      # 步骤 4：验证 pnpm 是否可用
+      # 步骤 5：验证 pnpm
       - name: Check pnpm
         run: pnpm -v
 
-      # 步骤 5：安装依赖并构建
+      # 步骤 6：安装依赖并构建
       - name: Install and Build
         run: |
           pnpm install
           pnpm build
 
-      # 步骤 6：部署到服务器
+      # 步骤 7：部署到服务器
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
