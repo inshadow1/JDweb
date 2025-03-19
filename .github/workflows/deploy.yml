@@ -78,5 +78,4 @@ jobs:
       # 3. 传输 build 文件夹
       - name: Deploy build folder to server
         run: |
-          rsync -avz -e "ssh -p 22" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
-
+          rsync -avz -e "ssh -p 22 -o StrictHostKeyChecking=no" ./build/ root@***:/www/wwwroot/www.yelv.site/
