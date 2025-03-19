@@ -27,9 +27,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 步骤 4：构建项目
+      # 步骤 4：设置权限并构建项目
       - name: Build project
-        run: npm run build
+        run: |
+          chmod +x node_modules/.bin/docusaurus
+          npm run build
 
       # 步骤 5：调试工作目录
       - name: Debug workspace
