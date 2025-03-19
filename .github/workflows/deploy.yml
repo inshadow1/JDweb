@@ -1,4 +1,59 @@
-name: Deploy to Baota
+# name: Deploy to Baota
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       # 步骤 1：检出代码
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 0
+#           lfs: true
+
+#       # 步骤 2：设置 Node.js 环境
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: '18'
+
+#       # 步骤 3：安装依赖
+#       - name: Install dependencies
+#         run: npm install
+
+#       # 步骤 4：设置权限并构建项目
+#       - name: Build project
+#         run: |
+#           chmod +x node_modules/.bin/docusaurus
+#           npm run build
+
+#       # 步骤 5：调试工作目录
+#       - name: Debug workspace
+#         run: |
+#           echo "Workspace contents:"
+#           ls -la
+#           echo "Build directory contents:"
+#           ls -la build
+
+#       # 步骤 6：使用srsync传输文件到服务器
+#       - name: Deploy to Server
+#         uses: appleboy/ssh-action@master
+#         with:
+#           host: ${{ secrets.SERVER_IP }}
+#           username: ${{ secrets.SERVER_USER }}
+#           key: ${{ secrets.SSH_PRIVATE_KEY }}
+#           script: |
+#             rsync -avz --delete ./build ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
+#             sudo chown -R www:www /www/wwwroot/www.yelv.site
+#             sudo systemctl restart nginx
+
+name: Deploy to Server
 
 on:
   push:
@@ -10,45 +65,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 步骤 1：检出代码
+      # 1. Checkout 代码
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # 2. SSH 密钥（提前在 Secrets 里放好私钥）
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
         with:
-          fetch-depth: 0
-          lfs: true
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      # 步骤 2：设置 Node.js 环境
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      # 步骤 3：安装依赖
-      - name: Install dependencies
-        run: npm install
-
-      # 步骤 4：设置权限并构建项目
-      - name: Build project
+      # 3. 传输 build 文件夹
+      - name: Deploy build folder to server
         run: |
-          chmod +x node_modules/.bin/docusaurus
-          npm run build
+          rsync -avz -e "ssh -p 2222" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
 
-      # 步骤 5：调试工作目录
-      - name: Debug workspace
-        run: |
-          echo "Workspace contents:"
-          ls -la
-          echo "Build directory contents:"
-          ls -la build
 
-      # 步骤 6：使用srsync传输文件到服务器
-      - name: Deploy to Server
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            rsync -avz --delete ./build ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
-            sudo chown -R www:www /www/wwwroot/www.yelv.site
-            sudo systemctl restart nginx
+
