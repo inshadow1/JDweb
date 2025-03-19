@@ -37,11 +37,11 @@ jobs:
       - name: Debug workspace
         run: |
           echo "Workspace contents:"
-          ls -la $GITHUB_WORKSPACE
+          ls -la
           echo "Build directory contents:"
-          ls -la $GITHUB_WORKSPACE/build
+          ls -la build
 
-      # 步骤 6：同步 build 文件夹到服务器
+      # 步骤 6：使用scp传输文件到服务器
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
@@ -49,7 +49,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd $GITHUB_WORKSPACE
-            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" build/ /www/wwwroot/www.yelv.site/
+            scp -r build/* ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
             sudo chown -R www:www /www/wwwroot/www.yelv.site
             sudo systemctl restart nginx
