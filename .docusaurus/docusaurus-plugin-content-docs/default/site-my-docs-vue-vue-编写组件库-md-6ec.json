@@ -1,0 +1,24 @@
+{
+  "id": "Vue/-- Vue 编写组件库",
+  "title": "-- Vue 编写组件库",
+  "description": "Create by fall on 22 Feb 2023",
+  "source": "@site/my-docs/Vue/-- Vue 编写组件库.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/-- Vue 编写组件库",
+  "permalink": "/docs/Vue/-- Vue 编写组件库",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/-- Vue 编写组件库.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- Vite FAQ",
+    "permalink": "/docs/Vue/-- Vite FAQ"
+  },
+  "next": {
+    "title": "-- vue-cil（旧）",
+    "permalink": "/docs/Vue/-- vue-cil（旧）"
+  }
+}

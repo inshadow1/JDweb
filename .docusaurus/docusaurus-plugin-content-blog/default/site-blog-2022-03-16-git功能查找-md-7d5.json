@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/git功能查找",
+  "editUrl": "https://github.com/blog/2022-03-16-git功能查找.md",
+  "source": "@site/blog/2022-03-16-git功能查找.md",
+  "title": "git功能查找",
+  "description": "下载： 从淘宝镜像上下载 git，选择最新版就可以了",
+  "date": "2022-03-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 12.8,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "yelv",
+      "title": "Coding For fun",
+      "url": "https://github.com/inshadow1",
+      "imageURL": "/img/128100849_4.png",
+      "key": "fall",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "git功能查找",
+    "title": "git功能查找",
+    "authors": "fall"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "客户想要的不是她们所说的（译）",
+    "permalink": "/blog/客户想要的不是她们所说的（译）"
+  }
+}

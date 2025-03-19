@@ -1,0 +1,24 @@
+{
+  "id": "git工具",
+  "title": "git工具",
+  "description": "Create by fall on 18 Nov 2020",
+  "source": "@site/my-docs/git工具.md",
+  "sourceDirName": ".",
+  "slug": "/git工具",
+  "permalink": "/docs/git工具",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/git工具.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vue2",
+    "permalink": "/docs/面试-自检/legacy/Vue2"
+  },
+  "next": {
+    "title": "npm 和 nvm 的使用",
+    "permalink": "/docs/npm 和 nvm 的使用"
+  }
+}

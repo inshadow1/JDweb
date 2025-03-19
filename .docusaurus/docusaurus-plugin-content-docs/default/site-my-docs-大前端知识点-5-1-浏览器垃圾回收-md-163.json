@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/5.1-浏览器垃圾回收",
+  "title": "5.1-浏览器垃圾回收",
+  "description": "Create by fall on 09 Sep 2021",
+  "source": "@site/my-docs/大前端知识点/5.1-浏览器垃圾回收.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/5.1-浏览器垃圾回收",
+  "permalink": "/docs/大前端知识点/5.1-浏览器垃圾回收",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/5.1-浏览器垃圾回收.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 90,
+  "frontMatter": {
+    "sidebar_position": 90
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.3-CDN",
+    "permalink": "/docs/大前端知识点/4.3-CDN"
+  },
+  "next": {
+    "title": "5.2-内存泄漏",
+    "permalink": "/docs/大前端知识点/5.2-内存泄漏"
+  }
+}

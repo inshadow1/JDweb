@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/7.1-Web3.0",
+  "title": "7.1-Web3.0",
+  "description": "Create by fall on 21 Apr 2022",
+  "source": "@site/my-docs/大前端知识点/7.1-Web3.0.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/7.1-Web3.0",
+  "permalink": "/docs/大前端知识点/7.1-Web3.0",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/7.1-Web3.0.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 117,
+  "frontMatter": {
+    "sidebar_position": 117
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6.4-爬虫",
+    "permalink": "/docs/大前端知识点/6.4-爬虫"
+  },
+  "next": {
+    "title": "7.2-前端架构",
+    "permalink": "/docs/大前端知识点/7.2-前端架构"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/面向切面编程",
+  "title": "面向切面编程",
+  "description": "",
+  "source": "@site/my-docs/软件工程知识/面向切面编程.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/面向切面编程",
+  "permalink": "/docs/软件工程知识/面向切面编程",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/面向切面编程.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "进程模型",
+    "permalink": "/docs/软件工程知识/进程模型"
+  },
+  "next": {
+    "title": "人工智能",
+    "permalink": "/docs/category/人工智能"
+  }
+}

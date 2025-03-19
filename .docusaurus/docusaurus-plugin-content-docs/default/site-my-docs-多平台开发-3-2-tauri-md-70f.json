@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/3.2-tauri",
+  "title": "3.2-tauri",
+  "description": "使用 tauri 对应用进行打包",
+  "source": "@site/my-docs/多平台开发/3.2-tauri.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/3.2-tauri",
+  "permalink": "/docs/多平台开发/3.2-tauri",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/3.2-tauri.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1-tauri 搭建",
+    "permalink": "/docs/多平台开发/3.1-tauri 搭建"
+  },
+  "next": {
+    "title": "-- flutter命令行工具",
+    "permalink": "/docs/多平台开发/Flutter/-- flutter命令行工具"
+  }
+}

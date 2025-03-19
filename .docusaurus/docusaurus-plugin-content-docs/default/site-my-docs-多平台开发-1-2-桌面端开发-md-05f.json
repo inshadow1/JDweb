@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/1.2-桌面端开发",
+  "title": "1.2-桌面端开发",
+  "description": "Create by fall on 21 Nov 2024",
+  "source": "@site/my-docs/多平台开发/1.2-桌面端开发.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/1.2-桌面端开发",
+  "permalink": "/docs/多平台开发/1.2-桌面端开发",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/1.2-桌面端开发.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- uniapp 测评",
+    "permalink": "/docs/多平台开发/-- uniapp 测评"
+  },
+  "next": {
+    "title": "2.1-react-native",
+    "permalink": "/docs/多平台开发/2.1-react-native"
+  }
+}

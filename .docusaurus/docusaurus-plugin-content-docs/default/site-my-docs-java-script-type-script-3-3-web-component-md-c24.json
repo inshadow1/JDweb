@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/3.3-WebComponent",
+  "title": "3.3-WebComponent",
+  "description": "Create by fall on 17 Oct 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/3.3-WebComponent.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/3.3-WebComponent",
+  "permalink": "/docs/JavaScript & TypeScript/3.3-WebComponent",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/3.3-WebComponent.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 51,
+  "frontMatter": {
+    "sidebar_position": 51
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.2-DOM 相关 API",
+    "permalink": "/docs/JavaScript & TypeScript/3.2-DOM 相关 API"
+  },
+  "next": {
+    "title": "3.4-canvas",
+    "permalink": "/docs/JavaScript & TypeScript/3.4-canvas"
+  }
+}

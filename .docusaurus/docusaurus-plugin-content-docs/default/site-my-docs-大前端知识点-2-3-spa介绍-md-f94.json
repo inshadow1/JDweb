@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/2.3-SPA介绍",
+  "title": "2.3-SPA介绍",
+  "description": "Create by fall on -- -- 2020",
+  "source": "@site/my-docs/大前端知识点/2.3-SPA介绍.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/2.3-SPA介绍",
+  "permalink": "/docs/大前端知识点/2.3-SPA介绍",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/2.3-SPA介绍.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2-Serverless",
+    "permalink": "/docs/大前端知识点/2.2-Serverless"
+  },
+  "next": {
+    "title": "2.4-PWA介绍",
+    "permalink": "/docs/大前端知识点/2.4-PWA介绍"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/4.3-其他格式书写CSS",
+  "title": "4.3-其他格式书写CSS",
+  "description": "Create by fall on:2022-03-10",
+  "source": "@site/my-docs/HTML和CSS/4.3-其他格式书写CSS.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/4.3-其他格式书写CSS",
+  "permalink": "/docs/HTML和CSS/4.3-其他格式书写CSS",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/4.3-其他格式书写CSS.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 74,
+  "frontMatter": {
+    "sidebar_position": 74
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2-CSS预处理器",
+    "permalink": "/docs/HTML和CSS/4.2-CSS预处理器"
+  },
+  "next": {
+    "title": "5.1-浏览器的兼容",
+    "permalink": "/docs/HTML和CSS/5.1-浏览器的兼容"
+  }
+}

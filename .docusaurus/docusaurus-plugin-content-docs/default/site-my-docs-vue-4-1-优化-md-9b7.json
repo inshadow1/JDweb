@@ -1,0 +1,24 @@
+{
+  "id": "Vue/4.1-优化",
+  "title": "4.1-优化",
+  "description": "Create by fall on 01 Sep 2022",
+  "source": "@site/my-docs/Vue/4.1-优化.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/4.1-优化",
+  "permalink": "/docs/Vue/4.1-优化",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/4.1-优化.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.3-pinia（vuex）",
+    "permalink": "/docs/Vue/3.3-pinia（vuex）"
+  },
+  "next": {
+    "title": "4.2-响应性",
+    "permalink": "/docs/Vue/4.2-响应性"
+  }
+}

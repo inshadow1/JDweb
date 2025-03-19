@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/5.2-内存泄漏",
+  "title": "5.2-内存泄漏",
+  "description": "Create by fall on 2022-05-19",
+  "source": "@site/my-docs/大前端知识点/5.2-内存泄漏.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/5.2-内存泄漏",
+  "permalink": "/docs/大前端知识点/5.2-内存泄漏",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/5.2-内存泄漏.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 92,
+  "frontMatter": {
+    "sidebar_position": 92
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.1-浏览器垃圾回收",
+    "permalink": "/docs/大前端知识点/5.1-浏览器垃圾回收"
+  },
+  "next": {
+    "title": "5.3-性能指标、优化",
+    "permalink": "/docs/大前端知识点/5.3-性能指标、优化"
+  }
+}

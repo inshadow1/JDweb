@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/-- uniapp 测评",
+  "title": "-- uniapp 测评",
+  "description": "uniapp 测评",
+  "source": "@site/my-docs/多平台开发/-- uniapp 测评.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/-- uniapp 测评",
+  "permalink": "/docs/多平台开发/-- uniapp 测评",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/-- uniapp 测评.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.1-移动端适配",
+    "permalink": "/docs/多平台开发/1.1-移动端适配"
+  },
+  "next": {
+    "title": "1.2-桌面端开发",
+    "permalink": "/docs/多平台开发/1.2-桌面端开发"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/TypeScript/3.2-泛型",
+  "title": "3.2-泛型",
+  "description": "Create by fall on 23 Nov 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/TypeScript/3.2-泛型.md",
+  "sourceDirName": "JavaScript & TypeScript/TypeScript",
+  "slug": "/JavaScript & TypeScript/TypeScript/3.2-泛型",
+  "permalink": "/docs/JavaScript & TypeScript/TypeScript/3.2-泛型",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/TypeScript/3.2-泛型.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1-语言特性",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/3.1-语言特性"
+  },
+  "next": {
+    "title": "-- tsc 命令",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/-- tsc 命令"
+  }
+}

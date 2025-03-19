@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/系统重构",
+  "title": "系统重构",
+  "description": "Create by fall on 30 Jan 2022",
+  "source": "@site/my-docs/软件工程知识/系统重构.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/系统重构",
+  "permalink": "/docs/软件工程知识/系统重构",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/系统重构.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "物联网技术的新可能",
+    "permalink": "/docs/软件工程知识/物联网技术的新可能"
+  },
+  "next": {
+    "title": "组件开发",
+    "permalink": "/docs/软件工程知识/组件开发"
+  }
+}

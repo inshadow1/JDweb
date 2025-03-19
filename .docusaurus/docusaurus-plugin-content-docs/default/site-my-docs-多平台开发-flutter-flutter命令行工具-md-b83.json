@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/Flutter/-- flutter命令行工具",
+  "title": "-- flutter命令行工具",
+  "description": "flutter doctor 用于判断模块的安装",
+  "source": "@site/my-docs/多平台开发/Flutter/-- flutter命令行工具.md",
+  "sourceDirName": "多平台开发/Flutter",
+  "slug": "/多平台开发/Flutter/-- flutter命令行工具",
+  "permalink": "/docs/多平台开发/Flutter/-- flutter命令行工具",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/Flutter/-- flutter命令行工具.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.4-RN 基本事件",
+    "permalink": "/docs/多平台开发/2.4-RN 基本事件"
+  },
+  "next": {
+    "title": "1.Dart语言的基础",
+    "permalink": "/docs/多平台开发/Flutter/1.Dart语言的基础"
+  }
+}

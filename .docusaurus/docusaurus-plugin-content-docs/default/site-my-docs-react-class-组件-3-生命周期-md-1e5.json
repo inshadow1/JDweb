@@ -1,0 +1,24 @@
+{
+  "id": "React/class 组件/3-生命周期",
+  "title": "3-生命周期",
+  "description": "Create by fall on：2021-11-14",
+  "source": "@site/my-docs/React/class 组件/3-生命周期.md",
+  "sourceDirName": "React/class 组件",
+  "slug": "/React/class 组件/3-生命周期",
+  "permalink": "/docs/React/class 组件/3-生命周期",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/class 组件/3-生命周期.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2-事件，值传递",
+    "permalink": "/docs/React/class 组件/2-事件，值传递"
+  },
+  "next": {
+    "title": "4-高阶组件",
+    "permalink": "/docs/React/class 组件/4-高阶组件"
+  }
+}

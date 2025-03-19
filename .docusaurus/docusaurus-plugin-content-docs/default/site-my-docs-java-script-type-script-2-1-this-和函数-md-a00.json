@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/2.1-this 和函数",
+  "title": "2.1-this 和函数",
+  "description": "Create by fall on — — 2020",
+  "source": "@site/my-docs/JavaScript & TypeScript/2.1-this 和函数.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/2.1-this 和函数",
+  "permalink": "/docs/JavaScript & TypeScript/2.1-this 和函数",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/2.1-this 和函数.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 29,
+  "frontMatter": {
+    "sidebar_position": 29
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.7-工具对象",
+    "permalink": "/docs/JavaScript & TypeScript/1.7-工具对象"
+  },
+  "next": {
+    "title": "2.2-面向对象编程",
+    "permalink": "/docs/JavaScript & TypeScript/2.2-面向对象编程"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/4.3-CDN",
+  "title": "4.3-CDN",
+  "description": "Create by fall on 2021-10-24",
+  "source": "@site/my-docs/大前端知识点/4.3-CDN.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/4.3-CDN",
+  "permalink": "/docs/大前端知识点/4.3-CDN",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/4.3-CDN.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 85,
+  "frontMatter": {
+    "sidebar_position": 85
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2-Session、Cookie、Token",
+    "permalink": "/docs/大前端知识点/4.2-Session、Cookie、Token"
+  },
+  "next": {
+    "title": "5.1-浏览器垃圾回收",
+    "permalink": "/docs/大前端知识点/5.1-浏览器垃圾回收"
+  }
+}

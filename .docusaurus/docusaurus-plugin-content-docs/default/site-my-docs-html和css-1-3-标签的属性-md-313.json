@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/1.3-标签的属性",
+  "title": "1.3-标签的属性",
+  "description": "Create by Fall on 07 Dec 2022",
+  "source": "@site/my-docs/HTML和CSS/1.3-标签的属性.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/1.3-标签的属性",
+  "permalink": "/docs/HTML和CSS/1.3-标签的属性",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/1.3-标签的属性.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.2-标签及语义化",
+    "permalink": "/docs/HTML和CSS/1.2-标签及语义化"
+  },
+  "next": {
+    "title": "1.4-表单和表格标签",
+    "permalink": "/docs/HTML和CSS/1.4-表单和表格标签"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "其它语言/java/-- 项目文件介绍",
+  "title": "-- 项目文件介绍",
+  "description": "Create by fall on 2022-12-12",
+  "source": "@site/my-docs/其它语言/java/-- 项目文件介绍.md",
+  "sourceDirName": "其它语言/java",
+  "slug": "/其它语言/java/-- 项目文件介绍",
+  "permalink": "/docs/其它语言/java/-- 项目文件介绍",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/java/-- 项目文件介绍.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 后端插件介绍",
+    "permalink": "/docs/其它语言/java/-- 后端插件介绍"
+  },
+  "next": {
+    "title": "1.1-数据类型",
+    "permalink": "/docs/其它语言/java/1.1-数据类型"
+  }
+}

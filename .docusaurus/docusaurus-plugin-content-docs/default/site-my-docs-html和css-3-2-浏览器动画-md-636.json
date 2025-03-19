@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/3.2-浏览器动画",
+  "title": "3.2-浏览器动画",
+  "description": "Create by fall on 07 Sep 2019",
+  "source": "@site/my-docs/HTML和CSS/3.2-浏览器动画.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/3.2-浏览器动画",
+  "permalink": "/docs/HTML和CSS/3.2-浏览器动画",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/3.2-浏览器动画.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 58,
+  "frontMatter": {
+    "sidebar_position": 58
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1-flex和grid布局",
+    "permalink": "/docs/HTML和CSS/3.1-flex和grid布局"
+  },
+  "next": {
+    "title": "4.1-CSS变量和运算",
+    "permalink": "/docs/HTML和CSS/4.1-CSS变量和运算"
+  }
+}

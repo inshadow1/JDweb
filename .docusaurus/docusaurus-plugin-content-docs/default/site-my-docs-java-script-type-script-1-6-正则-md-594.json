@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/1.6-正则",
+  "title": "1.6-正则",
+  "description": "Create by fall on ----",
+  "source": "@site/my-docs/JavaScript & TypeScript/1.6-正则.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/1.6-正则",
+  "permalink": "/docs/JavaScript & TypeScript/1.6-正则",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/1.6-正则.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.5-扩展数据类型",
+    "permalink": "/docs/JavaScript & TypeScript/1.5-扩展数据类型"
+  },
+  "next": {
+    "title": "1.7-工具对象",
+    "permalink": "/docs/JavaScript & TypeScript/1.7-工具对象"
+  }
+}

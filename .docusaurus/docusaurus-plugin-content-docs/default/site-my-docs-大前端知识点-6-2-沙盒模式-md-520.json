@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/6.2-沙盒模式",
+  "title": "6.2-沙盒模式",
+  "description": "Create by fall on 17 Aug 2022",
+  "source": "@site/my-docs/大前端知识点/6.2-沙盒模式.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/6.2-沙盒模式",
+  "permalink": "/docs/大前端知识点/6.2-沙盒模式",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/6.2-沙盒模式.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 102,
+  "frontMatter": {
+    "sidebar_position": 102
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "6.1-网站安全",
+    "permalink": "/docs/大前端知识点/6.1-网站安全"
+  },
+  "next": {
+    "title": "6.3-用户追踪",
+    "permalink": "/docs/大前端知识点/6.3-用户追踪"
+  }
+}

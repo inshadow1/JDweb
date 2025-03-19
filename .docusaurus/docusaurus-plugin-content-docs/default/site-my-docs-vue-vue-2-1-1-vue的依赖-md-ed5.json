@@ -1,0 +1,24 @@
+{
+  "id": "Vue/Vue2/1.1-Vue的依赖",
+  "title": "1.1-Vue的依赖",
+  "description": "Create by fall on 01 Sep 2022",
+  "source": "@site/my-docs/Vue/Vue2/1.1-Vue的依赖.md",
+  "sourceDirName": "Vue/Vue2",
+  "slug": "/Vue/Vue2/1.1-Vue的依赖",
+  "permalink": "/docs/Vue/Vue2/1.1-Vue的依赖",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/Vue2/1.1-Vue的依赖.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.1-服务端渲染",
+    "permalink": "/docs/Vue/5.1-服务端渲染"
+  },
+  "next": {
+    "title": "2.1-vue-router",
+    "permalink": "/docs/Vue/Vue2/2.1-vue-router"
+  }
+}

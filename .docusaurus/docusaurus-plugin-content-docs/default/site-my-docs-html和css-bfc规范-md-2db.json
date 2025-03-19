@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/-- BFC规范",
+  "title": "-- BFC规范",
+  "description": "Create by fall on:2022-02-10",
+  "source": "@site/my-docs/HTML和CSS/-- BFC规范.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/-- BFC规范",
+  "permalink": "/docs/HTML和CSS/-- BFC规范",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/-- BFC规范.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS-表格",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-表格"
+  },
+  "next": {
+    "title": "1.1-HTML基础",
+    "permalink": "/docs/HTML和CSS/1.1-HTML基础"
+  }
+}

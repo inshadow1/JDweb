@@ -1,0 +1,24 @@
+{
+  "id": "Linux & 命令行/1.1-linux",
+  "title": "1.1-linux",
+  "description": "Create by fall on 08 Jun 2021",
+  "source": "@site/my-docs/Linux & 命令行/1.1-linux.md",
+  "sourceDirName": "Linux & 命令行",
+  "slug": "/Linux & 命令行/1.1-linux",
+  "permalink": "/docs/Linux & 命令行/1.1-linux",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Linux & 命令行/1.1-linux.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linux & 命令行",
+    "permalink": "/docs/category/linux--命令行"
+  },
+  "next": {
+    "title": "1.2-文件系统",
+    "permalink": "/docs/Linux & 命令行/1.2-文件系统"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "npm 和 nvm 的使用",
+  "title": "npm 和 nvm 的使用",
+  "description": "Create by fall on — — 2020",
+  "source": "@site/my-docs/npm 和 nvm 的使用.md",
+  "sourceDirName": ".",
+  "slug": "/npm 和 nvm 的使用",
+  "permalink": "/docs/npm 和 nvm 的使用",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 和 nvm 的使用.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "git工具",
+    "permalink": "/docs/git工具"
+  },
+  "next": {
+    "title": "前端环境搭建",
+    "permalink": "/docs/前端环境搭建"
+  }
+}

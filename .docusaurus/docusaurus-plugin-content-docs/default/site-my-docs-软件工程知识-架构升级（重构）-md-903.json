@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/架构升级（重构）",
+  "title": "架构升级（重构）",
+  "description": "Create by fall on 18 Jan 2024",
+  "source": "@site/my-docs/软件工程知识/架构升级（重构）.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/架构升级（重构）",
+  "permalink": "/docs/软件工程知识/架构升级（重构）",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/架构升级（重构）.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "有向无环图",
+    "permalink": "/docs/软件工程知识/有向无环图"
+  },
+  "next": {
+    "title": "架构设计",
+    "permalink": "/docs/软件工程知识/架构设计"
+  }
+}

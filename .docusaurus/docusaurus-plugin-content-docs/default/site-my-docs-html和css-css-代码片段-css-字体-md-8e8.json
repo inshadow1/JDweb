@@ -1,0 +1,24 @@
+{
+  "id": "HTML和CSS/CSS 代码片段/CSS-字体",
+  "title": "CSS-字体",
+  "description": "Create by fall on 17 Nov 2024",
+  "source": "@site/my-docs/HTML和CSS/CSS 代码片段/CSS-字体.md",
+  "sourceDirName": "HTML和CSS/CSS 代码片段",
+  "slug": "/HTML和CSS/CSS 代码片段/CSS-字体",
+  "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-字体",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/CSS 代码片段/CSS-字体.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS-图形",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-图形"
+  },
+  "next": {
+    "title": "CSS-样式初始化",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-样式初始化"
+  }
+}

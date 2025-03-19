@@ -1,0 +1,24 @@
+{
+  "id": "React/class 组件/2-事件，值传递",
+  "title": "2-事件，值传递",
+  "description": "Create by fall on：2021-11-14",
+  "source": "@site/my-docs/React/class 组件/2-事件，值传递.md",
+  "sourceDirName": "React/class 组件",
+  "slug": "/React/class 组件/2-事件，值传递",
+  "permalink": "/docs/React/class 组件/2-事件，值传递",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/class 组件/2-事件，值传递.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1-Class组件",
+    "permalink": "/docs/React/class 组件/1-Class组件"
+  },
+  "next": {
+    "title": "3-生命周期",
+    "permalink": "/docs/React/class 组件/3-生命周期"
+  }
+}

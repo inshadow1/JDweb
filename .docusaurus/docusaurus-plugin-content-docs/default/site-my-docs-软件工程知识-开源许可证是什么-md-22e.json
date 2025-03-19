@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/开源许可证是什么",
+  "title": "开源许可证是什么",
+  "description": "Create by fall on 23 July 2020",
+  "source": "@site/my-docs/软件工程知识/开源许可证是什么.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/开源许可证是什么",
+  "permalink": "/docs/软件工程知识/开源许可证是什么",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/开源许可证是什么.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "复杂度分析",
+    "permalink": "/docs/软件工程知识/复杂度分析"
+  },
+  "next": {
+    "title": "拓扑排序",
+    "permalink": "/docs/软件工程知识/拓扑排序"
+  }
+}

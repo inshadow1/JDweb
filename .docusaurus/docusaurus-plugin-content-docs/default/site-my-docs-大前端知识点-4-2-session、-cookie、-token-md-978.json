@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/4.2-Session、Cookie、Token",
+  "title": "4.2-Session、Cookie、Token",
+  "description": "Create by fall on 24 Nov 2021",
+  "source": "@site/my-docs/大前端知识点/4.2-Session、Cookie、Token.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/4.2-Session、Cookie、Token",
+  "permalink": "/docs/大前端知识点/4.2-Session、Cookie、Token",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/4.2-Session、Cookie、Token.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 82,
+  "frontMatter": {
+    "sidebar_position": 82
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.1-浏览器缓存机制",
+    "permalink": "/docs/大前端知识点/4.1-浏览器缓存机制"
+  },
+  "next": {
+    "title": "4.3-CDN",
+    "permalink": "/docs/大前端知识点/4.3-CDN"
+  }
+}

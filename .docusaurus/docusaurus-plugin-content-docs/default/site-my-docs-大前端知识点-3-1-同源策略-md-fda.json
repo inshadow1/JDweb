@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/3.1-同源策略",
+  "title": "3.1-同源策略",
+  "description": "Create by fall on 03 Feb 2022",
+  "source": "@site/my-docs/大前端知识点/3.1-同源策略.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/3.1-同源策略",
+  "permalink": "/docs/大前端知识点/3.1-同源策略",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/3.1-同源策略.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 41,
+  "frontMatter": {
+    "sidebar_position": 41
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.6-Jamstack（SSG）",
+    "permalink": "/docs/大前端知识点/2.6-Jamstack（SSG）"
+  },
+  "next": {
+    "title": "3.2-HTTP协议",
+    "permalink": "/docs/大前端知识点/3.2-HTTP协议"
+  }
+}

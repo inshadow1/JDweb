@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/husky",
+  "title": "husky",
+  "description": "Create by fall on 2022-04-05",
+  "source": "@site/my-docs/npm 包/husky.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/husky",
+  "permalink": "/docs/npm 包/husky",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/husky.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "highlightjs",
+    "permalink": "/docs/npm 包/highlightjs"
+  },
+  "next": {
+    "title": "immer",
+    "permalink": "/docs/npm 包/immer"
+  }
+}

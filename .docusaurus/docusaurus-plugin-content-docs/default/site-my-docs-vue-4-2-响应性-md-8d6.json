@@ -1,0 +1,24 @@
+{
+  "id": "Vue/4.2-响应性",
+  "title": "4.2-响应性",
+  "description": "Create by fall on 01 Feb 2023",
+  "source": "@site/my-docs/Vue/4.2-响应性.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/4.2-响应性",
+  "permalink": "/docs/Vue/4.2-响应性",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/4.2-响应性.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.1-优化",
+    "permalink": "/docs/Vue/4.1-优化"
+  },
+  "next": {
+    "title": "4.3-实用特性",
+    "permalink": "/docs/Vue/4.3-实用特性"
+  }
+}

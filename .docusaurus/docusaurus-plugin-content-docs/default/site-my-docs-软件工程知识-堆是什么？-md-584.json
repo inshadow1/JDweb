@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/堆是什么？",
+  "title": "堆是什么？",
+  "description": "个人感觉，就是讲一个固定的字符串，经过算法，转换为一个固定的存储地址，读取的时候不需要循环，只需要通过该算法就能找到该存储地址。",
+  "source": "@site/my-docs/软件工程知识/堆是什么？.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/堆是什么？",
+  "permalink": "/docs/软件工程知识/堆是什么？",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/堆是什么？.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "产品设计",
+    "permalink": "/docs/软件工程知识/产品设计"
+  },
+  "next": {
+    "title": "复杂度分析",
+    "permalink": "/docs/软件工程知识/复杂度分析"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/5.4-网站监控",
+  "title": "5.4-网站监控",
+  "description": "Create by fall on 06 Feb 2025",
+  "source": "@site/my-docs/大前端知识点/5.4-网站监控.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/5.4-网站监控",
+  "permalink": "/docs/大前端知识点/5.4-网站监控",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/5.4-网站监控.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.3-性能指标、优化",
+    "permalink": "/docs/大前端知识点/5.3-性能指标、优化"
+  },
+  "next": {
+    "title": "6.1-网站安全",
+    "permalink": "/docs/大前端知识点/6.1-网站安全"
+  }
+}

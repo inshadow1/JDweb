@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/浏览器插件开发",
+  "title": "浏览器插件开发",
+  "description": "Create by fall on 16 Aug 2022",
+  "source": "@site/my-docs/多平台开发/浏览器插件开发.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/浏览器插件开发",
+  "permalink": "/docs/多平台开发/浏览器插件开发",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/浏览器插件开发.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "小程序架构",
+    "permalink": "/docs/多平台开发/小程序架构"
+  },
+  "next": {
+    "title": "其它语言",
+    "permalink": "/docs/category/其它语言"
+  }
+}

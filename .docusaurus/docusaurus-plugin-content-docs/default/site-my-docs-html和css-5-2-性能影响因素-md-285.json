@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/5.2-性能影响因素",
+  "title": "5.2-性能影响因素",
+  "description": "回流和重绘",
+  "source": "@site/my-docs/HTML和CSS/5.2-性能影响因素.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/5.2-性能影响因素",
+  "permalink": "/docs/HTML和CSS/5.2-性能影响因素",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/5.2-性能影响因素.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 95,
+  "frontMatter": {
+    "sidebar_position": 95
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.1-浏览器的兼容",
+    "permalink": "/docs/HTML和CSS/5.1-浏览器的兼容"
+  },
+  "next": {
+    "title": "JavaScript & TypeScript",
+    "permalink": "/docs/category/javascript--typescript"
+  }
+}

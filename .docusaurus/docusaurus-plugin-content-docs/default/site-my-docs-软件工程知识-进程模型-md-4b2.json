@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/进程模型",
+  "title": "进程模型",
+  "description": "进程三态模型",
+  "source": "@site/my-docs/软件工程知识/进程模型.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/进程模型",
+  "permalink": "/docs/软件工程知识/进程模型",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/进程模型.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "软件设计",
+    "permalink": "/docs/软件工程知识/软件设计"
+  },
+  "next": {
+    "title": "面向切面编程",
+    "permalink": "/docs/软件工程知识/面向切面编程"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/版本控制",
+  "title": "版本控制",
+  "description": "Create by fall on 29 Nov 2023",
+  "source": "@site/my-docs/软件工程知识/版本控制.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/版本控制",
+  "permalink": "/docs/软件工程知识/版本控制",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/版本控制.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "架构设计",
+    "permalink": "/docs/软件工程知识/架构设计"
+  },
+  "next": {
+    "title": "物联网技术的新可能",
+    "permalink": "/docs/软件工程知识/物联网技术的新可能"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/2.2-Serverless",
+  "title": "2.2-Serverless",
+  "description": "Create by fall on 2021-07-13",
+  "source": "@site/my-docs/大前端知识点/2.2-Serverless.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/2.2-Serverless",
+  "permalink": "/docs/大前端知识点/2.2-Serverless",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/2.2-Serverless.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 22,
+  "frontMatter": {
+    "sidebar_position": 22
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.1-前端的发展",
+    "permalink": "/docs/大前端知识点/2.1-前端的发展"
+  },
+  "next": {
+    "title": "2.3-SPA介绍",
+    "permalink": "/docs/大前端知识点/2.3-SPA介绍"
+  }
+}

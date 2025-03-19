@@ -1,0 +1,24 @@
+{
+  "id": "React/2.3-组件数据请求",
+  "title": "2.3-组件数据请求",
+  "description": "Create by fall on 26 Nov 2024",
+  "source": "@site/my-docs/React/2.3-组件数据请求.md",
+  "sourceDirName": "React",
+  "slug": "/React/2.3-组件数据请求",
+  "permalink": "/docs/React/2.3-组件数据请求",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/2.3-组件数据请求.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2-高阶指引",
+    "permalink": "/docs/React/2.2-高阶指引"
+  },
+  "next": {
+    "title": "4.1-大型应用程序的开发",
+    "permalink": "/docs/React/4.1-大型应用程序的开发"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/5.3-性能指标、优化",
+  "title": "5.3-性能指标、优化",
+  "description": "Create by fall on 22 Nov 2020",
+  "source": "@site/my-docs/大前端知识点/5.3-性能指标、优化.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/5.3-性能指标、优化",
+  "permalink": "/docs/大前端知识点/5.3-性能指标、优化",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/5.3-性能指标、优化.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 96,
+  "frontMatter": {
+    "sidebar_position": 96
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.2-内存泄漏",
+    "permalink": "/docs/大前端知识点/5.2-内存泄漏"
+  },
+  "next": {
+    "title": "5.4-网站监控",
+    "permalink": "/docs/大前端知识点/5.4-网站监控"
+  }
+}

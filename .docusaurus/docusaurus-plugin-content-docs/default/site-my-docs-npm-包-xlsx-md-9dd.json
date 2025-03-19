@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/xlsx",
+  "title": "xlsx",
+  "description": "Create by fall on 06 02 2023",
+  "source": "@site/my-docs/npm 包/xlsx.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/xlsx",
+  "permalink": "/docs/npm 包/xlsx",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/xlsx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "webpack",
+    "permalink": "/docs/npm 包/webpack"
+  },
+  "next": {
+    "title": "yarn",
+    "permalink": "/docs/npm 包/yarn"
+  }
+}

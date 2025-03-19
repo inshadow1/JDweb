@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/3.7-跨窗口交互",
+  "title": "3.7-跨窗口交互",
+  "description": "Create by fall on — — 2020",
+  "source": "@site/my-docs/JavaScript & TypeScript/3.7-跨窗口交互.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/3.7-跨窗口交互",
+  "permalink": "/docs/JavaScript & TypeScript/3.7-跨窗口交互",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/3.7-跨窗口交互.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 62,
+  "frontMatter": {
+    "sidebar_position": 62
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.6-浏览器的存储",
+    "permalink": "/docs/JavaScript & TypeScript/3.6-浏览器的存储"
+  },
+  "next": {
+    "title": "4.1-前后端交互",
+    "permalink": "/docs/JavaScript & TypeScript/4.1-前后端交互"
+  }
+}

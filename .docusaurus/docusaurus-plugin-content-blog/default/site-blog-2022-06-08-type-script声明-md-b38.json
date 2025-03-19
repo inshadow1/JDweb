@@ -1,0 +1,35 @@
+{
+  "permalink": "/blog/TypeScript声明",
+  "editUrl": "https://github.com/blog/2022-06-08-TypeScript声明.md",
+  "source": "@site/blog/2022-06-08-TypeScript声明.md",
+  "title": "TypeScript声明",
+  "description": "声明空间",
+  "date": "2022-06-08T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 6.215,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "yelv",
+      "title": "Coding For fun",
+      "url": "https://github.com/inshadow1",
+      "imageURL": "/img/128100849_4.png",
+      "key": "fall",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "TypeScript声明",
+    "title": "TypeScript声明",
+    "authors": "fall"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "2分钟环境搭建",
+    "permalink": "/blog/2分钟环境搭建"
+  },
+  "nextItem": {
+    "title": "客户想要的不是她们所说的（译）",
+    "permalink": "/blog/客户想要的不是她们所说的（译）"
+  }
+}

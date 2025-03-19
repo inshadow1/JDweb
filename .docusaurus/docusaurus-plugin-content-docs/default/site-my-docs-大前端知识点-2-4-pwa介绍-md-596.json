@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/2.4-PWA介绍",
+  "title": "2.4-PWA介绍",
+  "description": "Create by fall on 13 Oct 2021",
+  "source": "@site/my-docs/大前端知识点/2.4-PWA介绍.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/2.4-PWA介绍",
+  "permalink": "/docs/大前端知识点/2.4-PWA介绍",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/2.4-PWA介绍.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.3-SPA介绍",
+    "permalink": "/docs/大前端知识点/2.3-SPA介绍"
+  },
+  "next": {
+    "title": "2.5-SSR服务端渲染",
+    "permalink": "/docs/大前端知识点/2.5-SSR服务端渲染"
+  }
+}

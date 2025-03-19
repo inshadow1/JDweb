@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/4.1-CSS变量和运算",
+  "title": "4.1-CSS变量和运算",
+  "description": "Create by Fall on 27 Sep 2022",
+  "source": "@site/my-docs/HTML和CSS/4.1-CSS变量和运算.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/4.1-CSS变量和运算",
+  "permalink": "/docs/HTML和CSS/4.1-CSS变量和运算",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/4.1-CSS变量和运算.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 61,
+  "frontMatter": {
+    "sidebar_position": 61
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.2-浏览器动画",
+    "permalink": "/docs/HTML和CSS/3.2-浏览器动画"
+  },
+  "next": {
+    "title": "4.2-CSS预处理器",
+    "permalink": "/docs/HTML和CSS/4.2-CSS预处理器"
+  }
+}

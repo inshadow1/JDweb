@@ -1,0 +1,24 @@
+{
+  "id": "前端环境搭建",
+  "title": "前端环境搭建",
+  "description": "Create by fall on 02 Mar 2021",
+  "source": "@site/my-docs/前端环境搭建.md",
+  "sourceDirName": ".",
+  "slug": "/前端环境搭建",
+  "permalink": "/docs/前端环境搭建",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/前端环境搭建.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "npm 和 nvm 的使用",
+    "permalink": "/docs/npm 和 nvm 的使用"
+  },
+  "next": {
+    "title": "学习资料",
+    "permalink": "/docs/学习资料"
+  }
+}

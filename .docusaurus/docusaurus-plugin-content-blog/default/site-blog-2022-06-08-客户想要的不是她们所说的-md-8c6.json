@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/客户想要的不是她们所说的（译）",
+  "editUrl": "https://github.com/blog/2022-06-08-客户想要的不是她们所说的.md",
+  "source": "@site/blog/2022-06-08-客户想要的不是她们所说的.md",
+  "title": "客户想要的不是她们所说的（译）",
+  "description": "我见过的用户中，他们没有一个不是特别详细的，迫切的想告诉我他们想要的。问题是，你的客户并不能一直告诉你实事的全貌。他们一般来讲不会说谎，但是他们的说话方式是作为用户的表达方式，而不是开发者的表达方式。她们拥有他们的团队，和他们的沟通方式。她们会遗漏重要的细节，她们会当你已经在他们公司干活 20 年了，就跟他们一样熟悉。真正复杂的是，一开始他们就不知道怎么做。一些客户可能构建了宏图，但是他们很少能充分的地交流她们认为的这些“宏图”的细节。另一些客户可能不会特别的清楚，但是他们知道她们不想要什么。在她们不完整的说出他们想要的东西的情况下，我们怎样才能去开发一个项目？答案显而易见，多去配合他们。",
+  "date": "2022-06-08T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "翻译",
+      "permalink": "/blog/tags/翻译"
+    },
+    {
+      "inline": true,
+      "label": "客户",
+      "permalink": "/blog/tags/客户"
+    }
+  ],
+  "readingTime": 4.52,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "yelv",
+      "title": "Coding For fun",
+      "url": "https://github.com/inshadow1",
+      "imageURL": "/img/128100849_4.png",
+      "key": "fall",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "客户想要的不是她们所说的（译）",
+    "title": "客户想要的不是她们所说的（译）",
+    "authors": "fall",
+    "tags": [
+      "翻译",
+      "客户"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "TypeScript声明",
+    "permalink": "/blog/TypeScript声明"
+  },
+  "nextItem": {
+    "title": "git功能查找",
+    "permalink": "/blog/git功能查找"
+  }
+}

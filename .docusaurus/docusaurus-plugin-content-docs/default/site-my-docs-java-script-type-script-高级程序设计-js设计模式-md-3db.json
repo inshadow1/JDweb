@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/高级程序设计/-- JS设计模式",
+  "title": "-- JS设计模式",
+  "description": "Create by fall on 02 Nov 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/高级程序设计/-- JS设计模式.md",
+  "sourceDirName": "JavaScript & TypeScript/高级程序设计",
+  "slug": "/JavaScript & TypeScript/高级程序设计/-- JS设计模式",
+  "permalink": "/docs/JavaScript & TypeScript/高级程序设计/-- JS设计模式",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/高级程序设计/-- JS设计模式.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 节流和防抖",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 节流和防抖"
+  },
+  "next": {
+    "title": "-- 函数式编程",
+    "permalink": "/docs/JavaScript & TypeScript/高级程序设计/-- 函数式编程"
+  }
+}

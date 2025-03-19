@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/物联网技术的新可能",
+  "title": "物联网技术的新可能",
+  "description": "新后端",
+  "source": "@site/my-docs/软件工程知识/物联网技术的新可能.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/物联网技术的新可能",
+  "permalink": "/docs/软件工程知识/物联网技术的新可能",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/物联网技术的新可能.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "版本控制",
+    "permalink": "/docs/软件工程知识/版本控制"
+  },
+  "next": {
+    "title": "系统重构",
+    "permalink": "/docs/软件工程知识/系统重构"
+  }
+}

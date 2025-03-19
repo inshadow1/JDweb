@@ -1,0 +1,24 @@
+{
+  "id": "Vue/3.3-pinia（vuex）",
+  "title": "3.3-pinia（vuex）",
+  "description": "Create by fall on 21 Sep 2023",
+  "source": "@site/my-docs/Vue/3.3-pinia（vuex）.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/3.3-pinia（vuex）",
+  "permalink": "/docs/Vue/3.3-pinia（vuex）",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/3.3-pinia（vuex）.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.2-Vue 搭配 TS",
+    "permalink": "/docs/Vue/3.2-Vue 搭配 TS"
+  },
+  "next": {
+    "title": "4.1-优化",
+    "permalink": "/docs/Vue/4.1-优化"
+  }
+}

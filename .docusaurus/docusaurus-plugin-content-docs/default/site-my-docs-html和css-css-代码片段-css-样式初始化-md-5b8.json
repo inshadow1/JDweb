@@ -1,0 +1,24 @@
+{
+  "id": "HTML和CSS/CSS 代码片段/CSS-样式初始化",
+  "title": "CSS-样式初始化",
+  "description": "Create by fall on 04 Apr 2023",
+  "source": "@site/my-docs/HTML和CSS/CSS 代码片段/CSS-样式初始化.md",
+  "sourceDirName": "HTML和CSS/CSS 代码片段",
+  "slug": "/HTML和CSS/CSS 代码片段/CSS-样式初始化",
+  "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-样式初始化",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/CSS 代码片段/CSS-样式初始化.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS-字体",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-字体"
+  },
+  "next": {
+    "title": "CSS-表格",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-表格"
+  }
+}

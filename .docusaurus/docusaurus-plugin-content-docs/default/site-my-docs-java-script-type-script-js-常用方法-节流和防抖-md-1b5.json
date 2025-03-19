@@ -1,0 +1,24 @@
+{
+  "id": "JavaScript & TypeScript/JS 常用方法/-- 节流和防抖",
+  "title": "-- 节流和防抖",
+  "description": "应用场景",
+  "source": "@site/my-docs/JavaScript & TypeScript/JS 常用方法/-- 节流和防抖.md",
+  "sourceDirName": "JavaScript & TypeScript/JS 常用方法",
+  "slug": "/JavaScript & TypeScript/JS 常用方法/-- 节流和防抖",
+  "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 节流和防抖",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/JS 常用方法/-- 节流和防抖.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 实现深克隆",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 实现深克隆"
+  },
+  "next": {
+    "title": "-- JS设计模式",
+    "permalink": "/docs/JavaScript & TypeScript/高级程序设计/-- JS设计模式"
+  }
+}

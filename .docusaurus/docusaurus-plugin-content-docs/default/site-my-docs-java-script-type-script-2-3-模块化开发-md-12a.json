@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/2.3-模块化开发",
+  "title": "2.3-模块化开发",
+  "description": "Create by fall on 11 Oct 2020",
+  "source": "@site/my-docs/JavaScript & TypeScript/2.3-模块化开发.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/2.3-模块化开发",
+  "permalink": "/docs/JavaScript & TypeScript/2.3-模块化开发",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/2.3-模块化开发.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 35,
+  "frontMatter": {
+    "sidebar_position": 35
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2-面向对象编程",
+    "permalink": "/docs/JavaScript & TypeScript/2.2-面向对象编程"
+  },
+  "next": {
+    "title": "2.4-错误捕获及兼容",
+    "permalink": "/docs/JavaScript & TypeScript/2.4-错误捕获及兼容"
+  }
+}

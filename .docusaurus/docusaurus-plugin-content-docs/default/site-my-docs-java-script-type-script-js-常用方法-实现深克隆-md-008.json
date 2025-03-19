@@ -1,0 +1,24 @@
+{
+  "id": "JavaScript & TypeScript/JS 常用方法/-- 实现深克隆",
+  "title": "-- 实现深克隆",
+  "description": "深拷贝纯对象",
+  "source": "@site/my-docs/JavaScript & TypeScript/JS 常用方法/-- 实现深克隆.md",
+  "sourceDirName": "JavaScript & TypeScript/JS 常用方法",
+  "slug": "/JavaScript & TypeScript/JS 常用方法/-- 实现深克隆",
+  "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 实现深克隆",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/JS 常用方法/-- 实现深克隆.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 兼容性解决方案",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案"
+  },
+  "next": {
+    "title": "-- 节流和防抖",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 节流和防抖"
+  }
+}

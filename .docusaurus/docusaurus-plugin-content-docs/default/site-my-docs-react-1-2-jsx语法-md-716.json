@@ -1,0 +1,24 @@
+{
+  "id": "React/1.2-JSX语法",
+  "title": "1.2-JSX语法",
+  "description": "Create by fall on 24 Dec 2021",
+  "source": "@site/my-docs/React/1.2-JSX语法.md",
+  "sourceDirName": "React",
+  "slug": "/React/1.2-JSX语法",
+  "permalink": "/docs/React/1.2-JSX语法",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/1.2-JSX语法.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.1-React核心概念",
+    "permalink": "/docs/React/1.1-React核心概念"
+  },
+  "next": {
+    "title": "1.3-函数式组件",
+    "permalink": "/docs/React/1.3-函数式组件"
+  }
+}

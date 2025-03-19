@@ -1,0 +1,24 @@
+{
+  "id": "面试-自检/3.2-npm 包相关知识",
+  "title": "3.2-npm 包相关知识",
+  "description": "Create by fall on 24 Oct 2021",
+  "source": "@site/my-docs/面试-自检/3.2-npm 包相关知识.md",
+  "sourceDirName": "面试-自检",
+  "slug": "/面试-自检/3.2-npm 包相关知识",
+  "permalink": "/docs/面试-自检/3.2-npm 包相关知识",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/面试-自检/3.2-npm 包相关知识.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1-node 知识点",
+    "permalink": "/docs/面试-自检/3.1-node 知识点"
+  },
+  "next": {
+    "title": "4.1-选择面试题",
+    "permalink": "/docs/面试-自检/4.1-选择面试题"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/2.1-CSS选择器",
+  "title": "2.1-CSS选择器",
+  "description": "Create by fall on 22 Jul 2019",
+  "source": "@site/my-docs/HTML和CSS/2.1-CSS选择器.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/2.1-CSS选择器",
+  "permalink": "/docs/HTML和CSS/2.1-CSS选择器",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/2.1-CSS选择器.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.5-SVG 标签",
+    "permalink": "/docs/HTML和CSS/1.5-SVG 标签"
+  },
+  "next": {
+    "title": "2.2-盒子基础属性",
+    "permalink": "/docs/HTML和CSS/2.2-盒子基础属性"
+  }
+}

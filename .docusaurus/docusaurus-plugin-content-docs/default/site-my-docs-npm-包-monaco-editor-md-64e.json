@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/monaco-editor",
+  "title": "monaco-editor",
+  "description": "Create by fall on  09 Jun 2023",
+  "source": "@site/my-docs/npm 包/monaco-editor.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/monaco-editor",
+  "permalink": "/docs/npm 包/monaco-editor",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/monaco-editor.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "moment",
+    "permalink": "/docs/npm 包/moment"
+  },
+  "next": {
+    "title": "ora",
+    "permalink": "/docs/npm 包/ora"
+  }
+}

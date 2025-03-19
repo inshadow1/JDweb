@@ -1,0 +1,24 @@
+{
+  "id": "React/class 组件/5-路由的使用",
+  "title": "5-路由的使用",
+  "description": "Create by fall on 2021-12-19",
+  "source": "@site/my-docs/React/class 组件/5-路由的使用.md",
+  "sourceDirName": "React/class 组件",
+  "slug": "/React/class 组件/5-路由的使用",
+  "permalink": "/docs/React/class 组件/5-路由的使用",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/class 组件/5-路由的使用.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4-高阶组件",
+    "permalink": "/docs/React/class 组件/4-高阶组件"
+  },
+  "next": {
+    "title": "后端",
+    "permalink": "/docs/category/后端"
+  }
+}

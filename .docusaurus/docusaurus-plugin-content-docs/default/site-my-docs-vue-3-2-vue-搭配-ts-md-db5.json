@@ -1,0 +1,24 @@
+{
+  "id": "Vue/3.2-Vue 搭配 TS",
+  "title": "3.2-Vue 搭配 TS",
+  "description": "Create by fall on19 Sep 2022",
+  "source": "@site/my-docs/Vue/3.2-Vue 搭配 TS.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/3.2-Vue 搭配 TS",
+  "permalink": "/docs/Vue/3.2-Vue 搭配 TS",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/3.2-Vue 搭配 TS.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1-vue-router",
+    "permalink": "/docs/Vue/3.1-vue-router"
+  },
+  "next": {
+    "title": "3.3-pinia（vuex）",
+    "permalink": "/docs/Vue/3.3-pinia（vuex）"
+  }
+}

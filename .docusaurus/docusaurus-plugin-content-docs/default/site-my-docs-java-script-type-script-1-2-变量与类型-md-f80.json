@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/1.2-变量与类型",
+  "title": "1.2-变量与类型",
+  "description": "Create by fall on 18 Nov 2020",
+  "source": "@site/my-docs/JavaScript & TypeScript/1.2-变量与类型.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/1.2-变量与类型",
+  "permalink": "/docs/JavaScript & TypeScript/1.2-变量与类型",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/1.2-变量与类型.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.1-JS基础知识",
+    "permalink": "/docs/JavaScript & TypeScript/1.1-JS基础知识"
+  },
+  "next": {
+    "title": "1.3-运算符",
+    "permalink": "/docs/JavaScript & TypeScript/1.3-运算符"
+  }
+}

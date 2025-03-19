@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/mock",
+  "title": "mock",
+  "description": "Create by fall on 2022-03-01",
+  "source": "@site/my-docs/npm 包/mock.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/mock",
+  "permalink": "/docs/npm 包/mock",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/mock.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "less",
+    "permalink": "/docs/npm 包/less"
+  },
+  "next": {
+    "title": "moment",
+    "permalink": "/docs/npm 包/moment"
+  }
+}

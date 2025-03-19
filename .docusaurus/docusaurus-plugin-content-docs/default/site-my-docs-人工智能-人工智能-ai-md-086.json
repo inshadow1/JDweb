@@ -1,0 +1,24 @@
+{
+  "id": "人工智能/人工智能 AI",
+  "title": "人工智能 AI",
+  "description": "人工智能包括训练和推理，训练模型，模型根据输入推理输出",
+  "source": "@site/my-docs/人工智能/人工智能 AI.md",
+  "sourceDirName": "人工智能",
+  "slug": "/人工智能/人工智能 AI",
+  "permalink": "/docs/人工智能/人工智能 AI",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/人工智能/人工智能 AI.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "人工智能",
+    "permalink": "/docs/category/人工智能"
+  },
+  "next": {
+    "title": "面试-自检",
+    "permalink": "/docs/category/面试-自检"
+  }
+}

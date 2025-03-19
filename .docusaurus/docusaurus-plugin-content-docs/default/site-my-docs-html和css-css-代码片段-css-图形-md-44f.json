@@ -1,0 +1,24 @@
+{
+  "id": "HTML和CSS/CSS 代码片段/CSS-图形",
+  "title": "CSS-图形",
+  "description": "基础图形",
+  "source": "@site/my-docs/HTML和CSS/CSS 代码片段/CSS-图形.md",
+  "sourceDirName": "HTML和CSS/CSS 代码片段",
+  "slug": "/HTML和CSS/CSS 代码片段/CSS-图形",
+  "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-图形",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/CSS 代码片段/CSS-图形.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS-动画",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-动画"
+  },
+  "next": {
+    "title": "CSS-字体",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-字体"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "React/5.1-next 服务端渲染",
+  "title": "5.1-next 服务端渲染",
+  "description": "Create by fall on 25 Aug 2023",
+  "source": "@site/my-docs/React/5.1-next 服务端渲染.md",
+  "sourceDirName": "React",
+  "slug": "/React/5.1-next 服务端渲染",
+  "permalink": "/docs/React/5.1-next 服务端渲染",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/5.1-next 服务端渲染.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.4-React-Router",
+    "permalink": "/docs/React/4.4-React-Router"
+  },
+  "next": {
+    "title": "1-Class组件",
+    "permalink": "/docs/React/class 组件/1-Class组件"
+  }
+}

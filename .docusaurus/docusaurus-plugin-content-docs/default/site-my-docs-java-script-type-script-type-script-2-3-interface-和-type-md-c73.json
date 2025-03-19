@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/TypeScript/2.3-interface 和 type",
+  "title": "2.3-interface 和 type",
+  "description": "Create by fall on 20 Nov 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/TypeScript/2.3-interface 和 type.md",
+  "sourceDirName": "JavaScript & TypeScript/TypeScript",
+  "slug": "/JavaScript & TypeScript/TypeScript/2.3-interface 和 type",
+  "permalink": "/docs/JavaScript & TypeScript/TypeScript/2.3-interface 和 type",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/TypeScript/2.3-interface 和 type.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2-函数类型",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/2.2-函数类型"
+  },
+  "next": {
+    "title": "2.4-类类型",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/2.4-类类型"
+  }
+}

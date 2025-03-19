@@ -1,0 +1,24 @@
+{
+  "id": "面试-自检/4.2-读代码",
+  "title": "4.2-读代码",
+  "description": "1 以下代码输出为",
+  "source": "@site/my-docs/面试-自检/4.2-读代码.md",
+  "sourceDirName": "面试-自检",
+  "slug": "/面试-自检/4.2-读代码",
+  "permalink": "/docs/面试-自检/4.2-读代码",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/面试-自检/4.2-读代码.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.1-选择面试题",
+    "permalink": "/docs/面试-自检/4.1-选择面试题"
+  },
+  "next": {
+    "title": "4.3-算法题",
+    "permalink": "/docs/面试-自检/4.3-算法题"
+  }
+}

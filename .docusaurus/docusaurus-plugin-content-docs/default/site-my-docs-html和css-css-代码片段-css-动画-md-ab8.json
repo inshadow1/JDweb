@@ -1,0 +1,24 @@
+{
+  "id": "HTML和CSS/CSS 代码片段/CSS-动画",
+  "title": "CSS-动画",
+  "description": "Table 表格",
+  "source": "@site/my-docs/HTML和CSS/CSS 代码片段/CSS-动画.md",
+  "sourceDirName": "HTML和CSS/CSS 代码片段",
+  "slug": "/HTML和CSS/CSS 代码片段/CSS-动画",
+  "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-动画",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/CSS 代码片段/CSS-动画.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS 代码片段",
+    "permalink": "/docs/category/css-代码片段"
+  },
+  "next": {
+    "title": "CSS-图形",
+    "permalink": "/docs/HTML和CSS/CSS 代码片段/CSS-图形"
+  }
+}

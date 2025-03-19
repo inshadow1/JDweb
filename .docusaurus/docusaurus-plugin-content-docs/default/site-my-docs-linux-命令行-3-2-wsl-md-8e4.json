@@ -1,0 +1,24 @@
+{
+  "id": "Linux & 命令行/3.2-wsl",
+  "title": "3.2-wsl",
+  "description": "Create by fall on 23 Jun 2023",
+  "source": "@site/my-docs/Linux & 命令行/3.2-wsl.md",
+  "sourceDirName": "Linux & 命令行",
+  "slug": "/Linux & 命令行/3.2-wsl",
+  "permalink": "/docs/Linux & 命令行/3.2-wsl",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Linux & 命令行/3.2-wsl.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1-PowerShell",
+    "permalink": "/docs/Linux & 命令行/3.1-PowerShell"
+  },
+  "next": {
+    "title": "数据库",
+    "permalink": "/docs/category/数据库"
+  }
+}

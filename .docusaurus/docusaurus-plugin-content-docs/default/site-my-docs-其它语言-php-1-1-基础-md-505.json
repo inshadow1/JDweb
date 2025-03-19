@@ -1,0 +1,24 @@
+{
+  "id": "其它语言/php/1.1-基础",
+  "title": "1.1-基础",
+  "description": "PHP基础",
+  "source": "@site/my-docs/其它语言/php/1.1-基础.md",
+  "sourceDirName": "其它语言/php",
+  "slug": "/其它语言/php/1.1-基础",
+  "permalink": "/docs/其它语言/php/1.1-基础",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/php/1.1-基础.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.5-面向对象编程",
+    "permalink": "/docs/其它语言/java/1.5-面向对象编程"
+  },
+  "next": {
+    "title": "1.2-开发环境搭建",
+    "permalink": "/docs/其它语言/php/1.2-开发环境搭建"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/2.3-RN 样式",
+  "title": "2.3-RN 样式",
+  "description": "Create by fall on 25 Apr 2024",
+  "source": "@site/my-docs/多平台开发/2.3-RN 样式.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/2.3-RN 样式",
+  "permalink": "/docs/多平台开发/2.3-RN 样式",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/2.3-RN 样式.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2-RN 基本元素",
+    "permalink": "/docs/多平台开发/2.2-RN 基本元素"
+  },
+  "next": {
+    "title": "2.4-RN 基本事件",
+    "permalink": "/docs/多平台开发/2.4-RN 基本事件"
+  }
+}

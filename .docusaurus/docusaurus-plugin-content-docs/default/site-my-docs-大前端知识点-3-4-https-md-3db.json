@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/3.4-HTTPS",
+  "title": "3.4-HTTPS",
+  "description": "Create by fall on 03 Jan 2021",
+  "source": "@site/my-docs/大前端知识点/3.4-HTTPS.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/3.4-HTTPS",
+  "permalink": "/docs/大前端知识点/3.4-HTTPS",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/3.4-HTTPS.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 63,
+  "frontMatter": {
+    "sidebar_position": 63
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.3-HTTP协议发展",
+    "permalink": "/docs/大前端知识点/3.3-HTTP协议发展"
+  },
+  "next": {
+    "title": "3.5-网络分层和基础",
+    "permalink": "/docs/大前端知识点/3.5-网络分层和基础"
+  }
+}

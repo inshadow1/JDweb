@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/TypeScript/1.1-认识TS",
+  "title": "1.1-认识TS",
+  "description": "Create by fall on 03 Feb 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/TypeScript/1.1-认识TS.md",
+  "sourceDirName": "JavaScript & TypeScript/TypeScript",
+  "slug": "/JavaScript & TypeScript/TypeScript/1.1-认识TS",
+  "permalink": "/docs/JavaScript & TypeScript/TypeScript/1.1-认识TS",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/TypeScript/1.1-认识TS.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TypeScript",
+    "permalink": "/docs/category/typescript"
+  },
+  "next": {
+    "title": "-- TS的配置",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/-- TS的配置"
+  }
+}

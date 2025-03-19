@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/3.4-canvas",
+  "title": "3.4-canvas",
+  "description": "Create by fall on 10 Jun 2022",
+  "source": "@site/my-docs/JavaScript & TypeScript/3.4-canvas.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/3.4-canvas",
+  "permalink": "/docs/JavaScript & TypeScript/3.4-canvas",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/3.4-canvas.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 54,
+  "frontMatter": {
+    "sidebar_position": 54
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.3-WebComponent",
+    "permalink": "/docs/JavaScript & TypeScript/3.3-WebComponent"
+  },
+  "next": {
+    "title": "3.5-浏览器对象",
+    "permalink": "/docs/JavaScript & TypeScript/3.5-浏览器对象"
+  }
+}

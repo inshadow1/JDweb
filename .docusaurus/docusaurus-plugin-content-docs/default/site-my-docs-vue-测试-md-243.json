@@ -1,0 +1,24 @@
+{
+  "id": "Vue/-- 测试",
+  "title": "-- 测试",
+  "description": "Create by fall on 2022-09-26",
+  "source": "@site/my-docs/Vue/-- 测试.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/-- 测试",
+  "permalink": "/docs/Vue/-- 测试",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/-- 测试.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- vue-cil（旧）",
+    "permalink": "/docs/Vue/-- vue-cil（旧）"
+  },
+  "next": {
+    "title": "-- 组合式 API",
+    "permalink": "/docs/Vue/-- 组合式 API"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "后端/1.2-事件循环",
+  "title": "1.2-事件循环",
+  "description": "Create by fall on 30 Aug 2021",
+  "source": "@site/my-docs/后端/1.2-事件循环.md",
+  "sourceDirName": "后端",
+  "slug": "/后端/1.2-事件循环",
+  "permalink": "/docs/后端/1.2-事件循环",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/后端/1.2-事件循环.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.1-node基础",
+    "permalink": "/docs/后端/1.1-node基础"
+  },
+  "next": {
+    "title": "1.3-命令行",
+    "permalink": "/docs/后端/1.3-命令行"
+  }
+}

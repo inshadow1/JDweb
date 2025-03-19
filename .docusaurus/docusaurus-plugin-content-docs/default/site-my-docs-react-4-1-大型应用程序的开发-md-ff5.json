@@ -1,0 +1,24 @@
+{
+  "id": "React/4.1-大型应用程序的开发",
+  "title": "4.1-大型应用程序的开发",
+  "description": "Create by fall on 2021-11-16",
+  "source": "@site/my-docs/React/4.1-大型应用程序的开发.md",
+  "sourceDirName": "React",
+  "slug": "/React/4.1-大型应用程序的开发",
+  "permalink": "/docs/React/4.1-大型应用程序的开发",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/4.1-大型应用程序的开发.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.3-组件数据请求",
+    "permalink": "/docs/React/2.3-组件数据请求"
+  },
+  "next": {
+    "title": "4.2-React+CSS",
+    "permalink": "/docs/React/4.2-React+CSS"
+  }
+}

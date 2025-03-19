@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/2.1-react-native",
+  "title": "2.1-react-native",
+  "description": "Create by fall on 17 Dec 2022",
+  "source": "@site/my-docs/多平台开发/2.1-react-native.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/2.1-react-native",
+  "permalink": "/docs/多平台开发/2.1-react-native",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/2.1-react-native.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.2-桌面端开发",
+    "permalink": "/docs/多平台开发/1.2-桌面端开发"
+  },
+  "next": {
+    "title": "2.2-RN 基本元素",
+    "permalink": "/docs/多平台开发/2.2-RN 基本元素"
+  }
+}

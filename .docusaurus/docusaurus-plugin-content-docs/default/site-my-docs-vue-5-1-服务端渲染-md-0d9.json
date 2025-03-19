@@ -1,0 +1,24 @@
+{
+  "id": "Vue/5.1-服务端渲染",
+  "title": "5.1-服务端渲染",
+  "description": "Create by fall on: 2022-09-28",
+  "source": "@site/my-docs/Vue/5.1-服务端渲染.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/5.1-服务端渲染",
+  "permalink": "/docs/Vue/5.1-服务端渲染",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/5.1-服务端渲染.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.3-实用特性",
+    "permalink": "/docs/Vue/4.3-实用特性"
+  },
+  "next": {
+    "title": "1.1-Vue的依赖",
+    "permalink": "/docs/Vue/Vue2/1.1-Vue的依赖"
+  }
+}

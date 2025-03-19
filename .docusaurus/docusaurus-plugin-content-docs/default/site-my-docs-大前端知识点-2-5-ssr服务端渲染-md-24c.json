@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/2.5-SSR服务端渲染",
+  "title": "2.5-SSR服务端渲染",
+  "description": "Create by fall on 2022-09-28",
+  "source": "@site/my-docs/大前端知识点/2.5-SSR服务端渲染.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/2.5-SSR服务端渲染",
+  "permalink": "/docs/大前端知识点/2.5-SSR服务端渲染",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/2.5-SSR服务端渲染.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.4-PWA介绍",
+    "permalink": "/docs/大前端知识点/2.4-PWA介绍"
+  },
+  "next": {
+    "title": "2.6-Jamstack（SSG）",
+    "permalink": "/docs/大前端知识点/2.6-Jamstack（SSG）"
+  }
+}

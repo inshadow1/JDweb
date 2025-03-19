@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/组件开发",
+  "title": "组件开发",
+  "description": "Create by fall on 26 Apr 2023",
+  "source": "@site/my-docs/软件工程知识/组件开发.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/组件开发",
+  "permalink": "/docs/软件工程知识/组件开发",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/组件开发.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "系统重构",
+    "permalink": "/docs/软件工程知识/系统重构"
+  },
+  "next": {
+    "title": "编译",
+    "permalink": "/docs/软件工程知识/编译"
+  }
+}

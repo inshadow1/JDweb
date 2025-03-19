@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/TypeScript/3.3-ThisType",
+  "title": "3.3-ThisType",
+  "description": "Create by fall on 2022-02-25",
+  "source": "@site/my-docs/JavaScript & TypeScript/TypeScript/3.3-ThisType.md",
+  "sourceDirName": "JavaScript & TypeScript/TypeScript",
+  "slug": "/JavaScript & TypeScript/TypeScript/3.3-ThisType",
+  "permalink": "/docs/JavaScript & TypeScript/TypeScript/3.3-ThisType",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/TypeScript/3.3-ThisType.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- tsc 命令",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/-- tsc 命令"
+  },
+  "next": {
+    "title": "4-最佳实践",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/4-最佳实践"
+  }
+}

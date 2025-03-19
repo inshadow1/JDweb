@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/TypeScript/2.2-函数类型",
+  "title": "2.2-函数类型",
+  "description": "Create by fall on 2021-11-14",
+  "source": "@site/my-docs/JavaScript & TypeScript/TypeScript/2.2-函数类型.md",
+  "sourceDirName": "JavaScript & TypeScript/TypeScript",
+  "slug": "/JavaScript & TypeScript/TypeScript/2.2-函数类型",
+  "permalink": "/docs/JavaScript & TypeScript/TypeScript/2.2-函数类型",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/TypeScript/2.2-函数类型.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.1-TS的数据类型",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/2.1-TS的数据类型"
+  },
+  "next": {
+    "title": "2.3-interface 和 type",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/2.3-interface 和 type"
+  }
+}

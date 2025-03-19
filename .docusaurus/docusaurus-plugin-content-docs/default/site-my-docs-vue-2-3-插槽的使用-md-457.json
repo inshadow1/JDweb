@@ -1,0 +1,24 @@
+{
+  "id": "Vue/2.3-插槽的使用",
+  "title": "2.3-插槽的使用",
+  "description": "Create by fall on:2022-08-31",
+  "source": "@site/my-docs/Vue/2.3-插槽的使用.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/2.3-插槽的使用",
+  "permalink": "/docs/Vue/2.3-插槽的使用",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/2.3-插槽的使用.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2-修饰符",
+    "permalink": "/docs/Vue/2.2-修饰符"
+  },
+  "next": {
+    "title": "3.1-vue-router",
+    "permalink": "/docs/Vue/3.1-vue-router"
+  }
+}

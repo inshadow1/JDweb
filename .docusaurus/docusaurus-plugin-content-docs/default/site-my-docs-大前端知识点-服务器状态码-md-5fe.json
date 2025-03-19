@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/-- 服务器状态码",
+  "title": "-- 服务器状态码",
+  "description": "Create by fall on 25 Oct 2021",
+  "source": "@site/my-docs/大前端知识点/-- 服务器状态码.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/-- 服务器状态码",
+  "permalink": "/docs/大前端知识点/-- 服务器状态码",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/-- 服务器状态码.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 前端的方向",
+    "permalink": "/docs/大前端知识点/-- 前端的方向"
+  },
+  "next": {
+    "title": "1.1-浏览器工作原理",
+    "permalink": "/docs/大前端知识点/1.1-浏览器工作原理"
+  }
+}

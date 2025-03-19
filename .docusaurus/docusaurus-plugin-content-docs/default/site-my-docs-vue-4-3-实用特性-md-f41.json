@@ -1,0 +1,24 @@
+{
+  "id": "Vue/4.3-实用特性",
+  "title": "4.3-实用特性",
+  "description": "",
+  "source": "@site/my-docs/Vue/4.3-实用特性.md",
+  "sourceDirName": "Vue",
+  "slug": "/Vue/4.3-实用特性",
+  "permalink": "/docs/Vue/4.3-实用特性",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Vue/4.3-实用特性.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2-响应性",
+    "permalink": "/docs/Vue/4.2-响应性"
+  },
+  "next": {
+    "title": "5.1-服务端渲染",
+    "permalink": "/docs/Vue/5.1-服务端渲染"
+  }
+}

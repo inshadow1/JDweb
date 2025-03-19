@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/TypeScript/3.1-语言特性",
+  "title": "3.1-语言特性",
+  "description": "Create by fall on 17 Nov 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/TypeScript/3.1-语言特性.md",
+  "sourceDirName": "JavaScript & TypeScript/TypeScript",
+  "slug": "/JavaScript & TypeScript/TypeScript/3.1-语言特性",
+  "permalink": "/docs/JavaScript & TypeScript/TypeScript/3.1-语言特性",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/TypeScript/3.1-语言特性.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.4-类类型",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/2.4-类类型"
+  },
+  "next": {
+    "title": "3.2-泛型",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/3.2-泛型"
+  }
+}

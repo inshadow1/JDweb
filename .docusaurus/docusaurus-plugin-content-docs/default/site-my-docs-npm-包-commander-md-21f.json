@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/commander",
+  "title": "commander",
+  "description": "Create by fall on 12 Jul 2022",
+  "source": "@site/my-docs/npm 包/commander.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/commander",
+  "permalink": "/docs/npm 包/commander",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/commander.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "codemirror",
+    "permalink": "/docs/npm 包/codemirror"
+  },
+  "next": {
+    "title": "cross-spawn",
+    "permalink": "/docs/npm 包/cross-spawn"
+  }
+}

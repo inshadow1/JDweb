@@ -1,0 +1,24 @@
+{
+  "id": "面试-自检/4.3-算法题",
+  "title": "4.3-算法题",
+  "description": "第一题",
+  "source": "@site/my-docs/面试-自检/4.3-算法题.md",
+  "sourceDirName": "面试-自检",
+  "slug": "/面试-自检/4.3-算法题",
+  "permalink": "/docs/面试-自检/4.3-算法题",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/面试-自检/4.3-算法题.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2-读代码",
+    "permalink": "/docs/面试-自检/4.2-读代码"
+  },
+  "next": {
+    "title": "Vue2",
+    "permalink": "/docs/面试-自检/legacy/Vue2"
+  }
+}

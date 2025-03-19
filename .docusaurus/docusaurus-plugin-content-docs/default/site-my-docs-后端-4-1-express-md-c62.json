@@ -1,0 +1,27 @@
+{
+  "id": "后端/4.1-express",
+  "title": "4.1-express",
+  "description": "Create by fall on 29 Dec 2022",
+  "source": "@site/my-docs/后端/4.1-express.md",
+  "sourceDirName": "后端",
+  "slug": "/后端/4.1-express",
+  "permalink": "/docs/后端/4.1-express",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/后端/4.1-express.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 40,
+  "frontMatter": {
+    "sidebar_position": 40
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.3-os和event模块",
+    "permalink": "/docs/后端/3.3-os和event模块"
+  },
+  "next": {
+    "title": "5.1-nestjs",
+    "permalink": "/docs/后端/5.1-nestjs"
+  }
+}

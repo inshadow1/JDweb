@@ -1,0 +1,24 @@
+{
+  "id": "JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案",
+  "title": "-- 兼容性解决方案",
+  "description": "Create by fall on ----",
+  "source": "@site/my-docs/JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案.md",
+  "sourceDirName": "JavaScript & TypeScript/JS 常用方法",
+  "slug": "/JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案",
+  "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- JS颜色处理",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS颜色处理"
+  },
+  "next": {
+    "title": "-- 实现深克隆",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- 实现深克隆"
+  }
+}

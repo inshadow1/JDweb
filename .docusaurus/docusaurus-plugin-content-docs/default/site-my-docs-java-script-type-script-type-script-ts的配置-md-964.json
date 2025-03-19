@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/TypeScript/-- TS的配置",
+  "title": "-- TS的配置",
+  "description": "Create by fall on 06 Feb 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/TypeScript/-- TS的配置.md",
+  "sourceDirName": "JavaScript & TypeScript/TypeScript",
+  "slug": "/JavaScript & TypeScript/TypeScript/-- TS的配置",
+  "permalink": "/docs/JavaScript & TypeScript/TypeScript/-- TS的配置",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/TypeScript/-- TS的配置.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.1-认识TS",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/1.1-认识TS"
+  },
+  "next": {
+    "title": "1.3-声明文件",
+    "permalink": "/docs/JavaScript & TypeScript/TypeScript/1.3-声明文件"
+  }
+}

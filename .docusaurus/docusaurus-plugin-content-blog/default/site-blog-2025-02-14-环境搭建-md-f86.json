@@ -1,0 +1,35 @@
+{
+  "permalink": "/blog/2分钟环境搭建",
+  "editUrl": "https://github.com/blog/2025-02-14-环境搭建.md",
+  "source": "@site/blog/2025-02-14-环境搭建.md",
+  "title": "2分钟环境搭建",
+  "description": "环境配置",
+  "date": "2025-02-14T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 6.26,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "yelv",
+      "title": "Coding For fun",
+      "url": "https://github.com/inshadow1",
+      "imageURL": "/img/128100849_4.png",
+      "key": "fall",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "2分钟环境搭建",
+    "title": "2分钟环境搭建",
+    "authors": "fall"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "npm前端包",
+    "permalink": "/blog/npm前端包"
+  },
+  "nextItem": {
+    "title": "TypeScript声明",
+    "permalink": "/blog/TypeScript声明"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/3.5-浏览器对象",
+  "title": "3.5-浏览器对象",
+  "description": "Create by fall on 13 Dec 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/3.5-浏览器对象.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/3.5-浏览器对象",
+  "permalink": "/docs/JavaScript & TypeScript/3.5-浏览器对象",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/3.5-浏览器对象.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 57,
+  "frontMatter": {
+    "sidebar_position": 57
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.4-canvas",
+    "permalink": "/docs/JavaScript & TypeScript/3.4-canvas"
+  },
+  "next": {
+    "title": "3.6-浏览器的存储",
+    "permalink": "/docs/JavaScript & TypeScript/3.6-浏览器的存储"
+  }
+}

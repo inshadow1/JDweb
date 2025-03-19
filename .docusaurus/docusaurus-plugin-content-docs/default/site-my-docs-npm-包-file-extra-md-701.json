@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/file-extra",
+  "title": "file-extra",
+  "description": "Create by fall on: 2022-07-12",
+  "source": "@site/my-docs/npm 包/file-extra.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/file-extra",
+  "permalink": "/docs/npm 包/file-extra",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/file-extra.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "eslint",
+    "permalink": "/docs/npm 包/eslint"
+  },
+  "next": {
+    "title": "gulp",
+    "permalink": "/docs/npm 包/gulp"
+  }
+}

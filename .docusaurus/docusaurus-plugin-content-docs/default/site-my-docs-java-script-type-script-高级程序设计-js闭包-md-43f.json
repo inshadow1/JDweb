@@ -1,0 +1,24 @@
+{
+  "id": "JavaScript & TypeScript/高级程序设计/JS闭包",
+  "title": "JS闭包",
+  "description": "执行上下文",
+  "source": "@site/my-docs/JavaScript & TypeScript/高级程序设计/JS闭包.md",
+  "sourceDirName": "JavaScript & TypeScript/高级程序设计",
+  "slug": "/JavaScript & TypeScript/高级程序设计/JS闭包",
+  "permalink": "/docs/JavaScript & TypeScript/高级程序设计/JS闭包",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/高级程序设计/JS闭包.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 函数式编程",
+    "permalink": "/docs/JavaScript & TypeScript/高级程序设计/-- 函数式编程"
+  },
+  "next": {
+    "title": "函数写法的进化",
+    "permalink": "/docs/JavaScript & TypeScript/高级程序设计/函数写法的进化"
+  }
+}

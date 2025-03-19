@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/1.5-SVG 标签",
+  "title": "1.5-SVG 标签",
+  "description": "Create by fall on 30 Mar 2023",
+  "source": "@site/my-docs/HTML和CSS/1.5-SVG 标签.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/1.5-SVG 标签",
+  "permalink": "/docs/HTML和CSS/1.5-SVG 标签",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/1.5-SVG 标签.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.4-表单和表格标签",
+    "permalink": "/docs/HTML和CSS/1.4-表单和表格标签"
+  },
+  "next": {
+    "title": "2.1-CSS选择器",
+    "permalink": "/docs/HTML和CSS/2.1-CSS选择器"
+  }
+}

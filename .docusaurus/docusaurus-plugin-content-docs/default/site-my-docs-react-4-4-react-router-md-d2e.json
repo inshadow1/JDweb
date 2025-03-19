@@ -1,0 +1,24 @@
+{
+  "id": "React/4.4-React-Router",
+  "title": "4.4-React-Router",
+  "description": "Create by fall on 16 Nov 2021",
+  "source": "@site/my-docs/React/4.4-React-Router.md",
+  "sourceDirName": "React",
+  "slug": "/React/4.4-React-Router",
+  "permalink": "/docs/React/4.4-React-Router",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/4.4-React-Router.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.3-React+TypeScript",
+    "permalink": "/docs/React/4.3-React+TypeScript"
+  },
+  "next": {
+    "title": "1-Class组件",
+    "permalink": "/docs/React/class 组件/1-Class组件"
+  }
+}

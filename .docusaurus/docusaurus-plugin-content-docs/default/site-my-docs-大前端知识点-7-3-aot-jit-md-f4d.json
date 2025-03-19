@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/7.3-AOT & JIT",
+  "title": "7.3-AOT & JIT",
+  "description": "Create by fall on 12 Jan 2023",
+  "source": "@site/my-docs/大前端知识点/7.3-AOT & JIT.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/7.3-AOT & JIT",
+  "permalink": "/docs/大前端知识点/7.3-AOT & JIT",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/7.3-AOT & JIT.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 128,
+  "frontMatter": {
+    "sidebar_position": 128
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "7.2-前端架构",
+    "permalink": "/docs/大前端知识点/7.2-前端架构"
+  },
+  "next": {
+    "title": "npm 包",
+    "permalink": "/docs/category/npm-包"
+  }
+}

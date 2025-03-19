@@ -1,0 +1,20 @@
+{
+  "id": "学习资料",
+  "title": "学习资料",
+  "description": "Create by fall on 08 Dec 2021",
+  "source": "@site/my-docs/学习资料.md",
+  "sourceDirName": ".",
+  "slug": "/学习资料",
+  "permalink": "/docs/学习资料",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/学习资料.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "前端环境搭建",
+    "permalink": "/docs/前端环境搭建"
+  }
+}

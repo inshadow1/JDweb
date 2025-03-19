@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/4.5-二进制对象",
+  "title": "4.5-二进制对象",
+  "description": "Create by fall on 12 Jun 2022",
+  "source": "@site/my-docs/JavaScript & TypeScript/4.5-二进制对象.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/4.5-二进制对象",
+  "permalink": "/docs/JavaScript & TypeScript/4.5-二进制对象",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/4.5-二进制对象.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 79,
+  "frontMatter": {
+    "sidebar_position": 79
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.4-数据通信",
+    "permalink": "/docs/JavaScript & TypeScript/4.4-数据通信"
+  },
+  "next": {
+    "title": "5.1-多线程",
+    "permalink": "/docs/JavaScript & TypeScript/5.1-多线程"
+  }
+}

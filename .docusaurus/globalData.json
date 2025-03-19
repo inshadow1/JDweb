@@ -1,0 +1,1618 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "HTML和CSS/CSS 代码片段/CSS-动画",
+          "docs": [
+            {
+              "id": "大前端知识点/-- 服务器状态码",
+              "path": "/docs/大前端知识点/-- 服务器状态码",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/-- 前端的方向",
+              "path": "/docs/大前端知识点/-- 前端的方向",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/1.1-浏览器工作原理",
+              "path": "/docs/大前端知识点/1.1-浏览器工作原理",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/1.2-网页的网络交互",
+              "path": "/docs/大前端知识点/1.2-网页的网络交互",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/1.3-SEO搜索引擎优化",
+              "path": "/docs/大前端知识点/1.3-SEO搜索引擎优化",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/2.1-前端的发展",
+              "path": "/docs/大前端知识点/2.1-前端的发展",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/2.2-Serverless",
+              "path": "/docs/大前端知识点/2.2-Serverless",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/2.3-SPA介绍",
+              "path": "/docs/大前端知识点/2.3-SPA介绍",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/2.4-PWA介绍",
+              "path": "/docs/大前端知识点/2.4-PWA介绍",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/2.5-SSR服务端渲染",
+              "path": "/docs/大前端知识点/2.5-SSR服务端渲染",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/2.6-Jamstack（SSG）",
+              "path": "/docs/大前端知识点/2.6-Jamstack（SSG）",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/3.1-同源策略",
+              "path": "/docs/大前端知识点/3.1-同源策略",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/3.2-HTTP协议",
+              "path": "/docs/大前端知识点/3.2-HTTP协议",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/3.3-HTTP协议发展",
+              "path": "/docs/大前端知识点/3.3-HTTP协议发展",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/3.4-HTTPS",
+              "path": "/docs/大前端知识点/3.4-HTTPS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/3.5-网络分层和基础",
+              "path": "/docs/大前端知识点/3.5-网络分层和基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/3.6-TCP、IP协议",
+              "path": "/docs/大前端知识点/3.6-TCP、IP协议",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/3.7-双向通信",
+              "path": "/docs/大前端知识点/3.7-双向通信",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/4.1-浏览器缓存机制",
+              "path": "/docs/大前端知识点/4.1-浏览器缓存机制",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/4.2-Session、Cookie、Token",
+              "path": "/docs/大前端知识点/4.2-Session、Cookie、Token",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/4.3-CDN",
+              "path": "/docs/大前端知识点/4.3-CDN",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/5.1-浏览器垃圾回收",
+              "path": "/docs/大前端知识点/5.1-浏览器垃圾回收",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/5.2-内存泄漏",
+              "path": "/docs/大前端知识点/5.2-内存泄漏",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/5.3-性能指标、优化",
+              "path": "/docs/大前端知识点/5.3-性能指标、优化",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/5.4-网站监控",
+              "path": "/docs/大前端知识点/5.4-网站监控",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/6.1-网站安全",
+              "path": "/docs/大前端知识点/6.1-网站安全",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/6.2-沙盒模式",
+              "path": "/docs/大前端知识点/6.2-沙盒模式",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/6.3-用户追踪",
+              "path": "/docs/大前端知识点/6.3-用户追踪",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/6.4-爬虫",
+              "path": "/docs/大前端知识点/6.4-爬虫",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/7.1-Web3.0",
+              "path": "/docs/大前端知识点/7.1-Web3.0",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/7.2-前端架构",
+              "path": "/docs/大前端知识点/7.2-前端架构",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "大前端知识点/7.3-AOT & JIT",
+              "path": "/docs/大前端知识点/7.3-AOT & JIT",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/-- uniapp 测评",
+              "path": "/docs/多平台开发/-- uniapp 测评",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/1.1-移动端适配",
+              "path": "/docs/多平台开发/1.1-移动端适配",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/1.2-桌面端开发",
+              "path": "/docs/多平台开发/1.2-桌面端开发",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/2.1-react-native",
+              "path": "/docs/多平台开发/2.1-react-native",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/2.2-RN 基本元素",
+              "path": "/docs/多平台开发/2.2-RN 基本元素",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/2.3-RN 样式",
+              "path": "/docs/多平台开发/2.3-RN 样式",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/2.4-RN 基本事件",
+              "path": "/docs/多平台开发/2.4-RN 基本事件",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/浏览器插件开发",
+              "path": "/docs/多平台开发/浏览器插件开发",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/小程序架构",
+              "path": "/docs/多平台开发/小程序架构",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/做一个游戏",
+              "path": "/docs/多平台开发/做一个游戏",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/Flutter/-- flutter命令行工具",
+              "path": "/docs/多平台开发/Flutter/-- flutter命令行工具",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/Flutter/1.Dart语言的基础",
+              "path": "/docs/多平台开发/Flutter/1.Dart语言的基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/Flutter/2.Dart 语言的进阶",
+              "path": "/docs/多平台开发/Flutter/2.Dart 语言的进阶",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "多平台开发/VS Code插件开发",
+              "path": "/docs/多平台开发/VS Code插件开发",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/-- 最佳实践",
+              "path": "/docs/后端/-- 最佳实践",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/-- env 文件的使用",
+              "path": "/docs/后端/-- env 文件的使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/-- nginx",
+              "path": "/docs/后端/-- nginx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/-- package.json",
+              "path": "/docs/后端/-- package.json",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/1.1-node基础",
+              "path": "/docs/后端/1.1-node基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/1.2-事件循环",
+              "path": "/docs/后端/1.2-事件循环",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/1.3-命令行",
+              "path": "/docs/后端/1.3-命令行",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/1.4-应用场景",
+              "path": "/docs/后端/1.4-应用场景",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/2.1-全局模块",
+              "path": "/docs/后端/2.1-全局模块",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/2.2-http和url模块",
+              "path": "/docs/后端/2.2-http和url模块",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/3.2-fs和path模块",
+              "path": "/docs/后端/3.2-fs和path模块",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/3.3-os和event模块",
+              "path": "/docs/后端/3.3-os和event模块",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/4.1-express",
+              "path": "/docs/后端/4.1-express",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/4.2-双向通信",
+              "path": "/docs/后端/4.2-双向通信",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/5.1-nestjs",
+              "path": "/docs/后端/5.1-nestjs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/5.2-主要概念",
+              "path": "/docs/后端/5.2-主要概念",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/5.3-数据库操作",
+              "path": "/docs/后端/5.3-数据库操作",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/5.4-全局控制",
+              "path": "/docs/后端/5.4-全局控制",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/6.1-ORM",
+              "path": "/docs/后端/6.1-ORM",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/6.1-tRPC",
+              "path": "/docs/后端/6.1-tRPC",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/6.2-mongoose",
+              "path": "/docs/后端/6.2-mongoose",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/6.3-prisma",
+              "path": "/docs/后端/6.3-prisma",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/-- 容器的使用",
+              "path": "/docs/后端/docker/-- 容器的使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/1.1-docker",
+              "path": "/docs/后端/docker/1.1-docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/1.2-docker 安装",
+              "path": "/docs/后端/docker/1.2-docker 安装",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/2.1-docker compose",
+              "path": "/docs/后端/docker/2.1-docker compose",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/2.2-docker build",
+              "path": "/docs/后端/docker/2.2-docker build",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/2.3-Dockerfile",
+              "path": "/docs/后端/docker/2.3-Dockerfile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/3.1-gitlab",
+              "path": "/docs/后端/docker/3.1-gitlab",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/docker/4.1-kubernetes",
+              "path": "/docs/后端/docker/4.1-kubernetes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "后端/nuxt/1.nuxt概述",
+              "path": "/docs/后端/nuxt/1.nuxt概述",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/-- 自检清单",
+              "path": "/docs/面试-自检/-- 自检清单",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/1.1-HTML、CSS知识点",
+              "path": "/docs/面试-自检/1.1-HTML、CSS知识点",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/1.2-JS知识点",
+              "path": "/docs/面试-自检/1.2-JS知识点",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/1.3-网络知识点",
+              "path": "/docs/面试-自检/1.3-网络知识点",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/1.4-前端知识点",
+              "path": "/docs/面试-自检/1.4-前端知识点",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/2.1-Vue面试题",
+              "path": "/docs/面试-自检/2.1-Vue面试题",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/2.2-React 面试题",
+              "path": "/docs/面试-自检/2.2-React 面试题",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/3.1-node 知识点",
+              "path": "/docs/面试-自检/3.1-node 知识点",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/3.2-npm 包相关知识",
+              "path": "/docs/面试-自检/3.2-npm 包相关知识",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/4.1-选择面试题",
+              "path": "/docs/面试-自检/4.1-选择面试题",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/4.2-读代码",
+              "path": "/docs/面试-自检/4.2-读代码",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/4.3-算法题",
+              "path": "/docs/面试-自检/4.3-算法题",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "面试-自检/legacy/Vue2",
+              "path": "/docs/面试-自检/legacy/Vue2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/-- 后端插件介绍",
+              "path": "/docs/其它语言/java/-- 后端插件介绍",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/-- 项目文件介绍",
+              "path": "/docs/其它语言/java/-- 项目文件介绍",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/-- IDEA 的使用",
+              "path": "/docs/其它语言/java/-- IDEA 的使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/1.1-数据类型",
+              "path": "/docs/其它语言/java/1.1-数据类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/1.2-运算符",
+              "path": "/docs/其它语言/java/1.2-运算符",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/1.3-逻辑控制",
+              "path": "/docs/其它语言/java/1.3-逻辑控制",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/1.4-复杂数据类型",
+              "path": "/docs/其它语言/java/1.4-复杂数据类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/java/1.5-面向对象编程",
+              "path": "/docs/其它语言/java/1.5-面向对象编程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/php/1.1-基础",
+              "path": "/docs/其它语言/php/1.1-基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/php/1.2-开发环境搭建",
+              "path": "/docs/其它语言/php/1.2-开发环境搭建",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/php/1.3-交互",
+              "path": "/docs/其它语言/php/1.3-交互",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.1-语言的发展",
+              "path": "/docs/其它语言/python/1.1-语言的发展",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.1-语言基础",
+              "path": "/docs/其它语言/python/1.1-语言基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.2-语法使用",
+              "path": "/docs/其它语言/python/1.2-语法使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.3-其他注意事项",
+              "path": "/docs/其它语言/python/1.3-其他注意事项",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.4-爬虫和Web框架",
+              "path": "/docs/其它语言/python/1.4-爬虫和Web框架",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.4-字符串操作",
+              "path": "/docs/其它语言/python/1.4-字符串操作",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "前端环境搭建",
+              "path": "/docs/前端环境搭建",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "人工智能/人工智能 AI",
+              "path": "/docs/人工智能/人工智能 AI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/版本控制",
+              "path": "/docs/软件工程知识/版本控制",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/编译",
+              "path": "/docs/软件工程知识/编译",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/产品设计",
+              "path": "/docs/软件工程知识/产品设计",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/堆是什么？",
+              "path": "/docs/软件工程知识/堆是什么？",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/复杂度分析",
+              "path": "/docs/软件工程知识/复杂度分析",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/计算机网络知识导图",
+              "path": "/docs/软件工程知识/计算机网络知识导图",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/架构设计",
+              "path": "/docs/软件工程知识/架构设计",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/架构升级（重构）",
+              "path": "/docs/软件工程知识/架构升级（重构）",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/进程模型",
+              "path": "/docs/软件工程知识/进程模型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/开源许可证是什么",
+              "path": "/docs/软件工程知识/开源许可证是什么",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/面向切面编程",
+              "path": "/docs/软件工程知识/面向切面编程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/软件测试",
+              "path": "/docs/软件工程知识/软件测试",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/软件设计",
+              "path": "/docs/软件工程知识/软件设计",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/设计模式",
+              "path": "/docs/软件工程知识/设计模式",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/设计术语",
+              "path": "/docs/软件工程知识/设计术语",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/数据结构",
+              "path": "/docs/软件工程知识/数据结构",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/拓扑排序",
+              "path": "/docs/软件工程知识/拓扑排序",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/物联网技术的新可能",
+              "path": "/docs/软件工程知识/物联网技术的新可能",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/系统重构",
+              "path": "/docs/软件工程知识/系统重构",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/有向无环图",
+              "path": "/docs/软件工程知识/有向无环图",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/组件开发",
+              "path": "/docs/软件工程知识/组件开发",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/DevOps",
+              "path": "/docs/软件工程知识/DevOps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/github指南",
+              "path": "/docs/软件工程知识/github指南",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/Monorepo",
+              "path": "/docs/软件工程知识/Monorepo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/Unicode",
+              "path": "/docs/软件工程知识/Unicode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "软件工程知识/X-Y Problem",
+              "path": "/docs/软件工程知识/X-Y Problem",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/-- linux环境下的使用",
+              "path": "/docs/数据库/-- linux环境下的使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/1.1数据库对比",
+              "path": "/docs/数据库/1.1数据库对比",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/1.2-认识数据库",
+              "path": "/docs/数据库/1.2-认识数据库",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/2.1-postgresql",
+              "path": "/docs/数据库/2.1-postgresql",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/3.1-MongoDB数据库",
+              "path": "/docs/数据库/3.1-MongoDB数据库",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/3.2-mongo 命令",
+              "path": "/docs/数据库/3.2-mongo 命令",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/3.3-node 操作 mongo",
+              "path": "/docs/数据库/3.3-node 操作 mongo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/3.4-mongo查询",
+              "path": "/docs/数据库/3.4-mongo查询",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/4.1mysql数据库",
+              "path": "/docs/数据库/4.1mysql数据库",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "数据库/5.1-达梦数据库",
+              "path": "/docs/数据库/5.1-达梦数据库",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "学习资料",
+              "path": "/docs/学习资料",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "git工具",
+              "path": "/docs/git工具",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/-- BFC规范",
+              "path": "/docs/HTML和CSS/-- BFC规范",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/1.1-HTML基础",
+              "path": "/docs/HTML和CSS/1.1-HTML基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/1.2-标签及语义化",
+              "path": "/docs/HTML和CSS/1.2-标签及语义化",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/1.3-标签的属性",
+              "path": "/docs/HTML和CSS/1.3-标签的属性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/1.4-表单和表格标签",
+              "path": "/docs/HTML和CSS/1.4-表单和表格标签",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/1.5-SVG 标签",
+              "path": "/docs/HTML和CSS/1.5-SVG 标签",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/2.1-CSS选择器",
+              "path": "/docs/HTML和CSS/2.1-CSS选择器",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/2.2-盒子基础属性",
+              "path": "/docs/HTML和CSS/2.2-盒子基础属性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/2.3-盒子进阶属性",
+              "path": "/docs/HTML和CSS/2.3-盒子进阶属性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/2.4-文本和段落样式",
+              "path": "/docs/HTML和CSS/2.4-文本和段落样式",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/2.5-伪类和伪元素",
+              "path": "/docs/HTML和CSS/2.5-伪类和伪元素",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/2.6-@ 规则",
+              "path": "/docs/HTML和CSS/2.6-@ 规则",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/3.1-flex和grid布局",
+              "path": "/docs/HTML和CSS/3.1-flex和grid布局",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/3.2-浏览器动画",
+              "path": "/docs/HTML和CSS/3.2-浏览器动画",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/4.1-CSS变量和运算",
+              "path": "/docs/HTML和CSS/4.1-CSS变量和运算",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/4.2-CSS预处理器",
+              "path": "/docs/HTML和CSS/4.2-CSS预处理器",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/4.3-其他格式书写CSS",
+              "path": "/docs/HTML和CSS/4.3-其他格式书写CSS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/5.1-浏览器的兼容",
+              "path": "/docs/HTML和CSS/5.1-浏览器的兼容",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/5.2-性能影响因素",
+              "path": "/docs/HTML和CSS/5.2-性能影响因素",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/CSS 代码片段/CSS-表格",
+              "path": "/docs/HTML和CSS/CSS 代码片段/CSS-表格",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/CSS 代码片段/CSS-动画",
+              "path": "/docs/HTML和CSS/CSS 代码片段/CSS-动画",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/CSS 代码片段/CSS-图形",
+              "path": "/docs/HTML和CSS/CSS 代码片段/CSS-图形",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/CSS 代码片段/CSS-样式初始化",
+              "path": "/docs/HTML和CSS/CSS 代码片段/CSS-样式初始化",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HTML和CSS/CSS 代码片段/CSS-字体",
+              "path": "/docs/HTML和CSS/CSS 代码片段/CSS-字体",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/1.1-JS基础知识",
+              "path": "/docs/JavaScript & TypeScript/1.1-JS基础知识",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/1.2-变量与类型",
+              "path": "/docs/JavaScript & TypeScript/1.2-变量与类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/1.3-运算符",
+              "path": "/docs/JavaScript & TypeScript/1.3-运算符",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/1.4-构造类型",
+              "path": "/docs/JavaScript & TypeScript/1.4-构造类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/1.5-扩展数据类型",
+              "path": "/docs/JavaScript & TypeScript/1.5-扩展数据类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/1.6-正则",
+              "path": "/docs/JavaScript & TypeScript/1.6-正则",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/1.7-工具对象",
+              "path": "/docs/JavaScript & TypeScript/1.7-工具对象",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/2.1-this 和函数",
+              "path": "/docs/JavaScript & TypeScript/2.1-this 和函数",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/2.2-面向对象编程",
+              "path": "/docs/JavaScript & TypeScript/2.2-面向对象编程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/2.3-模块化开发",
+              "path": "/docs/JavaScript & TypeScript/2.3-模块化开发",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/2.4-错误捕获及兼容",
+              "path": "/docs/JavaScript & TypeScript/2.4-错误捕获及兼容",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/3.1-DOM和事件",
+              "path": "/docs/JavaScript & TypeScript/3.1-DOM和事件",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/3.2-DOM 相关 API",
+              "path": "/docs/JavaScript & TypeScript/3.2-DOM 相关 API",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/3.3-WebComponent",
+              "path": "/docs/JavaScript & TypeScript/3.3-WebComponent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/3.4-canvas",
+              "path": "/docs/JavaScript & TypeScript/3.4-canvas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/3.5-浏览器对象",
+              "path": "/docs/JavaScript & TypeScript/3.5-浏览器对象",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/3.6-浏览器的存储",
+              "path": "/docs/JavaScript & TypeScript/3.6-浏览器的存储",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/3.7-跨窗口交互",
+              "path": "/docs/JavaScript & TypeScript/3.7-跨窗口交互",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/4.1-前后端交互",
+              "path": "/docs/JavaScript & TypeScript/4.1-前后端交互",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/4.2-Promise 和 async",
+              "path": "/docs/JavaScript & TypeScript/4.2-Promise 和 async",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/4.3-迭代器",
+              "path": "/docs/JavaScript & TypeScript/4.3-迭代器",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/4.4-数据通信",
+              "path": "/docs/JavaScript & TypeScript/4.4-数据通信",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/4.5-二进制对象",
+              "path": "/docs/JavaScript & TypeScript/4.5-二进制对象",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/5.1-多线程",
+              "path": "/docs/JavaScript & TypeScript/5.1-多线程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/6-WebAssembly",
+              "path": "/docs/JavaScript & TypeScript/6-WebAssembly",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/高级程序设计/-- 函数式编程",
+              "path": "/docs/JavaScript & TypeScript/高级程序设计/-- 函数式编程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/高级程序设计/-- JS设计模式",
+              "path": "/docs/JavaScript & TypeScript/高级程序设计/-- JS设计模式",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/高级程序设计/函数写法的进化",
+              "path": "/docs/JavaScript & TypeScript/高级程序设计/函数写法的进化",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/高级程序设计/JS闭包",
+              "path": "/docs/JavaScript & TypeScript/高级程序设计/JS闭包",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- 兼容性解决方案",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- 节流和防抖",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- 节流和防抖",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- 实现深克隆",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- 实现深克隆",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- JS的数组处理方法",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS的数组处理方法",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- JS日期处理",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS日期处理",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- JS宿主对象操作",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS宿主对象操作",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- JS颜色处理",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS颜色处理",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/JS 常用方法/-- JS字符串处理",
+              "path": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS字符串处理",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/-- TS的配置",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/-- TS的配置",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/-- tsc 命令",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/-- tsc 命令",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/1.1-认识TS",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/1.1-认识TS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/1.3-声明文件",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/1.3-声明文件",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/2.1-TS的数据类型",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/2.1-TS的数据类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/2.2-函数类型",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/2.2-函数类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/2.3-interface 和 type",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/2.3-interface 和 type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/2.4-类类型",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/2.4-类类型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/3.1-语言特性",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/3.1-语言特性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/3.2-泛型",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/3.2-泛型",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/3.3-ThisType",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/3.3-ThisType",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "JavaScript & TypeScript/TypeScript/4-最佳实践",
+              "path": "/docs/JavaScript & TypeScript/TypeScript/4-最佳实践",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux & 命令行/1.1-linux",
+              "path": "/docs/Linux & 命令行/1.1-linux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux & 命令行/1.2-文件系统",
+              "path": "/docs/Linux & 命令行/1.2-文件系统",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux & 命令行/2.1-Shell命令基础",
+              "path": "/docs/Linux & 命令行/2.1-Shell命令基础",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux & 命令行/2.2-Shell编写脚本",
+              "path": "/docs/Linux & 命令行/2.2-Shell编写脚本",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux & 命令行/3.1-PowerShell",
+              "path": "/docs/Linux & 命令行/3.1-PowerShell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Linux & 命令行/3.2-wsl",
+              "path": "/docs/Linux & 命令行/3.2-wsl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/axios",
+              "path": "/docs/npm 包/axios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/babel",
+              "path": "/docs/npm 包/babel",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/chalk",
+              "path": "/docs/npm 包/chalk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/codemirror",
+              "path": "/docs/npm 包/codemirror",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/commander",
+              "path": "/docs/npm 包/commander",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/cross-spawn",
+              "path": "/docs/npm 包/cross-spawn",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/crypto-js",
+              "path": "/docs/npm 包/crypto-js",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/echarts",
+              "path": "/docs/npm 包/echarts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/eslint",
+              "path": "/docs/npm 包/eslint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/file-extra",
+              "path": "/docs/npm 包/file-extra",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/gulp",
+              "path": "/docs/npm 包/gulp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/highlightjs",
+              "path": "/docs/npm 包/highlightjs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/husky",
+              "path": "/docs/npm 包/husky",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/immer",
+              "path": "/docs/npm 包/immer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/jest",
+              "path": "/docs/npm 包/jest",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/jquery",
+              "path": "/docs/npm 包/jquery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/json-server",
+              "path": "/docs/npm 包/json-server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/lerna",
+              "path": "/docs/npm 包/lerna",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/less",
+              "path": "/docs/npm 包/less",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/mock",
+              "path": "/docs/npm 包/mock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/moment",
+              "path": "/docs/npm 包/moment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/monaco-editor",
+              "path": "/docs/npm 包/monaco-editor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/ora",
+              "path": "/docs/npm 包/ora",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/pm2",
+              "path": "/docs/npm 包/pm2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/pnpm",
+              "path": "/docs/npm 包/pnpm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/portfinder",
+              "path": "/docs/npm 包/portfinder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/postcss",
+              "path": "/docs/npm 包/postcss",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/prettier",
+              "path": "/docs/npm 包/prettier",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/rollup",
+              "path": "/docs/npm 包/rollup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/sass",
+              "path": "/docs/npm 包/sass",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/sortablejs",
+              "path": "/docs/npm 包/sortablejs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/vite",
+              "path": "/docs/npm 包/vite",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/vitest",
+              "path": "/docs/npm 包/vitest",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/webpack",
+              "path": "/docs/npm 包/webpack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/xlsx",
+              "path": "/docs/npm 包/xlsx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 包/yarn",
+              "path": "/docs/npm 包/yarn",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "npm 和 nvm 的使用",
+              "path": "/docs/npm 和 nvm 的使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/-- 框架对比",
+              "path": "/docs/React/-- 框架对比",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/-- 自定义 hooks",
+              "path": "/docs/React/-- 自定义 hooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/-- Hooks",
+              "path": "/docs/React/-- Hooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/1.1-React核心概念",
+              "path": "/docs/React/1.1-React核心概念",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/1.2-JSX语法",
+              "path": "/docs/React/1.2-JSX语法",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/1.3-函数式组件",
+              "path": "/docs/React/1.3-函数式组件",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/2.1-组件之间数据传递",
+              "path": "/docs/React/2.1-组件之间数据传递",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/2.2-高阶指引",
+              "path": "/docs/React/2.2-高阶指引",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/2.3-组件数据请求",
+              "path": "/docs/React/2.3-组件数据请求",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/4.1-大型应用程序的开发",
+              "path": "/docs/React/4.1-大型应用程序的开发",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/4.2-React+CSS",
+              "path": "/docs/React/4.2-React+CSS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/4.3-React+TypeScript",
+              "path": "/docs/React/4.3-React+TypeScript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/4.4-React-Router",
+              "path": "/docs/React/4.4-React-Router",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/class 组件/1-Class组件",
+              "path": "/docs/React/class 组件/1-Class组件",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/class 组件/2-事件，值传递",
+              "path": "/docs/React/class 组件/2-事件，值传递",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/class 组件/3-生命周期",
+              "path": "/docs/React/class 组件/3-生命周期",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/class 组件/4-高阶组件",
+              "path": "/docs/React/class 组件/4-高阶组件",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/class 组件/5-路由的使用",
+              "path": "/docs/React/class 组件/5-路由的使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/-- 测试",
+              "path": "/docs/Vue/-- 测试",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/-- 组合式 API",
+              "path": "/docs/Vue/-- 组合式 API",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/-- Vite FAQ",
+              "path": "/docs/Vue/-- Vite FAQ",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/-- Vue 编写组件库",
+              "path": "/docs/Vue/-- Vue 编写组件库",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/-- vue-cil（旧）",
+              "path": "/docs/Vue/-- vue-cil（旧）",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/1.1-Vue介绍",
+              "path": "/docs/Vue/1.1-Vue介绍",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/1.3-vue中的样式",
+              "path": "/docs/Vue/1.3-vue中的样式",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/1.4-组件值的传递",
+              "path": "/docs/Vue/1.4-组件值的传递",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/2.1-指令v-option",
+              "path": "/docs/Vue/2.1-指令v-option",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/2.2-修饰符",
+              "path": "/docs/Vue/2.2-修饰符",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/2.3-插槽的使用",
+              "path": "/docs/Vue/2.3-插槽的使用",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/3.1-vue-router",
+              "path": "/docs/Vue/3.1-vue-router",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/3.2-Vue 搭配 TS",
+              "path": "/docs/Vue/3.2-Vue 搭配 TS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/3.3-pinia（vuex）",
+              "path": "/docs/Vue/3.3-pinia（vuex）",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/4.1-优化",
+              "path": "/docs/Vue/4.1-优化",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/4.2-响应性",
+              "path": "/docs/Vue/4.2-响应性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/4.3-实用特性",
+              "path": "/docs/Vue/4.3-实用特性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/5.1-服务端渲染",
+              "path": "/docs/Vue/5.1-服务端渲染",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/Vue2/1.1-Vue的依赖",
+              "path": "/docs/Vue/Vue2/1.1-Vue的依赖",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Vue/Vue2/2.1-vue-router",
+              "path": "/docs/Vue/Vue2/2.1-vue-router",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/html-和-css",
+              "path": "/docs/category/html-和-css",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/css-代码片段",
+              "path": "/docs/category/css-代码片段",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/javascript--typescript",
+              "path": "/docs/category/javascript--typescript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/typescript",
+              "path": "/docs/category/typescript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/大前端知识点",
+              "path": "/docs/category/大前端知识点",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/npm-包",
+              "path": "/docs/category/npm-包",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/vue",
+              "path": "/docs/category/vue",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/react",
+              "path": "/docs/category/react",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/后端",
+              "path": "/docs/category/后端",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/linux--命令行",
+              "path": "/docs/category/linux--命令行",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/数据库",
+              "path": "/docs/category/数据库",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/多平台开发",
+              "path": "/docs/category/多平台开发",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/其它语言",
+              "path": "/docs/category/其它语言",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/python",
+              "path": "/docs/category/python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/软件工程知识",
+              "path": "/docs/category/软件工程知识",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/人工智能",
+              "path": "/docs/category/人工智能",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/面试-自检",
+              "path": "/docs/category/面试-自检",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/category/html-和-css",
+                "label": "HTML 和 CSS"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "permalink": "/blog/npm前端包",
+  "editUrl": "https://github.com/blog/2025-02-20-npm前端包.md",
+  "source": "@site/blog/2025-02-20-npm前端包.md",
+  "title": "npm前端包",
+  "description": "Create by fall on 02 Mar 2023",
+  "date": "2025-02-20T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "npm",
+      "permalink": "/blog/tags/npm"
+    },
+    {
+      "inline": true,
+      "label": "依赖",
+      "permalink": "/blog/tags/依赖"
+    },
+    {
+      "inline": true,
+      "label": "常用依赖",
+      "permalink": "/blog/tags/常用依赖"
+    }
+  ],
+  "readingTime": 25.575,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "yelv",
+      "title": "Coding For fun",
+      "url": "https://github.com/inshadow1",
+      "imageURL": "/img/128100849_4.png",
+      "key": "fall",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "npm前端包",
+    "title": "npm前端包",
+    "authors": "fall",
+    "tags": [
+      "npm",
+      "依赖",
+      "常用依赖"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "2分钟环境搭建",
+    "permalink": "/blog/2分钟环境搭建"
+  }
+}

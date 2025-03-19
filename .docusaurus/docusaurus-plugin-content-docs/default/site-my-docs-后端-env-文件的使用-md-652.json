@@ -1,0 +1,27 @@
+{
+  "id": "后端/-- env 文件的使用",
+  "title": "-- env 文件的使用",
+  "description": "Create by fall on ——",
+  "source": "@site/my-docs/后端/-- env 文件的使用.md",
+  "sourceDirName": "后端",
+  "slug": "/后端/-- env 文件的使用",
+  "permalink": "/docs/后端/-- env 文件的使用",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/后端/-- env 文件的使用.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 最佳实践",
+    "permalink": "/docs/后端/-- 最佳实践"
+  },
+  "next": {
+    "title": "-- nginx",
+    "permalink": "/docs/后端/-- nginx"
+  }
+}

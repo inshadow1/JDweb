@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/5.1-浏览器的兼容",
+  "title": "5.1-浏览器的兼容",
+  "description": "Create by fall on 24 Nov 2021",
+  "source": "@site/my-docs/HTML和CSS/5.1-浏览器的兼容.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/5.1-浏览器的兼容",
+  "permalink": "/docs/HTML和CSS/5.1-浏览器的兼容",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/5.1-浏览器的兼容.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 92,
+  "frontMatter": {
+    "sidebar_position": 92
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.3-其他格式书写CSS",
+    "permalink": "/docs/HTML和CSS/4.3-其他格式书写CSS"
+  },
+  "next": {
+    "title": "5.2-性能影响因素",
+    "permalink": "/docs/HTML和CSS/5.2-性能影响因素"
+  }
+}

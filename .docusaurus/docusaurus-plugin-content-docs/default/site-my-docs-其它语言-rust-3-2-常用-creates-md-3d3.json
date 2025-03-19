@@ -1,0 +1,24 @@
+{
+  "id": "其它语言/rust/3.2-常用 creates",
+  "title": "3.2-常用 creates",
+  "description": "Create by fall on 16 Aug 2022",
+  "source": "@site/my-docs/其它语言/rust/3.2-常用 creates.md",
+  "sourceDirName": "其它语言/rust",
+  "slug": "/其它语言/rust/3.2-常用 creates",
+  "permalink": "/docs/其它语言/rust/3.2-常用 creates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/rust/3.2-常用 creates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1-系统模块",
+    "permalink": "/docs/其它语言/rust/3.1-系统模块"
+  },
+  "next": {
+    "title": "软件工程知识",
+    "permalink": "/docs/category/软件工程知识"
+  }
+}

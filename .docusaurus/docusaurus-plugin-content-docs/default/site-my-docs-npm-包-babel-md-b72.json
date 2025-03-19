@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/babel",
+  "title": "babel",
+  "description": "Create by fall on07 Dec 2020",
+  "source": "@site/my-docs/npm 包/babel.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/babel",
+  "permalink": "/docs/npm 包/babel",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/babel.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "axios",
+    "permalink": "/docs/npm 包/axios"
+  },
+  "next": {
+    "title": "chalk",
+    "permalink": "/docs/npm 包/chalk"
+  }
+}

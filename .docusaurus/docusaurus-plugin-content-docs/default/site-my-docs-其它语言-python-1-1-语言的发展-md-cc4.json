@@ -1,0 +1,24 @@
+{
+  "id": "其它语言/python/1.1-语言的发展",
+  "title": "1.1-语言的发展",
+  "description": "编译执行：先进行编译，转换成机器识别的指令之后执行",
+  "source": "@site/my-docs/其它语言/python/1.1-语言的发展.md",
+  "sourceDirName": "其它语言/python",
+  "slug": "/其它语言/python/1.1-语言的发展",
+  "permalink": "/docs/其它语言/python/1.1-语言的发展",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/python/1.1-语言的发展.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python 基础",
+    "permalink": "/docs/其它语言/python/1.1-语言基础"
+  },
+  "next": {
+    "title": "1.2-语法使用",
+    "permalink": "/docs/其它语言/python/1.2-语法使用"
+  }
+}

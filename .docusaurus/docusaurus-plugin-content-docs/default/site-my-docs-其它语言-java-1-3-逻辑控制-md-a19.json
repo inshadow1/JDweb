@@ -1,0 +1,24 @@
+{
+  "id": "其它语言/java/1.3-逻辑控制",
+  "title": "1.3-逻辑控制",
+  "description": "Create by fall on 20 Aug 2023",
+  "source": "@site/my-docs/其它语言/java/1.3-逻辑控制.md",
+  "sourceDirName": "其它语言/java",
+  "slug": "/其它语言/java/1.3-逻辑控制",
+  "permalink": "/docs/其它语言/java/1.3-逻辑控制",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/java/1.3-逻辑控制.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.2-运算符",
+    "permalink": "/docs/其它语言/java/1.2-运算符"
+  },
+  "next": {
+    "title": "1.4-复杂数据类型",
+    "permalink": "/docs/其它语言/java/1.4-复杂数据类型"
+  }
+}

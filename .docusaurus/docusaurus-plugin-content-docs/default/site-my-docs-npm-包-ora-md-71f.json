@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/ora",
+  "title": "ora",
+  "description": "Create by fall on:2022-07-12",
+  "source": "@site/my-docs/npm 包/ora.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/ora",
+  "permalink": "/docs/npm 包/ora",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/ora.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "monaco-editor",
+    "permalink": "/docs/npm 包/monaco-editor"
+  },
+  "next": {
+    "title": "pm2",
+    "permalink": "/docs/npm 包/pm2"
+  }
+}

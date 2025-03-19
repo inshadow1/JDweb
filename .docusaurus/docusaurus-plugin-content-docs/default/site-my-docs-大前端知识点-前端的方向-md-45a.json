@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/-- 前端的方向",
+  "title": "-- 前端的方向",
+  "description": "Create by fall on 07 Apr 2024",
+  "source": "@site/my-docs/大前端知识点/-- 前端的方向.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/-- 前端的方向",
+  "permalink": "/docs/大前端知识点/-- 前端的方向",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/-- 前端的方向.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "大前端知识点",
+    "permalink": "/docs/category/大前端知识点"
+  },
+  "next": {
+    "title": "-- 服务器状态码",
+    "permalink": "/docs/大前端知识点/-- 服务器状态码"
+  }
+}

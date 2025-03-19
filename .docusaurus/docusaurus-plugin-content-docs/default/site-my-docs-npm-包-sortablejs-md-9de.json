@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/sortablejs",
+  "title": "sortablejs",
+  "description": "文档：http://www.sortablejs.com",
+  "source": "@site/my-docs/npm 包/sortablejs.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/sortablejs",
+  "permalink": "/docs/npm 包/sortablejs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/sortablejs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "sass",
+    "permalink": "/docs/npm 包/sass"
+  },
+  "next": {
+    "title": "vite",
+    "permalink": "/docs/npm 包/vite"
+  }
+}

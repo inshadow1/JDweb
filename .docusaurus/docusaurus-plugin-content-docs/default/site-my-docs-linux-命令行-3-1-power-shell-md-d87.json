@@ -1,0 +1,24 @@
+{
+  "id": "Linux & 命令行/3.1-PowerShell",
+  "title": "3.1-PowerShell",
+  "description": "Create by fall on 16 Aug 2022",
+  "source": "@site/my-docs/Linux & 命令行/3.1-PowerShell.md",
+  "sourceDirName": "Linux & 命令行",
+  "slug": "/Linux & 命令行/3.1-PowerShell",
+  "permalink": "/docs/Linux & 命令行/3.1-PowerShell",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/Linux & 命令行/3.1-PowerShell.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2-Shell编写脚本",
+    "permalink": "/docs/Linux & 命令行/2.2-Shell编写脚本"
+  },
+  "next": {
+    "title": "3.2-wsl",
+    "permalink": "/docs/Linux & 命令行/3.2-wsl"
+  }
+}

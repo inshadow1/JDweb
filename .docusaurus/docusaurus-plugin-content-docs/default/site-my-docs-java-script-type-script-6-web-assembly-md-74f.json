@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/6-WebAssembly",
+  "title": "6-WebAssembly",
+  "description": "Create by fall on 2021-12-27",
+  "source": "@site/my-docs/JavaScript & TypeScript/6-WebAssembly.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/6-WebAssembly",
+  "permalink": "/docs/JavaScript & TypeScript/6-WebAssembly",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/6-WebAssembly.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 86,
+  "frontMatter": {
+    "sidebar_position": 86
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.1-多线程",
+    "permalink": "/docs/JavaScript & TypeScript/5.1-多线程"
+  },
+  "next": {
+    "title": "-- JS字符串处理",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS字符串处理"
+  }
+}

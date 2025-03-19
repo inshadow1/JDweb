@@ -1,0 +1,27 @@
+{
+  "id": "多平台开发/1.1-移动端适配",
+  "title": "1.1-移动端适配",
+  "description": "Create by fall on 09 Jun 2022",
+  "source": "@site/my-docs/多平台开发/1.1-移动端适配.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/1.1-移动端适配",
+  "permalink": "/docs/多平台开发/1.1-移动端适配",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/1.1-移动端适配.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "多平台开发",
+    "permalink": "/docs/category/多平台开发"
+  },
+  "next": {
+    "title": "-- uniapp 测评",
+    "permalink": "/docs/多平台开发/-- uniapp 测评"
+  }
+}

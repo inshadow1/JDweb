@@ -1,0 +1,27 @@
+{
+  "id": "其它语言/python/1.1-语言基础",
+  "title": "Python 基础",
+  "description": "Python 简介",
+  "source": "@site/my-docs/其它语言/python/1.1-语言基础.md",
+  "sourceDirName": "其它语言/python",
+  "slug": "/其它语言/python/1.1-语言基础",
+  "permalink": "/docs/其它语言/python/1.1-语言基础",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/python/1.1-语言基础.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python",
+    "permalink": "/docs/category/python"
+  },
+  "next": {
+    "title": "1.1-语言的发展",
+    "permalink": "/docs/其它语言/python/1.1-语言的发展"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/DevOps",
+  "title": "DevOps",
+  "description": "DevOps",
+  "source": "@site/my-docs/软件工程知识/DevOps.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/DevOps",
+  "permalink": "/docs/软件工程知识/DevOps",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/DevOps.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "软件工程知识",
+    "permalink": "/docs/category/软件工程知识"
+  },
+  "next": {
+    "title": "Monorepo",
+    "permalink": "/docs/软件工程知识/Monorepo"
+  }
+}

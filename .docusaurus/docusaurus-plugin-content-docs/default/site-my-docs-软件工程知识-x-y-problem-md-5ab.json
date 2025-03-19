@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/X-Y Problem",
+  "title": "X-Y Problem",
+  "description": "Create by fall on 10 Oct 2023",
+  "source": "@site/my-docs/软件工程知识/X-Y Problem.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/X-Y Problem",
+  "permalink": "/docs/软件工程知识/X-Y Problem",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/X-Y Problem.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unicode",
+    "permalink": "/docs/软件工程知识/Unicode"
+  },
+  "next": {
+    "title": "github指南",
+    "permalink": "/docs/软件工程知识/github指南"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "React/4.3-React+TypeScript",
+  "title": "4.3-React+TypeScript",
+  "description": "Create by fall on 2022-04-05",
+  "source": "@site/my-docs/React/4.3-React+TypeScript.md",
+  "sourceDirName": "React",
+  "slug": "/React/4.3-React+TypeScript",
+  "permalink": "/docs/React/4.3-React+TypeScript",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/React/4.3-React+TypeScript.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2-React+CSS",
+    "permalink": "/docs/React/4.2-React+CSS"
+  },
+  "next": {
+    "title": "4.4-React-Router",
+    "permalink": "/docs/React/4.4-React-Router"
+  }
+}

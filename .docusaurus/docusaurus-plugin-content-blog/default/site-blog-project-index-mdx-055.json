@@ -1,0 +1,23 @@
+{
+  "permalink": "/blog/project",
+  "editUrl": "https://github.com/blog/project/index.mdx",
+  "source": "@site/blog/project/index.mdx",
+  "title": "项目展示",
+  "description": "这里展示了我的一些个人项目",
+  "date": "2025-03-18T22:35:18.953Z",
+  "tags": [],
+  "readingTime": 0.58,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "title": "项目展示",
+    "description": "这里展示了我的一些个人项目",
+    "slug": "/project",
+    "hide_table_of_contents": true
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "npm前端包",
+    "permalink": "/blog/npm前端包"
+  }
+}

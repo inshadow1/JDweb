@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/4.2-CSS预处理器",
+  "title": "4.2-CSS预处理器",
+  "description": "Create by Fall on 2020----",
+  "source": "@site/my-docs/HTML和CSS/4.2-CSS预处理器.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/4.2-CSS预处理器",
+  "permalink": "/docs/HTML和CSS/4.2-CSS预处理器",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/4.2-CSS预处理器.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 71,
+  "frontMatter": {
+    "sidebar_position": 71
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.1-CSS变量和运算",
+    "permalink": "/docs/HTML和CSS/4.1-CSS变量和运算"
+  },
+  "next": {
+    "title": "4.3-其他格式书写CSS",
+    "permalink": "/docs/HTML和CSS/4.3-其他格式书写CSS"
+  }
+}

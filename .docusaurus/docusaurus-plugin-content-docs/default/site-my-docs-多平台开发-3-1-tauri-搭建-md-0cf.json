@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/3.1-tauri 搭建",
+  "title": "3.1-tauri 搭建",
+  "description": "Create by fall on 10 Apr 2024",
+  "source": "@site/my-docs/多平台开发/3.1-tauri 搭建.md",
+  "sourceDirName": "多平台开发",
+  "slug": "/多平台开发/3.1-tauri 搭建",
+  "permalink": "/docs/多平台开发/3.1-tauri 搭建",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/3.1-tauri 搭建.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.4-RN 基本事件",
+    "permalink": "/docs/多平台开发/2.4-RN 基本事件"
+  },
+  "next": {
+    "title": "3.2-tauri",
+    "permalink": "/docs/多平台开发/3.2-tauri"
+  }
+}

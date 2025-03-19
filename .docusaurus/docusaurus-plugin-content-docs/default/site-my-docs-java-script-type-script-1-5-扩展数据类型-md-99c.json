@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/1.5-扩展数据类型",
+  "title": "1.5-扩展数据类型",
+  "description": "Create by fall on 13 Jul 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/1.5-扩展数据类型.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/1.5-扩展数据类型",
+  "permalink": "/docs/JavaScript & TypeScript/1.5-扩展数据类型",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/1.5-扩展数据类型.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.4-构造类型",
+    "permalink": "/docs/JavaScript & TypeScript/1.4-构造类型"
+  },
+  "next": {
+    "title": "1.6-正则",
+    "permalink": "/docs/JavaScript & TypeScript/1.6-正则"
+  }
+}

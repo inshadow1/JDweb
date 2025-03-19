@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/2.5-伪类和伪元素",
+  "title": "2.5-伪类和伪元素",
+  "description": "Create by fall on 22 Jul 2019",
+  "source": "@site/my-docs/HTML和CSS/2.5-伪类和伪元素.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/2.5-伪类和伪元素",
+  "permalink": "/docs/HTML和CSS/2.5-伪类和伪元素",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/2.5-伪类和伪元素.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 38,
+  "frontMatter": {
+    "sidebar_position": 38
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.4-文本和段落样式",
+    "permalink": "/docs/HTML和CSS/2.4-文本和段落样式"
+  },
+  "next": {
+    "title": "2.6-@ 规则",
+    "permalink": "/docs/HTML和CSS/2.6-@ 规则"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/设计模式",
+  "title": "设计模式",
+  "description": "总体来说设计模式分为三大类：",
+  "source": "@site/my-docs/软件工程知识/设计模式.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/设计模式",
+  "permalink": "/docs/软件工程知识/设计模式",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/设计模式.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "设计术语",
+    "permalink": "/docs/软件工程知识/设计术语"
+  },
+  "next": {
+    "title": "软件测试",
+    "permalink": "/docs/软件工程知识/软件测试"
+  }
+}

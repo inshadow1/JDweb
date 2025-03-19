@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/设计术语",
+  "title": "设计术语",
+  "description": "Create by fall on 27 Feb 2024",
+  "source": "@site/my-docs/软件工程知识/设计术语.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/设计术语",
+  "permalink": "/docs/软件工程知识/设计术语",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/设计术语.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "计算机网络基础知识导图",
+    "permalink": "/docs/软件工程知识/计算机网络知识导图"
+  },
+  "next": {
+    "title": "设计模式",
+    "permalink": "/docs/软件工程知识/设计模式"
+  }
+}

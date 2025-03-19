@@ -1,0 +1,35 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "npm前端包",
+      "permalink": "/blog/npm前端包",
+      "unlisted": false,
+      "date": "2025-02-20T00:00:00.000Z"
+    },
+    {
+      "title": "2分钟环境搭建",
+      "permalink": "/blog/2分钟环境搭建",
+      "unlisted": false,
+      "date": "2025-02-14T00:00:00.000Z"
+    },
+    {
+      "title": "TypeScript声明",
+      "permalink": "/blog/TypeScript声明",
+      "unlisted": false,
+      "date": "2022-06-08T00:00:00.000Z"
+    },
+    {
+      "title": "客户想要的不是她们所说的（译）",
+      "permalink": "/blog/客户想要的不是她们所说的（译）",
+      "unlisted": false,
+      "date": "2022-06-08T00:00:00.000Z"
+    },
+    {
+      "title": "git功能查找",
+      "permalink": "/blog/git功能查找",
+      "unlisted": false,
+      "date": "2022-03-16T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/4.2-Promise 和 async",
+  "title": "4.2-Promise 和 async",
+  "description": "Create by fall on 23 Sep 2020",
+  "source": "@site/my-docs/JavaScript & TypeScript/4.2-Promise 和 async.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/4.2-Promise 和 async",
+  "permalink": "/docs/JavaScript & TypeScript/4.2-Promise 和 async",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/4.2-Promise 和 async.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 69,
+  "frontMatter": {
+    "sidebar_position": 69
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.1-前后端交互",
+    "permalink": "/docs/JavaScript & TypeScript/4.1-前后端交互"
+  },
+  "next": {
+    "title": "4.3-迭代器",
+    "permalink": "/docs/JavaScript & TypeScript/4.3-迭代器"
+  }
+}

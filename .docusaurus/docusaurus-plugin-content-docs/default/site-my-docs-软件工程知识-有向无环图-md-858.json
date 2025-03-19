@@ -1,0 +1,24 @@
+{
+  "id": "软件工程知识/有向无环图",
+  "title": "有向无环图",
+  "description": "",
+  "source": "@site/my-docs/软件工程知识/有向无环图.md",
+  "sourceDirName": "软件工程知识",
+  "slug": "/软件工程知识/有向无环图",
+  "permalink": "/docs/软件工程知识/有向无环图",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/软件工程知识/有向无环图.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "数据结构",
+    "permalink": "/docs/软件工程知识/数据结构"
+  },
+  "next": {
+    "title": "架构升级（重构）",
+    "permalink": "/docs/软件工程知识/架构升级（重构）"
+  }
+}

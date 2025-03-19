@@ -1,0 +1,27 @@
+{
+  "id": "大前端知识点/1.1-浏览器工作原理",
+  "title": "1.1-浏览器工作原理",
+  "description": "Create by fall on 2020 ----",
+  "source": "@site/my-docs/大前端知识点/1.1-浏览器工作原理.md",
+  "sourceDirName": "大前端知识点",
+  "slug": "/大前端知识点/1.1-浏览器工作原理",
+  "permalink": "/docs/大前端知识点/1.1-浏览器工作原理",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/大前端知识点/1.1-浏览器工作原理.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- 服务器状态码",
+    "permalink": "/docs/大前端知识点/-- 服务器状态码"
+  },
+  "next": {
+    "title": "1.2-网页的网络交互",
+    "permalink": "/docs/大前端知识点/1.2-网页的网络交互"
+  }
+}

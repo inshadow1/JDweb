@@ -1,0 +1,24 @@
+{
+  "id": "JavaScript & TypeScript/JS 常用方法/-- JS宿主对象操作",
+  "title": "-- JS宿主对象操作",
+  "description": "Create by fall on ——",
+  "source": "@site/my-docs/JavaScript & TypeScript/JS 常用方法/-- JS宿主对象操作.md",
+  "sourceDirName": "JavaScript & TypeScript/JS 常用方法",
+  "slug": "/JavaScript & TypeScript/JS 常用方法/-- JS宿主对象操作",
+  "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS宿主对象操作",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/JS 常用方法/-- JS宿主对象操作.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- JS字符串处理",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS字符串处理"
+  },
+  "next": {
+    "title": "-- JS日期处理",
+    "permalink": "/docs/JavaScript & TypeScript/JS 常用方法/-- JS日期处理"
+  }
+}

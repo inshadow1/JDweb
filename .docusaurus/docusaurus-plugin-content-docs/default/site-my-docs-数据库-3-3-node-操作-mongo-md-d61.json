@@ -1,0 +1,24 @@
+{
+  "id": "数据库/3.3-node 操作 mongo",
+  "title": "3.3-node 操作 mongo",
+  "description": "Create by fall on 18 Nov 2020",
+  "source": "@site/my-docs/数据库/3.3-node 操作 mongo.md",
+  "sourceDirName": "数据库",
+  "slug": "/数据库/3.3-node 操作 mongo",
+  "permalink": "/docs/数据库/3.3-node 操作 mongo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/数据库/3.3-node 操作 mongo.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.2-mongo 命令",
+    "permalink": "/docs/数据库/3.2-mongo 命令"
+  },
+  "next": {
+    "title": "3.4-mongo查询",
+    "permalink": "/docs/数据库/3.4-mongo查询"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "面试-自检/-- 自检清单",
+  "title": "-- 自检清单",
+  "description": "JavaScript",
+  "source": "@site/my-docs/面试-自检/-- 自检清单.md",
+  "sourceDirName": "面试-自检",
+  "slug": "/面试-自检/-- 自检清单",
+  "permalink": "/docs/面试-自检/-- 自检清单",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/面试-自检/-- 自检清单.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "面试-自检",
+    "permalink": "/docs/category/面试-自检"
+  },
+  "next": {
+    "title": "1.1-HTML、CSS知识点",
+    "permalink": "/docs/面试-自检/1.1-HTML、CSS知识点"
+  }
+}

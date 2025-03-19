@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/axios",
+  "title": "axios",
+  "description": "Create by fall on 2020-08-15",
+  "source": "@site/my-docs/npm 包/axios.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/axios",
+  "permalink": "/docs/npm 包/axios",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/axios.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "npm 包",
+    "permalink": "/docs/category/npm-包"
+  },
+  "next": {
+    "title": "babel",
+    "permalink": "/docs/npm 包/babel"
+  }
+}

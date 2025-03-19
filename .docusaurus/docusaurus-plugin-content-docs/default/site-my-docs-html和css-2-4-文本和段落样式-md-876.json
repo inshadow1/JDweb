@@ -1,0 +1,27 @@
+{
+  "id": "HTML和CSS/2.4-文本和段落样式",
+  "title": "2.4-文本和段落样式",
+  "description": "Create by fall on — — 2019",
+  "source": "@site/my-docs/HTML和CSS/2.4-文本和段落样式.md",
+  "sourceDirName": "HTML和CSS",
+  "slug": "/HTML和CSS/2.4-文本和段落样式",
+  "permalink": "/docs/HTML和CSS/2.4-文本和段落样式",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/HTML和CSS/2.4-文本和段落样式.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 37,
+  "frontMatter": {
+    "sidebar_position": 37
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.3-盒子进阶属性",
+    "permalink": "/docs/HTML和CSS/2.3-盒子进阶属性"
+  },
+  "next": {
+    "title": "2.5-伪类和伪元素",
+    "permalink": "/docs/HTML和CSS/2.5-伪类和伪元素"
+  }
+}

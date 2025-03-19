@@ -1,0 +1,24 @@
+{
+  "id": "面试-自检/1.2-JS知识点",
+  "title": "1.2-JS知识点",
+  "description": "Create by fall on 18 Oct 2021",
+  "source": "@site/my-docs/面试-自检/1.2-JS知识点.md",
+  "sourceDirName": "面试-自检",
+  "slug": "/面试-自检/1.2-JS知识点",
+  "permalink": "/docs/面试-自检/1.2-JS知识点",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/面试-自检/1.2-JS知识点.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.1-HTML、CSS知识点",
+    "permalink": "/docs/面试-自检/1.1-HTML、CSS知识点"
+  },
+  "next": {
+    "title": "1.3-网络知识点",
+    "permalink": "/docs/面试-自检/1.3-网络知识点"
+  }
+}

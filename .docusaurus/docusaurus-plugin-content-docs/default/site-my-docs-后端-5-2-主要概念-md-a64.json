@@ -1,0 +1,24 @@
+{
+  "id": "后端/5.2-主要概念",
+  "title": "5.2-主要概念",
+  "description": "Create by fall on 14 Dec 2021",
+  "source": "@site/my-docs/后端/5.2-主要概念.md",
+  "sourceDirName": "后端",
+  "slug": "/后端/5.2-主要概念",
+  "permalink": "/docs/后端/5.2-主要概念",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/后端/5.2-主要概念.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "5.1-nestjs",
+    "permalink": "/docs/后端/5.1-nestjs"
+  },
+  "next": {
+    "title": "5.3-数据库操作",
+    "permalink": "/docs/后端/5.3-数据库操作"
+  }
+}

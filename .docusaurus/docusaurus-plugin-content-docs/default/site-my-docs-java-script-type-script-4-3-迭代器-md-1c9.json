@@ -1,0 +1,27 @@
+{
+  "id": "JavaScript & TypeScript/4.3-迭代器",
+  "title": "4.3-迭代器",
+  "description": "Create by fall on 22 Sep 2021",
+  "source": "@site/my-docs/JavaScript & TypeScript/4.3-迭代器.md",
+  "sourceDirName": "JavaScript & TypeScript",
+  "slug": "/JavaScript & TypeScript/4.3-迭代器",
+  "permalink": "/docs/JavaScript & TypeScript/4.3-迭代器",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/JavaScript & TypeScript/4.3-迭代器.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 72,
+  "frontMatter": {
+    "sidebar_position": 72
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2-Promise 和 async",
+    "permalink": "/docs/JavaScript & TypeScript/4.2-Promise 和 async"
+  },
+  "next": {
+    "title": "4.4-数据通信",
+    "permalink": "/docs/JavaScript & TypeScript/4.4-数据通信"
+  }
+}

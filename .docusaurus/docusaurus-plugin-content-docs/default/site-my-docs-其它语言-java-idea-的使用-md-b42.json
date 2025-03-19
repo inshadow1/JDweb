@@ -1,0 +1,24 @@
+{
+  "id": "其它语言/java/-- IDEA 的使用",
+  "title": "-- IDEA 的使用",
+  "description": "Create by fall on 11 Apr 2023",
+  "source": "@site/my-docs/其它语言/java/-- IDEA 的使用.md",
+  "sourceDirName": "其它语言/java",
+  "slug": "/其它语言/java/-- IDEA 的使用",
+  "permalink": "/docs/其它语言/java/-- IDEA 的使用",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/java/-- IDEA 的使用.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.4-爬虫和Web框架",
+    "permalink": "/docs/其它语言/python/1.4-爬虫和Web框架"
+  },
+  "next": {
+    "title": "-- 后端插件介绍",
+    "permalink": "/docs/其它语言/java/-- 后端插件介绍"
+  }
+}

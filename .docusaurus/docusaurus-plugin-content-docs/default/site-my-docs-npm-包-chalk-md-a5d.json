@@ -1,0 +1,24 @@
+{
+  "id": "npm 包/chalk",
+  "title": "chalk",
+  "description": "Create by fall on 08 Feb 2022",
+  "source": "@site/my-docs/npm 包/chalk.md",
+  "sourceDirName": "npm 包",
+  "slug": "/npm 包/chalk",
+  "permalink": "/docs/npm 包/chalk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/npm 包/chalk.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "babel",
+    "permalink": "/docs/npm 包/babel"
+  },
+  "next": {
+    "title": "codemirror",
+    "permalink": "/docs/npm 包/codemirror"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/Flutter/1.Dart语言的基础",
+  "title": "1.Dart语言的基础",
+  "description": "Dart",
+  "source": "@site/my-docs/多平台开发/Flutter/1.Dart语言的基础.md",
+  "sourceDirName": "多平台开发/Flutter",
+  "slug": "/多平台开发/Flutter/1.Dart语言的基础",
+  "permalink": "/docs/多平台开发/Flutter/1.Dart语言的基础",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/Flutter/1.Dart语言的基础.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "-- flutter命令行工具",
+    "permalink": "/docs/多平台开发/Flutter/-- flutter命令行工具"
+  },
+  "next": {
+    "title": "2.Dart 语言的进阶",
+    "permalink": "/docs/多平台开发/Flutter/2.Dart 语言的进阶"
+  }
+}

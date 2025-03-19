@@ -1,0 +1,24 @@
+{
+  "id": "多平台开发/Flutter/2.Dart 语言的进阶",
+  "title": "2.Dart 语言的进阶",
+  "description": "注释",
+  "source": "@site/my-docs/多平台开发/Flutter/2.Dart 语言的进阶.md",
+  "sourceDirName": "多平台开发/Flutter",
+  "slug": "/多平台开发/Flutter/2.Dart 语言的进阶",
+  "permalink": "/docs/多平台开发/Flutter/2.Dart 语言的进阶",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/多平台开发/Flutter/2.Dart 语言的进阶.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.Dart语言的基础",
+    "permalink": "/docs/多平台开发/Flutter/1.Dart语言的基础"
+  },
+  "next": {
+    "title": "VS Code插件开发",
+    "permalink": "/docs/多平台开发/VS Code插件开发"
+  }
+}
