@@ -52,35 +52,35 @@
 #             rsync -avz --delete ./build ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
 #             sudo chown -R www:www /www/wwwroot/www.yelv.site
 #             sudo systemctl restart nginx
-
 name: Deploy to Server
 
 on:
   push:
     branches:
-      - main
+      - main # 或其他分支
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout 代码
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      # 2. SSH 密钥（提前在 Secrets 里放好私钥）
-      - name: Setup SSH
+      - name: Setup SSH key
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      # 3. 添加 known_hosts
+
       - name: Add known_hosts
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan -p 22 117.72.123.237 >> ~/.ssh/known_hosts
+          ssh-keyscan -p 22 ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
 
-      # 3. 传输 build 文件夹
-      - name: Deploy build folder to server
+      - name: Rsync deploy
         run: |
-          rsync -avz -e "ssh -p 22 -o StrictHostKeyChecking=no" ./build/ root@***:/www/wwwroot/www.yelv.site/
+          rsync -avz -e "ssh -p 22" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
