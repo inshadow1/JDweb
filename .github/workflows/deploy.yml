@@ -22,11 +22,11 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
       # 步骤 3：
-        - name: Debug workspace
-          run: |
-            echo "Current workspace: $GITHUB_WORKSPACE"
-            pwd
-            ls -la
+      - name: Debug workspace
+        run: |
+          echo "Current workspace: $GITHUB_WORKSPACE"
+          pwd
+          ls -la
           script: |
             # 使用 rsync 同步文件，排除删除 .user.ini
             rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" "$GITHUB_WORKSPACE/build/" root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
