@@ -13,13 +13,11 @@ jobs:
       - name: Checkout code (with build directory)
         uses: actions/checkout@v3
         with:
-          # 强制检出所有文件（包括被 git 忽略的文件）
           fetch-depth: 0
-          # 显式包含 build 目录
-          sparse-checkout: |
-            /*
-            !/*/
-            /build/
+          sparse-checkout: | # 修正后的稀疏检出模式
+            *     # 包含根目录所有文件
+            !*/   # 排除所有子目录
+            build/ # 特别包含 build 目录
 
       - name: Validate directory structure
         run: |
