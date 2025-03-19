@@ -23,7 +23,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             # 使用 rsync 同步文件，排除删除 .user.ini
-           rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" "$GITHUB_WORKSPACE/build/" root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+            rsync -avz --delete --exclude='.user.ini' -e "ssh -o StrictHostKeyChecking=no" "$GITHUB_WORKSPACE/build/" root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
             # 确保文件权限正确（根据宝塔要求设置为 www:www）
             sudo chown -R www:www /www/wwwroot/www.yelv.site/build
             # 重启 Nginx 使配置生效
