@@ -13,6 +13,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Build Project (Optional)
+        # 如果项目需要构建（如前端项目），添加构建步骤
+        run: |
+          npm install
+          npm run build
+
       - name: Install rsync
         run: sudo apt-get install -y rsync
 
@@ -23,8 +29,15 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            # 1. 同步文件（跳过密钥验证）
-            rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" --exclude='.user.ini' ${{ github.workspace }}/build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
+            # 0. 确保目标目录存在
+            sudo mkdir -p /www/wwwroot/www.yelv.site/build
+
+            # 1. 同步文件（排除 .user.ini，严格检查路径）
+            rsync -avz --delete \
+              -e "ssh -o StrictHostKeyChecking=no" \
+              --exclude='.user.ini' \
+              "${{ github.workspace }}/build/" \
+              root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/build/
 
             # 2. 修复权限（强制使用 sudo）
             sudo chown -R www:www /www/wwwroot/www.yelv.site/build
