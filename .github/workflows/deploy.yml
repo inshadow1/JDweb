@@ -55,6 +55,7 @@ jobs:
           rsync -avz -e "ssh -p 22" ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
           echo "文件已传输！"
 
+    # 9. 重启服务器上的 Nginx 服务（如果需要）
       - name: Restart nginx on server
         uses: appleboy/ssh-action@v1.0.0
         with:
