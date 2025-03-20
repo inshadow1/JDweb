@@ -1,86 +1,67 @@
-# name: Deploy to Baota
-
-# on:
-#   push:
-#     branches:
-#       - main
-
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       # 步骤 1：检出代码
-#       - name: Checkout repository
-#         uses: actions/checkout@v4
-#         with:
-#           fetch-depth: 0
-#           lfs: true
-
-#       # 步骤 2：设置 Node.js 环境
-#       - name: Setup Node.js
-#         uses: actions/setup-node@v3
-#         with:
-#           node-version: '18'
-
-#       # 步骤 3：安装依赖
-#       - name: Install dependencies
-#         run: npm install
-
-#       # 步骤 4：设置权限并构建项目
-#       - name: Build project
-#         run: |
-#           chmod +x node_modules/.bin/docusaurus
-#           npm run build
-
-#       # 步骤 5：调试工作目录
-#       - name: Debug workspace
-#         run: |
-#           echo "Workspace contents:"
-#           ls -la
-#           echo "Build directory contents:"
-#           ls -la build
-
-#       # 步骤 6：使用srsync传输文件到服务器
-#       - name: Deploy to Server
-#         uses: appleboy/ssh-action@master
-#         with:
-#           host: ${{ secrets.SERVER_IP }}
-#           username: ${{ secrets.SERVER_USER }}
-#           key: ${{ secrets.SSH_PRIVATE_KEY }}
-#           script: |
-#             rsync -avz --delete ./build ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
-#             sudo chown -R www:www /www/wwwroot/www.yelv.site
-#             sudo systemctl restart nginx
 name: Deploy to Server
 
 on:
   push:
     branches:
-      - main # 或其他分支
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          fetch-depth: 0
+          lfs: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      # 关键修复：确保 docusaurus 可执行
+      - name: Fix permissions for docusaurus
+        run: chmod +x node_modules/.bin/docusaurus
+
+      - name: Build project
+        run: |
+          echo "开始构建项目..."
+          npm run build
+          echo "构建完成！"
+
+      - name: Debug build folder
+        run: |
+          echo "Build 目录内容："
+          ls -la build
 
       - name: Setup SSH key
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Add known_hosts
+      - name: Add server to known_hosts
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan -p 22 ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
 
-      - name: Rsync deploy
+      - name: Deploy build folder to server
         run: |
-          rsync -avz -e "ssh -p 22" ./build/ root@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
+          echo "开始部署到服务器..."
+          rsync -avz -e "ssh -p 22" ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
+          echo "文件已传输！"
+
+    # 9. 重启服务器上的 Nginx 服务（如果需要）
+      - name: Restart nginx on server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            sudo chown -R www:www /www/wwwroot/www.yelv.site
+            sudo systemctl restart nginx
