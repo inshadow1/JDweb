@@ -1,0 +1,60 @@
+{
+  "permalink": "/blog/git-to-baota-workflow",
+  "editUrl": "https://github.com/blog/Git到宝塔的工作流.md",
+  "source": "@site/blog/Git到宝塔的工作流.md",
+  "title": "Git到宝塔的自动化部署工作流",
+  "description": "在现代 Web 开发中，自动化部署流程对于提高开发效率和保证部署稳定性至关重要。本文将介绍如何构建一个从 Git 到宝塔面板的完整自动化部署工作流。",
+  "date": "2025-03-20T00:11:39.102Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "git",
+      "permalink": "/blog/tags/git"
+    },
+    {
+      "inline": true,
+      "label": "github-actions",
+      "permalink": "/blog/tags/github-actions"
+    },
+    {
+      "inline": true,
+      "label": "宝塔面板",
+      "permalink": "/blog/tags/宝塔面板"
+    },
+    {
+      "inline": true,
+      "label": "自动化部署",
+      "permalink": "/blog/tags/自动化部署"
+    }
+  ],
+  "readingTime": 7.7,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "yelv",
+      "title": "Coding For fun",
+      "url": "https://github.com/inshadow1",
+      "imageURL": "/img/128100849_4.png",
+      "key": "fall",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "git-to-baota-workflow",
+    "title": "Git到宝塔的自动化部署工作流",
+    "authors": [
+      "fall"
+    ],
+    "tags": [
+      "git",
+      "github-actions",
+      "宝塔面板",
+      "自动化部署"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Git到宝塔的自动化部署工作流",
+    "permalink": "/blog/git-to-baota-workflow"
+  }
+}

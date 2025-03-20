@@ -1,0 +1,24 @@
+{
+  "id": "其它语言/python/1.4.3-Django框架",
+  "title": "1.4.3-Django框架",
+  "description": "Django 框架",
+  "source": "@site/my-docs/其它语言/python/1.4.3-Django框架.md",
+  "sourceDirName": "其它语言/python",
+  "slug": "/其它语言/python/1.4.3-Django框架",
+  "permalink": "/docs/其它语言/python/1.4.3-Django框架",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/其它语言/python/1.4.3-Django框架.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.4.2-Flask框架",
+    "permalink": "/docs/其它语言/python/1.4.2-Flask框架"
+  },
+  "next": {
+    "title": "-- IDEA 的使用",
+    "permalink": "/docs/其它语言/java/-- IDEA 的使用"
+  }
+}

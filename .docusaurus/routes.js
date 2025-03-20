@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'f69'),
+    component: ComponentCreator('/blog', '578'),
     exact: true
   },
   {
@@ -28,6 +28,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/git-to-baota-workflow',
+    component: ComponentCreator('/blog/git-to-baota-workflow', '1e0'),
+    exact: true
+  },
+  {
     path: '/blog/git功能查找',
     component: ComponentCreator('/blog/git功能查找', '9fa'),
     exact: true
@@ -40,6 +45,11 @@ export default [
   {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '287'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/宝塔面板',
+    component: ComponentCreator('/blog/tags/宝塔面板', '793'),
     exact: true
   },
   {
@@ -63,6 +73,21 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/自动化部署',
+    component: ComponentCreator('/blog/tags/自动化部署', '832'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/git',
+    component: ComponentCreator('/blog/tags/git', '2f5'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/github-actions',
+    component: ComponentCreator('/blog/tags/github-actions', 'e0e'),
+    exact: true
+  },
+  {
     path: '/blog/tags/npm',
     component: ComponentCreator('/blog/tags/npm', 'c94'),
     exact: true
@@ -79,15 +104,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'cf7'),
+    component: ComponentCreator('/docs', 'd72'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'fa7'),
+        component: ComponentCreator('/docs', 'c28'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '0bc'),
+            component: ComponentCreator('/docs', 'f32'),
             routes: [
               {
                 path: '/docs/大前端知识点/-- 服务器状态码',
@@ -728,6 +753,24 @@ export default [
               {
                 path: '/docs/其它语言/python/1.4-字符串操作',
                 component: ComponentCreator('/docs/其它语言/python/1.4-字符串操作', '165'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/其它语言/python/1.4.1-Python爬虫技术',
+                component: ComponentCreator('/docs/其它语言/python/1.4.1-Python爬虫技术', 'acb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/其它语言/python/1.4.2-Flask框架',
+                component: ComponentCreator('/docs/其它语言/python/1.4.2-Flask框架', 'f50'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/其它语言/python/1.4.3-Django框架',
+                component: ComponentCreator('/docs/其它语言/python/1.4.3-Django框架', 'c7c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

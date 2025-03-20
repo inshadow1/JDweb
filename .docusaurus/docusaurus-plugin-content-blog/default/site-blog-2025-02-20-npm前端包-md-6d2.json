@@ -45,6 +45,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Git到宝塔的自动化部署工作流",
+    "permalink": "/blog/git-to-baota-workflow"
+  },
   "nextItem": {
     "title": "2分钟环境搭建",
     "permalink": "/blog/2分钟环境搭建"

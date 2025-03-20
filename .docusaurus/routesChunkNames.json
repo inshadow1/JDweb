@@ -1,11 +1,14 @@
 {
-  "/blog-f69": {
+  "/blog-578": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "d3e0805d"
+      },
       {
         "content": "a0b6cfed"
       },
@@ -64,6 +67,17 @@
     "sidebar": "814f3328",
     "__props": "ef8b811a"
   },
+  "/blog/git-to-baota-workflow-1e0": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "0b5c253b"
+  },
   "/blog/git功能查找-9fa": {
     "__comp": "ccc49370",
     "__context": {
@@ -93,6 +107,19 @@
     },
     "sidebar": "814f3328",
     "__props": "3a2db09e"
+  },
+  "/blog/tags/宝塔面板-793": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d3e0805d"
+      }
+    ],
+    "__props": "e68159ee"
   },
   "/blog/tags/常用依赖-ea4": {
     "__comp": "6875c492",
@@ -146,6 +173,45 @@
     ],
     "__props": "2f09acb0"
   },
+  "/blog/tags/自动化部署-832": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d3e0805d"
+      }
+    ],
+    "__props": "a0c54a71"
+  },
+  "/blog/tags/git-2f5": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d3e0805d"
+      }
+    ],
+    "__props": "8b5eeafa"
+  },
+  "/blog/tags/github-actions-e0e": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "d3e0805d"
+      }
+    ],
+    "__props": "096b0316"
+  },
   "/blog/tags/npm-c94": {
     "__comp": "6875c492",
     "__context": {
@@ -177,17 +243,17 @@
     },
     "content": "393be207"
   },
-  "/docs-cf7": {
+  "/docs-d72": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-fa7": {
+  "/docs-c28": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-0bc": {
+  "/docs-f32": {
     "__comp": "a94703ab"
   },
   "/docs/大前端知识点/-- 服务器状态码-60e": {
@@ -617,6 +683,18 @@
   "/docs/其它语言/python/1.4-字符串操作-165": {
     "__comp": "17896441",
     "content": "197eef47"
+  },
+  "/docs/其它语言/python/1.4.1-Python爬虫技术-acb": {
+    "__comp": "17896441",
+    "content": "8e26ef90"
+  },
+  "/docs/其它语言/python/1.4.2-Flask框架-f50": {
+    "__comp": "17896441",
+    "content": "d042e1c8"
+  },
+  "/docs/其它语言/python/1.4.3-Django框架-c7c": {
+    "__comp": "17896441",
+    "content": "6b77c4a8"
   },
   "/docs/前端环境搭建-0ad": {
     "__comp": "17896441",

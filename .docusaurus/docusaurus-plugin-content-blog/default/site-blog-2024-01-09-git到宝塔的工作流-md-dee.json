@@ -1,0 +1,31 @@
+{
+  "permalink": "/blog/Git到宝塔的工作流",
+  "editUrl": "https://github.com/blog/2024-01-09-Git到宝塔的工作流.md",
+  "source": "@site/blog/2025-03-20-Git到宝塔的工作流.md",
+  "title": "Git到宝塔的工作流",
+  "description": "工作流",
+  "date": "2025-03-20T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "yelv",
+      "title": "Coding For fun",
+      "url": "https://github.com/inshadow1",
+      "imageURL": "/img/128100849_4.png",
+      "key": "fall",
+      "page": null
+    }
+  ],
+  "frontMatter": {},
+  "unlisted": false,
+  "prevItem": {
+    "title": "2分钟环境搭建",
+    "permalink": "/blog/2分钟环境搭建"
+  },
+  "nextItem": {
+    "title": "TypeScript声明",
+    "permalink": "/blog/TypeScript声明"
+  }
+}

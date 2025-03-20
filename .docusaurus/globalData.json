@@ -546,6 +546,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "其它语言/python/1.4.1-Python爬虫技术",
+              "path": "/docs/其它语言/python/1.4.1-Python爬虫技术",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.4.2-Flask框架",
+              "path": "/docs/其它语言/python/1.4.2-Flask框架",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.4.3-Django框架",
+              "path": "/docs/其它语言/python/1.4.3-Django框架",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "前端环境搭建",
               "path": "/docs/前端环境搭建",
               "sidebar": "tutorialSidebar"
