@@ -33,12 +33,10 @@ jobs:
           echo "开始构建项目..."
           npm run build
           echo "构建完成！"
-
       - name: Debug build folder
         run: |
           echo "Build 目录内容："
           ls -la build
-
       - name: Setup SSH key
         uses: webfactory/ssh-agent@v0.9.0
         with:
@@ -48,14 +46,12 @@ jobs:
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan -p 22 ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
-
       - name: Deploy build folder to server
         run: |
           echo "开始部署到服务器..."
           rsync -avz -e "ssh -p 22" ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/
           echo "文件已传输！"
-
-    # 9. 重启服务器上的 Nginx 服务（如果需要）
+      # 9. 重启服务器上的 Nginx 服务（如果需要）
       - name: Restart nginx on server
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -65,3 +61,4 @@ jobs:
           script: |
             sudo chown -R www:www /www/wwwroot/www.yelv.site
             sudo systemctl restart nginx
+
