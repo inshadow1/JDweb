@@ -49,7 +49,7 @@ jobs:
       - name: Deploy build folder to server
         run: |
           echo "开始部署到服务器..."
-          rsync -avz -e "ssh -p 22" ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site/blogweb
+          rsync -avz -e "ssh -p 22" ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/www/wwwroot/www.yelv.site
           echo "文件已传输！"
 
       # 9. 重启服务器上的 Nginx 服务（如果需要）
@@ -60,5 +60,5 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            sudo chown -R www:www /www/wwwroot/www.yelv.site/blogweb
+            sudo chown -R www:www /www/wwwroot/www.yelv.site
             sudo systemctl restart nginx
