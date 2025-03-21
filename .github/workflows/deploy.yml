@@ -59,6 +59,5 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            sudo chown -R www:www /www/wwwroot/www.yelv.site
+            sudo chown -R www:www /www/wwwroot/www.yelv.site/blogweb
             sudo systemctl restart nginx
-

@@ -11,9 +11,9 @@ const darkCodeTheme = themes.dracula
 const config:Config = {
   title: 'Yelv的笔记本',
   tagline: 'Coding For Fun !!!',
-  url: 'https://yelv.site',
+  url: 'https://yelv.site/blogweb',
   baseUrl: '/',
-  // url: 'https://yelv.site',
+  // url: 'https://yelv.site/blogweb',本地搭建使用https://localhost:3000/
   // baseUrl: '/blog/',  // 因为你想要网站在 /blog 路径下
   // baseUrl: '/',
   onBrokenLinks: 'warn',
