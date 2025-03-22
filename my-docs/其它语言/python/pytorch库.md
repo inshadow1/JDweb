@@ -1,0 +1,195 @@
+# PyTorch 使用指南
+
+> Create by yelv on 21 March Recently revised in 23 March 2025
+
+## PyTorch 简介
+
+### 什么是 PyTorch
+
+PyTorch 是一个开源的机器学习库，主要用于深度学习研究和应用。它提供了两个主要的高级功能：
+
+- 具有强大 GPU 加速的张量计算
+- 基于带有自动求导系统的动态神经网络
+
+### 为什么选择 PyTorch
+
+- 简洁易用的 Python 接口
+- 动态计算图设计
+- 丰富的工具和库生态系统
+- 活跃的社区支持
+
+## 基础知识
+
+### 张量（Tensor）
+
+张量是 PyTorch 中的基本数据结构，类似于 NumPy 的数组。
+
+```python
+import torch
+
+# 创建张量
+x = torch.tensor([1, 2, 3])
+print(x)  # tensor([1, 2, 3])
+
+# 创建特定形状的张量
+zeros = torch.zeros(2, 3)  # 2x3的零矩阵
+ones = torch.ones(2, 3)    # 2x3的单位矩阵
+rand = torch.rand(2, 3)    # 2x3的随机矩阵
+```
+
+### 张量运算
+
+```python
+# 基本运算
+a = torch.tensor([1, 2, 3])
+b = torch.tensor([4, 5, 6])
+
+print(a + b)  # 加法
+print(a * b)  # 点乘
+print(torch.matmul(a, b))  # 矩阵乘法
+```
+
+## 神经网络基础
+
+### 构建简单的神经网络
+
+```python
+import torch.nn as nn
+
+class SimpleNet(nn.Module):
+    def __init__(self):
+        super(SimpleNet, self).__init__()
+        self.fc1 = nn.Linear(784, 128)
+        self.fc2 = nn.Linear(128, 10)
+        self.relu = nn.ReLU()
+
+    def forward(self, x):
+        x = self.relu(self.fc1(x))
+        x = self.fc2(x)
+        return x
+```
+
+### 损失函数和优化器
+
+```python
+# 定义损失函数
+criterion = nn.CrossEntropyLoss()
+
+# 定义优化器
+optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+```
+
+## 模型训练
+
+### 训练循环
+
+```python
+def train(model, train_loader, criterion, optimizer, epochs):
+    for epoch in range(epochs):
+        for data, target in train_loader:
+            # 前向传播
+            output = model(data)
+            loss = criterion(output, target)
+
+            # 反向传播
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+```
+
+### GPU 加速
+
+```python
+# 检查是否有可用的 GPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# 将模型移到 GPU
+model = model.to(device)
+```
+
+## 实用技巧
+
+### 数据加载和预处理
+
+```python
+from torch.utils.data import Dataset, DataLoader
+from torchvision import transforms
+
+# 定义数据转换
+transform = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize((0.5,), (0.5,))
+])
+
+# 创建数据加载器
+train_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+```
+
+### 模型保存和加载
+
+```python
+# 保存模型
+torch.save(model.state_dict(), 'model.pth')
+
+# 加载模型
+model.load_state_dict(torch.load('model.pth'))
+```
+
+## 进阶主题
+
+### 迁移学习
+
+使用预训练模型进行迁移学习：
+
+```python
+import torchvision.models as models
+
+# 加载预训练的 ResNet 模型
+model = models.resnet18(pretrained=True)
+
+# 冻结原有层
+for param in model.parameters():
+    param.requires_grad = False
+
+# 修改最后的全连接层
+model.fc = nn.Linear(512, num_classes)
+```
+
+### 自定义数据集
+
+```python
+class CustomDataset(Dataset):
+    def __init__(self, data_path, transform=None):
+        self.data = # 加载数据
+        self.transform = transform
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        sample = self.data[idx]
+        if self.transform:
+            sample = self.transform(sample)
+        return sample
+```
+
+## 常见问题解决
+
+- 内存管理：使用 `del` 和 `torch.cuda.empty_cache()` 清理不需要的张量
+- 梯度消失/爆炸：使用梯度裁剪或批量归一化
+- 过拟合：使用 Dropout、L1/L2 正则化等技术
+
+## 学习资源
+
+- [PyTorch 官方文档](https://pytorch.org/docs/stable/index.html)
+- [PyTorch 教程](https://pytorch.org/tutorials/)
+- [PyTorch 论坛](https://discuss.pytorch.org/)
+
+## 实践项目
+
+1. 图像分类
+2. 目标检测
+3. 自然语言处理
+4. 生成对抗网络（GAN）
+
+通过这些项目实践，可以更好地掌握 PyTorch 的使用方法和深度学习的实际应用。
