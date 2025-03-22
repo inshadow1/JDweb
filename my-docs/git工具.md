@@ -11,7 +11,7 @@
 
 ### 介绍
 
-**Git工作流程图**（最左侧为远程，中间和右侧为本地）
+**Git 工作流程图**（最左侧为远程，中间和右侧为本地）
 
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015120901.png" alt="img"  />
 
@@ -40,12 +40,12 @@
 - 连接克隆远程仓库 `git clone https://github.com/fall-zhang/vite-vue3-TS-lint.git`
 - 在项目的文件夹（一般为含有 `README.md` 的文件夹）中打开命令行工具
 - `git add . ` 将代码添加到版本里面（添加到暂存区）
-- `git commit -m [messages]` 修改并放置你想添加的 `messages` 
+- `git commit -m [messages]` 修改并放置你想添加的 `messages`
 - 最后使用 `git push` 将本地库里面的代码提交到网络共享库里面
 
 ### 配置文件
 
-`.gitignore` 是 git 的配置文件，可以用在用户主目录之下（全局配置），也可以用在项目目录下（项目配置），作用就是告诉Git 哪些文件不需要添加到版本管理中。
+`.gitignore` 是 git 的配置文件，可以用在用户主目录之下（全局配置），也可以用在项目目录下（项目配置），作用就是告诉 Git 哪些文件不需要添加到版本管理中。
 
 ```swift
 /mtk/ 过滤整个文件夹
@@ -53,7 +53,7 @@
 /mtk/do.c 过滤某个具体文件
 ```
 
-通过上面这些规则进行过滤之后，被过滤的文件不会通过push传递到服务器，本地库中还是存在的。
+通过上面这些规则进行过滤之后，被过滤的文件不会通过 push 传递到服务器，本地库中还是存在的。
 
 ```swift
 !src/   不过滤该文件夹
@@ -90,10 +90,9 @@ c、规则：
 
 **用 Git Bash 创建文件夹**
 
-- 根目录下右键选择“Git Bash Here”进入bash命令窗口；
+- 根目录下右键选择“Git Bash Here”进入 bash 命令窗口；
 - 输入 `vim .gitignore` 或 `touch .gitignore` 命令，打开文件（没有文件会自动创建）；
 - 按 i 键切换到编辑状态，输入规则，例如 node_modules/，然后按 Esc 键退出编辑，输入 `:wq` 保存退出。
-
 
 > **生成密钥**
 >
@@ -126,7 +125,7 @@ c、规则：
 
 - `git init` 在本地进行初始化（建立工作区）
 - `git init [project-name]` 新建一个目录，作为代码仓库
-- `git clone [url]` 
+- `git clone [url]`
 
 `.git` 文件夹存储当前项目的所有版本信息，这个文件夹通常会隐藏
 
@@ -185,6 +184,15 @@ $ git branch -d [branch-name] # 删除分支
 # 删除远程分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
+
+# 将test分支中的更新合并到main分支中然后上传到远程库中
+$ git checkout test             # 确认在 test 分支
+$ git add .                     # 把改动加入暂存区
+$ git commit -m "完成 test 分支开发并提交"
+$ git checkout test
+$ git status                    # 查看是否还有未提交的文件
+$ git add .                     # 把所有改动添加到暂存区
+$ git commit -m "test 分支完成的修改"
 ```
 
 ### 远程功能
@@ -288,4 +296,3 @@ git ls-files | xargs wc -l
 $ git config --global user.email "example@xxx.com"
 $ git config --global user.name "example"
 ```
-
