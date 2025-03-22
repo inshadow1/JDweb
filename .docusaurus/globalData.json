@@ -516,11 +516,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "其它语言/python/1.1-语言的发展",
-              "path": "/docs/其它语言/python/1.1-语言的发展",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "其它语言/python/1.1-语言基础",
               "path": "/docs/其它语言/python/1.1-语言基础",
               "sidebar": "tutorialSidebar"
@@ -558,6 +553,11 @@
             {
               "id": "其它语言/python/1.4.3-Django框架",
               "path": "/docs/其它语言/python/1.4.3-Django框架",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "其它语言/python/1.5-pytorch库",
+              "path": "/docs/其它语言/python/pytorch",
               "sidebar": "tutorialSidebar"
             },
             {

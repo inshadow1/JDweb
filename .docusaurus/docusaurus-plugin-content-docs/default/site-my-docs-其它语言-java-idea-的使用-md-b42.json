@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "1.4.3-Django框架",
-    "permalink": "/docs/其它语言/python/1.4.3-Django框架"
+    "title": "1.5-Pytorch库",
+    "permalink": "/docs/其它语言/python/pytorch"
   },
   "next": {
     "title": "-- 后端插件介绍",

@@ -139,15 +139,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd72'),
+    component: ComponentCreator('/docs', 'a94'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c28'),
+        component: ComponentCreator('/docs', 'bcb'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f32'),
+            component: ComponentCreator('/docs', 'd5c'),
             routes: [
               {
                 path: '/docs/大前端知识点/-- 服务器状态码',
@@ -756,12 +756,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/其它语言/python/1.1-语言的发展',
-                component: ComponentCreator('/docs/其它语言/python/1.1-语言的发展', '550'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/其它语言/python/1.1-语言基础',
                 component: ComponentCreator('/docs/其它语言/python/1.1-语言基础', '7bf'),
                 exact: true,
@@ -806,6 +800,12 @@ export default [
               {
                 path: '/docs/其它语言/python/1.4.3-Django框架',
                 component: ComponentCreator('/docs/其它语言/python/1.4.3-Django框架', 'c7c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/其它语言/python/pytorch',
+                component: ComponentCreator('/docs/其它语言/python/pytorch', '7bf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

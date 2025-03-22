@@ -1,7 +1,7 @@
 {
   "id": "其它语言/python/1.1-语言基础",
   "title": "Python 基础",
-  "description": "Python 简介",
+  "description": "Create by yelv on 21 March Recently revised in 21 March 2025",
   "source": "@site/my-docs/其它语言/python/1.1-语言基础.md",
   "sourceDirName": "其它语言/python",
   "slug": "/其它语言/python/1.1-语言基础",
@@ -21,7 +21,7 @@
     "permalink": "/docs/category/python"
   },
   "next": {
-    "title": "1.1-语言的发展",
-    "permalink": "/docs/其它语言/python/1.1-语言的发展"
+    "title": "1.2-语法使用",
+    "permalink": "/docs/其它语言/python/1.2-语法使用"
   }
 }
