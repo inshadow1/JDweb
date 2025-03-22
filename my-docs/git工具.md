@@ -185,14 +185,6 @@ $ git branch -d [branch-name] # 删除分支
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
 
-# 将test分支中的更新合并到main分支中然后上传到远程库中
-$ git checkout test             # 确认在 test 分支
-$ git add .                     # 把改动加入暂存区
-$ git commit -m "完成 test 分支开发并提交"
-$ git checkout test
-$ git status                    # 查看是否还有未提交的文件
-$ git add .                     # 把所有改动添加到暂存区
-$ git commit -m "test 分支完成的修改"
 ```
 
 ### 远程功能
