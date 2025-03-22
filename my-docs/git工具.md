@@ -196,6 +196,7 @@ $ git pull [remote] [branch] # 取回远程仓库的变化，并与本地分支�
 $ git remote -v # 显示所有远程仓库
 $ git remote show [remote] # 显示某个远程仓库的信息
 $ git remote add [shortname] [url] # 增加一个新的远程仓库，并命名
+$ git remote rm [shortname] # 删除远程仓库
 
 $ git push origin master # 推到 master 上
 $ git push [remote] [branch] # 上传本地指定分支到远程仓库
