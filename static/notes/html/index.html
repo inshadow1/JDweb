@@ -15,6 +15,7 @@
       type="text/css"
     />
     <!-- <style type="text/css">
+      
       html {
         overflow-x: initial !important;
       }
@@ -999,9 +1000,43 @@
         --item-hover-bg-color: #e6f0fe;
       }
     </style> -->
+    <style>
+      .content-container {
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      @media screen and (max-width: 768px) {
+        .content-container {
+          width: 95%;
+          padding: 15px;
+        }
+      }
+
+      .content-container h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .content-container p {
+        line-height: 1.6;
+        margin: 0.8em 0;
+      }
+
+      .content-container ul {
+        padding-left: 20px;
+      }
+
+      .content-container li {
+        margin: 0.5em 0;
+      }
+    </style>
   </head>
   <body class="typora-export">
-    <div id="write" class="is-node" style="margin-left: 500px">
+    <div id="write" class="is-node content-container" style="text-align: left">
       <h1>
         <a name="header-n0" class="md-header-anchor"></a
         >斯坦福大学2014机器学习教程中文笔记目录
