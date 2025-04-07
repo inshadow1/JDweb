@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Vue2",
-    "permalink": "/docs/面试-自检/legacy/Vue2"
+    "title": "Docker 工具使用指南",
+    "permalink": "/docs/docker工具"
   },
   "next": {
     "title": "npm 和 nvm 的使用",

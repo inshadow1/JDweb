@@ -566,6 +566,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "人工智能/机器学习",
+              "path": "/docs/人工智能/机器学习",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "人工智能/人工智能 AI",
               "path": "/docs/人工智能/人工智能 AI",
               "sidebar": "tutorialSidebar"
@@ -756,8 +761,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "docker工具",
+              "path": "/docs/docker工具",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "git工具",
               "path": "/docs/git工具",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "GithubActions工作流",
+              "path": "/docs/GithubActions工作流",
               "sidebar": "tutorialSidebar"
             },
             {

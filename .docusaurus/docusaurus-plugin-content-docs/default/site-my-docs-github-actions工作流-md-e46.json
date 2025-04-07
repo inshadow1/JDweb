@@ -1,0 +1,24 @@
+{
+  "id": "GithubActions工作流",
+  "title": "GitHub Actions 工作流指南（CI/CD）",
+  "description": "Create by Yelv on 02 2025/3/16",
+  "source": "@site/my-docs/GithubActions工作流.md",
+  "sourceDirName": ".",
+  "slug": "/GithubActions工作流",
+  "permalink": "/docs/GithubActions工作流",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/my-docs/GithubActions工作流.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vue2",
+    "permalink": "/docs/面试-自检/legacy/Vue2"
+  },
+  "next": {
+    "title": "Docker 工具使用指南",
+    "permalink": "/docs/docker工具"
+  }
+}

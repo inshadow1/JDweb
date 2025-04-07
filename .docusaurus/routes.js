@@ -38,6 +38,11 @@ export default [
     exact: true
   },
   {
+    path: '/404',
+    component: ComponentCreator('/404', '5c5'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', '578'),
     exact: true
@@ -139,15 +144,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a94'),
+    component: ComponentCreator('/docs', '6ff'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'bcb'),
+        component: ComponentCreator('/docs', '733'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'd5c'),
+            component: ComponentCreator('/docs', '846'),
             routes: [
               {
                 path: '/docs/大前端知识点/-- 服务器状态码',
@@ -816,6 +821,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/人工智能/机器学习',
+                component: ComponentCreator('/docs/人工智能/机器学习', 'bea'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/人工智能/人工智能 AI',
                 component: ComponentCreator('/docs/人工智能/人工智能 AI', 'd83'),
                 exact: true,
@@ -1146,8 +1157,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/docker工具',
+                component: ComponentCreator('/docs/docker工具', 'f41'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/git工具',
                 component: ComponentCreator('/docs/git工具', 'f82'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/GithubActions工作流',
+                component: ComponentCreator('/docs/GithubActions工作流', 'cd1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

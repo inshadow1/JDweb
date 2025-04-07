@@ -18,7 +18,7 @@
     "permalink": "/docs/面试-自检/4.3-算法题"
   },
   "next": {
-    "title": "git工具",
-    "permalink": "/docs/git工具"
+    "title": "GitHub Actions 工作流指南（CI/CD）",
+    "permalink": "/docs/GithubActions工作流"
   }
 }

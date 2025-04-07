@@ -42,6 +42,13 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
+  "/404-5c5": {
+    "__comp": "__comp---site-src-pages-404-js-6-bb-277",
+    "__context": {
+      "plugin": "plugin---404-a-74-27e"
+    },
+    "config": "config---4045-e-9-90e"
+  },
   "/blog-578": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
@@ -282,21 +289,21 @@
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "plugin---404-a-74-27e"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-a94": {
+  "/docs-6ff": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-bcb": {
+  "/docs-733": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-d5c": {
+  "/docs-846": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/大前端知识点/-- 服务器状态码-60e": {
@@ -737,11 +744,15 @@
   },
   "/docs/其它语言/python/pytorch-7bf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-其它语言-python-1-5-pytorch库-253-ed8"
+    "content": "content---docs-其它语言-python-pytorch-253-b42"
   },
   "/docs/前端环境搭建-0ad": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-前端环境搭建-287-c20"
+  },
+  "/docs/人工智能/机器学习-bea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-人工智能-机器学习-43-c-c41"
   },
   "/docs/人工智能/人工智能 AI-d83": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -963,9 +974,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-vue-7-c-1-b7b"
   },
+  "/docs/docker工具-f41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker工具-02-a-443"
+  },
   "/docs/git工具-f82": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-git工具b-38-e5c"
+  },
+  "/docs/GithubActions工作流-cd1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-github-actions工作流e-46-e1c"
   },
   "/docs/HTML和CSS/-- BFC规范-54d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1586,8 +1605,8 @@
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "plugin---404-a-74-27e"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---4045-e-9-90e"
   }
 }
