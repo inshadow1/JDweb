@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/static/notes/images/README",
+  "source": "@site/src/pages/static/notes/images/README.md",
+  "title": "**机器学习课程笔记图片**",
+  "description": "机器学习课程笔记图片，仅html和markdown文件需要。",
+  "frontMatter": {},
+  "unlisted": false
+}

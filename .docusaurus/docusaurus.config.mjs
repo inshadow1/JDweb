@@ -7,6 +7,11 @@ export default {
   "title": "Yelv的笔记本",
   "tagline": "Coding For Fun !!!",
   "url": "https://yelv.site",
+  "staticDirectories": [
+    "static",
+    "public",
+    "notes"
+  ],
   "baseUrl": "/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
@@ -36,6 +41,59 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "plugins": [
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        "redirects": [
+          {
+            "to": "/static/notes/html/index.html",
+            "from": "/notes/html/index.html"
+          },
+          {
+            "to": "/static/notes/html/week1.html",
+            "from": "/notes/html/week1.html"
+          },
+          {
+            "to": "/static/notes/html/week2.html",
+            "from": "/notes/html/week2.html"
+          },
+          {
+            "to": "/static/notes/html/week3.html",
+            "from": "/notes/html/week3.html"
+          },
+          {
+            "to": "/static/notes/html/week4.html",
+            "from": "/notes/html/week4.html"
+          },
+          {
+            "to": "/static/notes/html/week5.html",
+            "from": "/notes/html/week5.html"
+          },
+          {
+            "to": "/static/notes/html/week6.html",
+            "from": "/notes/html/week6.html"
+          },
+          {
+            "to": "/static/notes/html/week7.html",
+            "from": "/notes/html/week7.html"
+          },
+          {
+            "to": "/static/notes/html/week8.html",
+            "from": "/notes/html/week8.html"
+          },
+          {
+            "to": "/static/notes/html/week9.html",
+            "from": "/notes/html/week9.html"
+          },
+          {
+            "to": "/static/notes/html/week10.html",
+            "from": "/notes/html/week10.html"
+          }
+        ]
+      }
+    ]
+  ],
   "presets": [
     [
       "classic",
@@ -356,11 +414,7 @@ export default {
   "baseUrlIssueBanner": true,
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

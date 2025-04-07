@@ -12,6 +12,8 @@ const config:Config = {
   title: 'Yelv的笔记本',
   tagline: 'Coding For Fun !!!',
   url: 'https://yelv.site/',
+  // 该配置应该移动到配置文件的根级别，与 title, tagline 等配置项同级
+  staticDirectories: ['static', 'public', 'notes'], // 确保包含静态目录和notes目录
   baseUrl: '/',
   // url: 'https://yelv.site/',本地搭建使用https://localhost:3000/
   // baseUrl: '/blog/',  // 因为你想要网站在 /blog 路径下
@@ -43,7 +45,63 @@ const config:Config = {
     defaultLocale: 'zh-CN',
     locales: ['zh-CN']
   },
-
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          // {
+          //   to: '/static/notes/html/index.html',
+          //   from: '/machine-learning/html/index.html',
+          // },
+          {
+            to: '/static/notes/html/index.html',
+            from: '/notes/html/index.html',
+          },
+          {
+            to: '/static/notes/html/week1.html',
+            from: '/notes/html/week1.html',
+          },
+          {
+            to: '/static/notes/html/week2.html',
+            from: '/notes/html/week2.html',
+          },
+          {
+            to: '/static/notes/html/week3.html',
+            from: '/notes/html/week3.html',
+          },
+          {
+            to: '/static/notes/html/week4.html',
+            from: '/notes/html/week4.html',
+          },
+          {
+            to: '/static/notes/html/week5.html',
+            from: '/notes/html/week5.html',
+          },
+          {
+            to: '/static/notes/html/week6.html',
+            from: '/notes/html/week6.html',
+          },
+          {
+            to: '/static/notes/html/week7.html',
+            from: '/notes/html/week7.html',
+          },
+          {
+            to: '/static/notes/html/week8.html',
+            from: '/notes/html/week8.html',
+          },
+          {
+            to: '/static/notes/html/week9.html',
+            from: '/notes/html/week9.html',
+          },
+          {
+            to: '/static/notes/html/week10.html',
+            from: '/notes/html/week10.html',
+          },
+        ]
+      },
+    ],
+  ],
  
   presets: [
     [
