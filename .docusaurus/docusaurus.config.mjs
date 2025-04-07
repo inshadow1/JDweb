@@ -47,48 +47,48 @@ export default {
       {
         "redirects": [
           {
-            "to": "/static/notes/html/index.html",
-            "from": "/notes/html/index.html"
+            "to": "/docs/HTML和CSS/1.1-HTML基础",
+            "from": "/static/notes/html/index.html"
           },
           {
-            "to": "/static/notes/html/week1.html",
-            "from": "/notes/html/week1.html"
+            "to": "/docs/HTML和CSS/1.2-标签及语义化",
+            "from": "/static/notes/html/week1.html"
           },
           {
-            "to": "/static/notes/html/week2.html",
-            "from": "/notes/html/week2.html"
+            "to": "/docs/HTML和CSS/1.3-标签的属性",
+            "from": "/static/notes/html/week2.html"
           },
           {
-            "to": "/static/notes/html/week3.html",
-            "from": "/notes/html/week3.html"
+            "to": "/docs/HTML和CSS/1.4-表单和表格标签",
+            "from": "/static/notes/html/week3.html"
           },
           {
-            "to": "/static/notes/html/week4.html",
-            "from": "/notes/html/week4.html"
+            "to": "/docs/HTML和CSS/2.1-CSS选择器",
+            "from": "/static/notes/html/week4.html"
           },
           {
-            "to": "/static/notes/html/week5.html",
-            "from": "/notes/html/week5.html"
+            "to": "/docs/HTML和CSS/2.2-盒子基础属性",
+            "from": "/static/notes/html/week5.html"
           },
           {
-            "to": "/static/notes/html/week6.html",
-            "from": "/notes/html/week6.html"
+            "to": "/docs/HTML和CSS/2.3-盒子进阶属性",
+            "from": "/static/notes/html/week6.html"
           },
           {
-            "to": "/static/notes/html/week7.html",
-            "from": "/notes/html/week7.html"
+            "to": "/docs/HTML和CSS/2.4-文本和段落样式",
+            "from": "/static/notes/html/week7.html"
           },
           {
-            "to": "/static/notes/html/week8.html",
-            "from": "/notes/html/week8.html"
+            "to": "/docs/HTML和CSS/2.5-伪类和伪元素",
+            "from": "/static/notes/html/week8.html"
           },
           {
-            "to": "/static/notes/html/week9.html",
-            "from": "/notes/html/week9.html"
+            "to": "/docs/HTML和CSS/2.6-@ 规则",
+            "from": "/static/notes/html/week9.html"
           },
           {
-            "to": "/static/notes/html/week10.html",
-            "from": "/notes/html/week10.html"
+            "to": "/docs/HTML和CSS/3.1-flex和grid布局",
+            "from": "/static/notes/html/week10.html"
           }
         ]
       }
