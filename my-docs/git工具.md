@@ -289,3 +289,29 @@ git ls-files | xargs wc -l
 $ git config --global user.email "example@xxx.com"
 $ git config --global user.name "example"
 ```
+### 版本回退
+场景1：彻底回滚功能更新
+```
+# 查看带分支拓扑的日志
+git log --oneline --graph --all
+
+# 回退到机器学习功能前
+git reset --hard 9c348a89
+git push --force origin main
+
+# 恢复误操作（通过reflog）
+git reset --hard HEAD@{2025-03-21 14:16:00}
+```
+场景2：安全撤销错误配置
+```
+# 撤销Nginx配置更改
+git revert c84c9138
+
+# 解决冲突后提交
+git add . && git commit -m "恢复Nginx自动重启"
+```
+场景3：解除错误合并
+```
+# 撤销blogweb分支合并
+git revert -m 1 aedecleck
+```
