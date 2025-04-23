@@ -13,7 +13,7 @@ const config:Config = {
   tagline: 'Coding For Fun !!!',
   url: 'https://yelv.site/',
   // 该配置应该移动到配置文件的根级别，与 title, tagline 等配置项同级
-  staticDirectories: ['static', 'public', 'notes'], // 确保包含静态目录和notes目录
+  staticDirectories: ['static', 'public', 'notes', 'machinelearning-video'], // 确保包含静态目录和notes目录
   baseUrl: '/',
   // url: 'https://yelv.site/',本地搭建使用https://localhost:3000/
   // baseUrl: '/blog/',  // 因为你想要网站在 /blog 路径下
@@ -93,6 +93,10 @@ const config:Config = {
           {
             to: '/docs/HTML和CSS/3.1-flex和grid布局',
             from: '/static/notes/html/week10.html',
+          },
+          {
+            to: '/static/machinelearning-video/page/video-player.html',
+            from: '/machine-learning-videos',
           },
         ]
       },

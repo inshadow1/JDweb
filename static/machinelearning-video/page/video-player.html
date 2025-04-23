@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>机器学习视频课程 - Andrew Ng</title>
+    <!-- Plyr CSS -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <!-- 字体图标 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcdn.net/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="video.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Andrew Ng 机器学习课程</h1>
+    </header>
+
+    <div class="container">
+      <div class="playlist">
+        <div class="playlist-header">
+          <span>课程列表</span>
+          <span class="total-videos"></span>
+        </div>
+        <div class="playlist-search">
+          <input type="text" placeholder="搜索视频..." id="search-input" />
+        </div>
+        <div class="playlist-items" id="playlist-container">
+          <!-- 视频列表将通过JavaScript动态生成 -->
+          <div class="loader"></div>
+        </div>
+      </div>
+
+      <div class="video-section">
+        <div class="video-container">
+          <video id="player" playsinline controls crossorigin="anonymous">
+            <!-- 视频源将通过JavaScript动态设置 -->
+            <p>您的浏览器不支持HTML5视频。请升级浏览器。</p>
+          </video>
+          <div id="video-loader" style="display: none" class="video-loader">
+            加载中...
+          </div>
+          <!-- <div id="video-placeholder" class="video-placeholder">
+            <i class="bi bi-play-circle-fill" id="placeholder-play-btn"></i>
+            <div class="video-placeholder-text">点击播放按钮加载并播放视频</div>
+          </div> -->
+        </div>
+        <div class="video-info">
+          <h2 id="video-title">正在加载...</h2>
+          <p id="video-description"></p>
+          <div id="video-error" class="video-error" style="display: none"></div>
+        </div>
+        <a href="/docs/人工智能/机器学习" class="back-to-blog">
+          <i class="bi bi-arrow-left"></i> 返回机器学习笔记
+        </a>
+      </div>
+    </div>
+
+    <!-- Plyr JS -->
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <script src="video.js"></script>
+  </body>
+</html>
