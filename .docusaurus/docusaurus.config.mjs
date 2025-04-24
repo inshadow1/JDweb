@@ -92,8 +92,8 @@ export default {
             "from": "/static/notes/html/week10.html"
           },
           {
-            "to": "/static/machinelearning-video/page/video-player.html",
-            "from": "/machine-learning-videos"
+            "to": "/docs/HTML和CSS/3.1-flex和grid布局",
+            "from": "/static/machine-learning-videos/video-player.html"
           }
         ]
       }
